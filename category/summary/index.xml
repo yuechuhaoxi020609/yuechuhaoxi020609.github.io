@@ -17,8 +17,7 @@
       <link>https://example.com/post/build-humanlike-machine/</link>
       <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://example.com/post/build-humanlike-machine/</guid>
-      <description>&lt;h1 id=&#34;building-machines-that-learn-and-think-like-people&#34;&gt;Building machines that learn and think like people&lt;/h1&gt;
-&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;h3 id=&#34;two-different-computational-approaches-to-intelligence&#34;&gt;two different computational approaches to intelligence&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;pattern recognition approach treats prediction as primary, usually in the context of a specific classification, regression, or control task.  discovering features that have high-value states in common across a large, diverse set of training data.&lt;/li&gt;
@@ -289,14 +288,14 @@ itive psychology, much like the game engine that generates the game dynamics and
 &lt;li&gt;A new approach using convolutional “matching networks” achieves good one-shot classification performance when discriminating between characters from different alphabets&lt;/li&gt;
 &lt;li&gt;In the interest of brevity, we do not discuss here another important vein of work linking neural circuits to variational approximations (Bastos et al. 2012), which have received less attention in the psychological literature.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;the-three-major-paradigms-of-ai-symbolicism-connectionism-behaviorism&#34;&gt;The three major paradigms of AI: symbolicism, connectionism, behaviorism&lt;/h1&gt;
-&lt;h2 id=&#34;symbolicism&#34;&gt;Symbolicism&lt;/h2&gt;
+&lt;h2 id=&#34;the-three-major-paradigms-of-ai-symbolicism-connectionism-behaviorism&#34;&gt;The three major paradigms of AI: symbolicism, connectionism, behaviorism&lt;/h2&gt;
+&lt;h3 id=&#34;symbolicism&#34;&gt;Symbolicism&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;symbolicism=Logicism=Psychlogism=Computerism&lt;/li&gt;
 &lt;li&gt;The main principles are the hypothesis of a physical symbol system (i.e., a system that manipulates symbols) and the principle of limited rationality.&lt;/li&gt;
 &lt;li&gt;This category included most of the pioneers of artificial intelligence research.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;main-points&#34;&gt;Main points&lt;/h3&gt;
+&lt;h4 id=&#34;main-points&#34;&gt;Main points&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Symbolism is the foundation of human cognitive and mental activities&lt;/li&gt;
 &lt;li&gt;Computers operate as physical systems that manipulate symbols&lt;/li&gt;
@@ -304,13 +303,13 @@ itive psychology, much like the game engine that generates the game dynamics and
 &lt;li&gt;Computers can emulate or approximate human cognitive functions.&lt;/li&gt;
 &lt;li&gt;In 1957, Newell, Simon and their colleagues created a program named &amp;ldquo;Logic Theorist&amp;rdquo; that could prove mathematical theorems. It verified 38 out of the first 52 propositions in Whitehead and Russell&amp;rsquo;s &amp;ldquo;Principia Mathematica&amp;rdquo;, and subsequently confirmed some more.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;connectionism&#34;&gt;Connectionism&lt;/h2&gt;
+&lt;h3 id=&#34;connectionism&#34;&gt;Connectionism&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Connectionism is an approach in cognitive science that hopes to explain mental phenomena with artificial neural networks (ANNs).&lt;/li&gt;
 &lt;li&gt;The central principle of connectionism is to use simple and often consistent units interconnected networks, to describe psychological phenomena. Different models of connections and unit forms may vary. For example, the units and connections of the network can represent neurons and synapses, as in the human brain.&lt;/li&gt;
 &lt;li&gt;Lack of neuroscientific rationality.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;parallel-distributed-processing-pdp&#34;&gt;Parallel distributed processing, PDP&lt;/h3&gt;
+&lt;h4 id=&#34;parallel-distributed-processing-pdp&#34;&gt;Parallel distributed processing, PDP&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;It is a method of artificial neural networks that emphasizes the parallelism of neural processing and the distributedness of neural representations, providing researchers with a general mathematical framework. It mainly includes eight aspects:&lt;/li&gt;
 &lt;li&gt;A set of processing units, represented by a set of integers.&lt;/li&gt;
@@ -322,11 +321,11 @@ itive psychology, much like the game engine that generates the game dynamics and
 &lt;li&gt;The learning rule for modifying connections based on experience, expressed as weight changes based on any number of variables.&lt;/li&gt;
 &lt;li&gt;The environment that provides experience for the system, represented by a set of activation vectors for some subsets of units.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;experimentalism&#34;&gt;Experimentalism&lt;/h3&gt;
+&lt;h4 id=&#34;experimentalism&#34;&gt;Experimentalism&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;We can learn almost everything we know from the statistical patterns of sensory input.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;actionism&#34;&gt;Actionism&lt;/h2&gt;
+&lt;h3 id=&#34;actionism&#34;&gt;Actionism&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Actionism (Behaviorism), also known as evolutionary or cybernetic school, is based on cybernetics and perception-action control systems.&lt;/li&gt;
 &lt;li&gt;It argues that artificial intelligence originates from cybernetics.&lt;/li&gt;
