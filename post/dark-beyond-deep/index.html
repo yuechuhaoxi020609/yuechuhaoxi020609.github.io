@@ -1,0 +1,1579 @@
+<!DOCTYPE html>
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: April 2, 2023 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.16f785cdb553c8c4431db6775122af35.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.0f229d4b7ebad1917a9a357cba2effab.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="Haofei Hou" />
+
+
+
+
+
+  
+
+<meta name="description" content="Propose a “small data for big tasks” paradigm, wherein a single artificial intelligence (AI) system is challenged to develop “common sense,” enabling it to solve a wide range of tasks with little training data. Identify functionality, physics, intent, causality, and utility (FPICU) as the five core domains of cognitive AI with humanlike common sense" />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://example.com/post/dark-beyond-deep/" />
+<link rel="canonical" href="https://example.com/post/dark-beyond-deep/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu88cdd4b7a12988e7d5bb56be50e4f21a_10097_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu88cdd4b7a12988e7d5bb56be50e4f21a_10097_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#1565c0" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:image" content="https://example.com/media/icon_hu88cdd4b7a12988e7d5bb56be50e4f21a_10097_512x512_fill_lanczos_center_3.png" />
+<meta property="og:site_name" content="Haofei Hou | HUST" />
+<meta property="og:url" content="https://example.com/post/dark-beyond-deep/" />
+<meta property="og:title" content="Dark, Beyond Deep - A Paradigm Shift to Cognitive AI with Humanlike Common Sense | Haofei Hou | HUST" />
+<meta property="og:description" content="Propose a “small data for big tasks” paradigm, wherein a single artificial intelligence (AI) system is challenged to develop “common sense,” enabling it to solve a wide range of tasks with little training data. Identify functionality, physics, intent, causality, and utility (FPICU) as the five core domains of cognitive AI with humanlike common sense" /><meta property="og:image" content="https://example.com/media/icon_hu88cdd4b7a12988e7d5bb56be50e4f21a_10097_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2023-04-02T00:00:00&#43;00:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2023-04-02T00:00:00&#43;00:00">
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://example.com/post/dark-beyond-deep/"
+  },
+  "headline": "Dark, Beyond Deep - A Paradigm Shift to Cognitive AI with Humanlike Common Sense",
+  
+  "datePublished": "2023-04-02T00:00:00Z",
+  "dateModified": "2023-04-02T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Haofei Hou"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Haofei Hou | HUST",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://example.com/media/icon_hu88cdd4b7a12988e7d5bb56be50e4f21a_10097_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Propose a “small data for big tasks” paradigm, wherein a single artificial intelligence (AI) system is challenged to develop “common sense,” enabling it to solve a wide range of tasks with little training data. Identify functionality, physics, intent, causality, and utility (FPICU) as the five core domains of cognitive AI with humanlike common sense"
+}
+</script>
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>Dark, Beyond Deep - A Paradigm Shift to Cognitive AI with Humanlike Common Sense | Haofei Hou | HUST</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="9312a8cd03c12aeaf4411e7c3bd91bee" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.ec9d49ca50e4b80bdb08f0417a28ed84.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Haofei Hou | HUST</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Haofei Hou | HUST</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Dark, Beyond Deep - A Paradigm Shift to Cognitive AI with Humanlike Common Sense</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      <a href="/authors/admin/">Haofei Hou</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Apr 2, 2023
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    26 min read
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/summary/">Summary</a></span>
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h1 id="abstract">Abstract</h1>
+<ul>
+<li>“small data for big tasks” paradigm</li>
+<li>models of common sense</li>
+<li>We identify functionality, physics, intent, causality, and utility (FPICU) as the five core domains of cognitive AI with humanlike common sense.</li>
+<li>FPICU is concerned with the questions of “why” and “how,” beyond the dominant “what” and “where” framework for understanding vision. They are invisible in terms of pixels but nevertheless drive the creation, maintenance, and development of visual scenes.</li>
+</ul>
+<h1 id="a-call-for-a-paradigm-shift-in-vision-and-ai">A Call for a Paradigm Shift in Vision and AI</h1>
+<ul>
+<li>The classic definition of computer vision proposed by the pioneer David Marr is to look at “what” is “where.” Here, “what” refers to object recognition (object vision), and “where” denotes three-dimensional (3D) reconstruction and object localization (spatial vision)</li>
+<li>require large sets of labeled training data designed for special tasks, and lack a general understanding of common facts—that is, facts that are obvious to the average human adult—that describe how our physical and social worlds work.</li>
+<li>missing dimensions and the potential benefits of joint representation and joint inference.</li>
+<li>The concept of “darkness” is perpendicular to and richer than the meanings of “latent” or “hidden” used in vision and probabilistic modeling;  darkness” is a measure of the relative difficulty of classifying an entity or inferring about a relationship based on how much invisible common sense needed beyond the visible appearance or geometry.</li>
+<li>Section 2: paper starts by revisiting a classic view of computer vision in terms of “what” and “where”, task-driven</li>
+<li>Section 3: In order to use “small data” to solve “big tasks,” we then identify and review five crucial axes of visual common sense: Functionality, Physics, perceived Intent, Causality, and Utility (FPICU). Causality</li>
+<li>Section 4: The application of causality (i.e., intuitive physics; )</li>
+<li>Section 5: Functionality</li>
+<li>Section 6: infer intent</li>
+<li>Section 7: utility-driven</li>
+<li>In a series of studies, we demonstrate that these five critical aspects of “dark entities” and “dark relationships” indeed support various visual tasks beyond just classification.</li>
+</ul>
+<h1 id="vision-from-data-driven-to-task-driven">Vision: From Data-driven to Task-driven</h1>
+<ul>
+<li>From a biological perspective, the majority of living creatures use a single (with multiple components) vision system to perform thousands of tasks.</li>
+<li>these results indicate that our biological vision system possesses a mechanism for perceiving object functionality (i.e., how an object can be manipulated as a tool) that is independent of the mechanism governing face recognition (and recognition of other objects)</li>
+</ul>
+<h2 id="what-task-centered-visual-recognition">“What”: Task-centered Visual Recognition</h2>
+<ul>
+<li>these approaches have left unclear how classification interacts with scene semantics and enables cognitive reasoning</li>
+<li>human vision organizes representations during the inference process even for “simple” categorical recognition tasks.</li>
+<li>scene categorization and the information-gathering process are constrained by these categorization tasks, suggesting a bidirectional interplay between the visual input and the viewer’s needs/tasks</li>
+<li>the representation of the same object can vary according to the planned task</li>
+<li>task-driven nature of scene categorization.</li>
+</ul>
+<h2 id="where-constructing-3d-scenes-as-a-series-of-tasks">“Where”: Constructing 3D Scenes as a Series of Tasks</h2>
+<ul>
+<li>scene reconstruction from a single two-dimensional (2D) image is a well-known illposed problem; there may exist an infinite number of possible 3D configurations that match the projected 2D observed images</li>
+<li>enable agents to perform tasks by generating the best possible configuration in terms of functionality, physics, and object relationships.</li>
+<li>there is now abundant evidence that humans represent the 3D layout of a scene in a way that fundamentally differs from any current computer vision algorithms</li>
+<li>human vision is error-prone and distorted in terms of localization</li>
+<li>Grid cells encode a cognitive representation of Euclidean space, implying a different mechanism for perceiving and processing locations and directions.</li>
+<li>Xie et al.  proposed a representational model for grid cells, in which the 2D self-position of an agent is represented by a high-dimensional vector, and the 2D self-motion or displacement of the agent is represented by a matrix that transforms the vector.</li>
+<li>how we navigate complex environments while remaining able at all times to return to an original location (i.e., homing) remains a mystery in biology and neuroscience.</li>
+<li>the task-dependent representation of space can shed some light.</li>
+<li>neither based on a stable 3D model of a scene nor a distorted one; instead, participants seemed to form a flat and task-dependent representation</li>
+</ul>
+<h2 id="beyond-what-and-where-towards-scene-understanding-with-humanlike-common-sense">Beyond “What” and “Where”: Towards Scene Understanding with Humanlike Common Sense</h2>
+<ul>
+<li>rich as videos and much sparser visual inputs</li>
+<li>To enable an artificial agent with similar capabilities, we call for joint reasoning algorithms on a joint representation that integrates (i) the “visible” traditional recognition and categorization of objects, scenes, actions, events, and so forth; and (ii) the “dark” higher level concepts of fluent, causality, physics, functionality, affordance, intentions/goals, utility, and so forth.</li>
+</ul>
+<h3 id="fluent-and-perceived-causality">Fluent and Perceived Causality</h3>
+<ul>
+<li>A fluent refers to a transient state of an object that is time-variant.</li>
+<li>Fluents are linked to perceived causality in the psychology literature.</li>
+<li>Fluents and perceived causality are different from the visual attributes of objects. The latter are permanent over the course of observation;</li>
+<li>Human cognition has the innate capability (observed in infants) and strong inclination to perceive the causal effects between actions and changes of fluents;</li>
+<li>but most daily actions, such as opening a door, are defined by cause and effect (a door’s fluent changes from “closed” to “open,” regardless of how it is opened), rather than by the human’s position, movement, or spatial-temporal features</li>
+<li>Overall, the status of a scene can be viewed as a collection of fluents that record the history of actions. Nevertheless, fluents and causal reasoning have not yet been systematically studied in machine vision, despite their ubiquitous presence in images and videos.</li>
+</ul>
+<h3 id="intuitive-physics">Intuitive Physics</h3>
+<ul>
+<li>the knowledge of Newtonian principles and probabilistic representations is generally applied in human physical reasoning, and that an intuitive physical model is an important aspect of human-level complex scene understanding.</li>
+<li>By human design, objects should be physically stable and safe with respect to gravity and various other potential disturbances</li>
+</ul>
+<h3 id="functionality">Functionality</h3>
+<ul>
+<li>These functions and needs are invisible in images, but shape the scene’s layout.</li>
+<li>researchers identified mirror neurons in the pre-motor cortical area that seem to encode actions through poses and interactions with objects and scenes [102]. Concepts in the human mind are not only represented by prototypes—that is, exemplars as in current computer vision and machine learning approaches—but also by functionality</li>
+</ul>
+<h3 id="intentions-and-goals">Intentions and Goals</h3>
+<ul>
+<li>We argue that intent can be treated as the transient status of agents (humans and animals)</li>
+<li>(i) They are hierarchically organized in a sequence of goals and are the main factors driving actions and events in a scene. (ii) They are completely “dark,” that is, not represented by pixels. (iii) Unlike the instant change of fluents in response to actions, intentions are often formed across long spatiotemporal ranges.</li>
+<li>functional object</li>
+<li>emits a field of attraction over the scene, not much different from a gravity field or an electric field</li>
+<li>The trajectory of a person with a certain intention moving through these fields follows a least-action principle in Lagrange mechanics that derives all motion equations by minimizing the potential and kinematic energies integrated over time</li>
+</ul>
+<h3 id="utility-and-preference">Utility and Preference</h3>
+<ul>
+<li>we can mostly assume that the observed agents make near-optimal choices to minimize the cost of certain tasks</li>
+</ul>
+<h3 id="summary">Summary</h3>
+<ul>
+<li>Generalization.</li>
+<li>Small sample learning.</li>
+<li>Bidirectional inference.</li>
+</ul>
+<h1 id="causal-perception-and-reasoning-the-basis-for-understanding">Causal Perception and Reasoning: The Basis for Understanding</h1>
+<ul>
+<li>People have innate assumptions about causes, and causal reasoning can be activated almost automatically and irresistibly. In our opinion, causality is the foundation of the other four FPICU elements (functionality, physics, intent, and utility).</li>
+</ul>
+<h2 id="human-causal-perception-and-reasoning">Human Causal Perception and Reasoning</h2>
+<ul>
+<li>Early psychological work focused on an associative mechanism as the basis for human causal learning and reasoning</li>
+<li>Rescorla-Wagner model was used to explain how humans (and animals) build expectations using the cooccurrence of perceptual stimuli</li>
+<li>more recent studies have shown that human causal learning is a rational Bayesian process [126, 129, 130] involving the acquisition of abstract causal structure [131, 132] and strength values for cause-effect relationships</li>
+<li>Irresistibility. One cannot stop seeing salient causality, just as one cannot stop seeing color and depth.</li>
+<li>Tight control by spatial-temporal patterns of motion</li>
+<li>Richness</li>
+<li>“adaptation” is a phenomenon in which an observer adapts to stimuli after a period of sustained viewing, such that their perceptual response to those stimuli becomes weaker</li>
+<li>physical causality is extracted during early visual processing</li>
+<li>One unique function of causality is the support of counterfactual reasoning.</li>
+</ul>
+<h2 id="causal-transfer-challenges-for-machine-intelligence">Causal Transfer: Challenges for Machine Intelligence</h2>
+<ul>
+<li>Recent successes of systems such as deep reinforcement learning (RL) showcase a broad range of applications</li>
+</ul>
+<h2 id="causality-in-statistical-learning">Causality in Statistical Learning</h2>
+<ul>
+<li>“Estimating causal effects f treatments in randomized and nonrandomized studies;”</li>
+<li>Rubin causal model</li>
+<li>the Rubin causal model is potential outcomes.</li>
+<li>A common manifestation of this problem is the latent variables that influence both the treatment assignment and the potential outcomes</li>
+<li>A very prominent example is the propensity score [148], which is the conditional probability of assigning one treatment to a subject given the background variables of the subject</li>
+<li>Causality was further developed in Pearl’s probabilistic graphical model (i.e., causal Bayesian networks (CBNs))</li>
+<li>despite attempts to learn causal structure from observational data, most structure learning approaches cannot typically succeed beyond identifying a Markov equivalence class of possible structures</li>
+<li>These works suggest that human causal perception is less rigorous than formal science but still maintains effectiveness in learning and understanding of daily events.</li>
+<li>Fire and Zhu proposed a method to learn “dark” causal relationships from image and video inputs, as illustrated in Fig. 14; in this study, systems learn how the status of a door, light, and screen relate to human actions</li>
+<li>To answer this question, the method utilizes the information projection framework, maximizing the amount of information gain after adding a causal relation,  and then minimizing the divergence between the model and observed statistics.</li>
+<li>Xu et al. used a Causal And-Or Graph (C-AOG) model to tackle this kind of “visibility fluent reasoning” problem. They consider the visibility status of an object as a fluent variable, whose change is mostly attributed to its interaction with its surroundings,</li>
+<li>jointly reason about the visibility fluent change and track humans</li>
+</ul>
+<h2 id="causality-in-computer-vision">Causality in Computer Vision</h2>
+<h1 id="intuitive-physics-cues-of-the-physical-world">Intuitive Physics: Cues of the Physical World</h1>
+<h2 id="intuitive-physics-in-human-cognition">Intuitive Physics in Human Cognition</h2>
+<ul>
+<li>Early research in intuitive physics provides several examples of situations in which humans demonstrate common misconceptions about how objects in the environment behave.</li>
+<li>researchers have developed alternative experimental approaches to study the development of infants’ physical knowledge. The most widely used approach is the violation-of-expectation method, in which infants see two test events: an expected event, consistent with the expectation shown, and an unexpected event, violating the expectation.</li>
+<li>These findings suggest that these brain regions use a generalized mental engine for intuitive physical inference—that is, the brain’s “physics engine.”</li>
+<li>Human intuitive physics can be modeled as an approximated physical engine with a Bayesian probabilistic model, possessing the following distinguishing properties</li>
+<li>expands to the perception and simulation of the physical properties of liquids and sand</li>
+<li>instead, they rely on perceived physical variables to make quantitative judgments.</li>
+</ul>
+<h2 id="physics-based-reasoning-in-computer-vision">Physics-based Reasoning in Computer Vision</h2>
+<ul>
+<li>Statistical modeling aims to capture the “patterns generated by the world in any modality, with all their naturally occurring complexity and ambiguity, with the goal of reconstructing the processes, objects and events that produced them.”</li>
+<li>Alternatively, perceptual organization and Gestalt laws aim to resolve the 3D reconstruction problem from a single RGB image without considering depth. Instead, they use priors—groupings and structural cues that are likely to be invariant over wide ranges of viewpoints—resulting in feature-based approaches .</li>
+<li>Stability and safety in scene understanding.</li>
+<li>Physical relationships in 3D scenes</li>
+<li>very limited (if any) physics-based simulation is applied.</li>
+<li>Specifically, a generative model named Galileo was proposed for physical scene understanding using real-world videos and images.</li>
+<li>The model can infer these latent properties using relatively brief runs of markov chain monte carlo (MCMC), which drive simulations in the physics engine to fit key features of visual observations.</li>
+<li>With a new dataset named Physics 101 containing 17 408 video clips and 101 objects of various materials and appearances (i.e., shapes, colors, and sizes), the proposed unsupervised representation learning model, which explicitly encodes basic physical laws into the structure, can learn the physical properties of objects from videos.</li>
+<li>built a system that calculated various physical concepts from just a single example of tool use (Fig. 19), enabling it to reason about the essential physical concepts of the task (e.g., the force required to crack nuts).</li>
+</ul>
+<h1 id="functionality-and-affordance-the-opportunity-for-task-and-action">Functionality and Affordance: The Opportunity for Task and Action</h1>
+<ul>
+<li>Perception of an environment inevitably leads to a course of action</li>
+<li>“an object is first identified as having important functional relations”</li>
+<li>“perceptual analysis is derived of the functional concept”</li>
+<li>Functional understanding of objects and scenes is rooted in identifying possible tasks that can be performed with an object . This is deeply related to the perception of causality, as covered in Section 3; to understand how an object can be used, an agent must understand what change of state will result if an object is interacted with in any way. While affordances depend directly on the actor, functionality is a permanent property of an object independent of the characteristics of the user; see an illustration of this distinction in Fig. 21. These two interweaving concepts are more invariant for object and scene understanding than their geometric and appearance aspects. Specifically, we argue that:</li>
+<li>Objects, especially human-made ones, are defined by their functions, or by the actions they are associated with;</li>
+<li>Scenes, especially human-made ones, are defined by the actions than can be performed within them.</li>
+<li>functionality and affordance</li>
+<li>both the object level and scene level</li>
+</ul>
+<h2 id="revelation-from-tool-use-in-animal-cognition">Revelation from Tool Use in Animal Cognition</h2>
+<ul>
+<li>Dr. Jane Goodall observed wild chimpanzees manufacturing and using tools with regularity</li>
+<li>some animals have the capability (and possibly the intrinsic motivation) to reason about the functional properties of tools.</li>
+<li>First, why can some species devise innovative solutions, while others facing the same situation cannot? Look at the example in Fig. 20 [232]: by observing only a single demonstration of a person achieving the complex task of cracking a nut, we humans can effortlessly reason about which of the potential candidates from a new set of random and very different objects is best capable of helping us complete the same task. Reasoning across such large intraclass variance is extremely difficult to capture and describe for modern computer vision and AI systems.</li>
+<li>Second, how can this functional reasoning capability emerge if one does not possess it innately? New Caledonian crows are well-known for their propensity and dexterity at making and using tools; meanwhile, although a crow’s distant cousin, the rook, is able to reason and use tools in a lab setting, even they do not use tools in the wild [259]. These findings suggest that the ability to represent tools may be more of a domain-general cognitive capacity based on functional reasoning than an adaptive specialization.</li>
+</ul>
+<h2 id="perceiving-functionality-and-affordance">Perceiving Functionality and Affordance</h2>
+<ul>
+<li>available structures should be described in terms of functions provided and functions performed.</li>
+<li>They pointed out that it is possible to use a single functional description to represent all possible cups, despite there being an infinite number of individual physical descriptions of cups or many other objects.</li>
+<li>“Tool”  Zhu et al. [232] cast the tool understanding problem as a task-oriented object-recognition problem, the core of which is understanding an object’s underlying functions, physics, and causality.</li>
+<li>“Container”  they showed six-year-old children could still be confused by the complex phenomenon of pouring liquid into containers. one of the earliest spatial relationships to be learned, preceding other common ones e.g., occlusions [272] and support relationships. ontology, topology, first-order logic, and knowledge base.</li>
+<li>“Chair” is an exemplar class for affordance. In particular, Grabner et al. [108] designed an “affordance detector” for chairs by fitting typical human sitting poses onto 3D objects.</li>
+<li>“Human” context has proven to be a critical component in modeling the constraints on possible usage of objects in a scene. In approaching this kind of problem, all methods imagine different potential human positioning relative to objects to help parse and understand the visible elements of the scene.</li>
+</ul>
+<h2 id="mirroring-causal-equivalent-functionality--affordance">Mirroring: Causal-equivalent Functionality &amp; Affordance</h2>
+<ul>
+<li>It is difficult to evaluate a computer vision or AI system’s facility at reasoning with functionality and affordance;</li>
+<li>the same object or environment does not necessarily introduce the same functionality and affordance to both robots and humans</li>
+<li>In these cases, a system must reason about the underlying mechanisms of affordance, rather than simply mimicking the motions of a human demonstration. This common problem is known as the “correspondence problem”  in learning from demonstration (LfD);</li>
+<li>Currently, the majority of work in LfD uses a one-to-one mapping between human demonstration and robot execution, restricting the LfD to mimicking the human’s low-level motor controls and replicating a nearly identical procedure. Consequently, the “correspondence problem” is insufficiently addressed, and the acquired skills are difficult to adapt to new robots or new situations;</li>
+<li>robot must obtain deeper understanding in functional and causal understanding of the manipulation, which demands more explicit modeling of knowledge about physical objects and forces. The key to imitating manipulation is using functionality and affordance to create causal-equivalent manipulation;</li>
+<li>Rather than over-imitating the motion trajectories of the demonstration, the robot is encouraged to seek functionally equivalent but possibly visually different actions that can produce the same effect and achieve the same goal as those in the demonstration.</li>
+<li>force-based</li>
+<li>goal-oriented:</li>
+<li>mirroring without overimitation</li>
+</ul>
+<h1 id="perceiving-intent-the-sense-of-agency">Perceiving Intent: The Sense of Agency</h1>
+<ul>
+<li>Crucially, such a sense of agency further entails</li>
+<li>intentionality</li>
+<li>rationality of actions in relation to goals</li>
+<li>The perception and comprehension of intent enable humans to better understand and predict the behavior of other agents and engage with others in cooperative activities with shared goals.</li>
+<li>rationality principle as the mechanism with which both infants and adults perceive animate objects as intentional beings.</li>
+</ul>
+<h2 id="the-sense-of-agency">The Sense of Agency</h2>
+<ul>
+<li>theory of mind (ToM) refers to the ability to attribute mental states, including beliefs, desires, and intentions, to oneself and others. Perceiving and understanding an agent’s intent based on their belief and desire is the ultimate goal, since people largely act to fulfill intentions arising from their beliefs and desires.</li>
+<li>After their first birthday, infants begin to understand that an actor may consider various plans to pursue a goal, and choose one to intentionally enact based on environmental reality . Eighteen-month-old children are able to both infer and imitate the intended goal of an action even if the action repeatedly fails to achieve the goal</li>
+<li>concrete action goals, higher order plans, and collaborative goals</li>
+<li>Despite the complexity of the behavioral streams we actually witness, we readily process action in intentional terms from infancy onward [303]. It is underlying intent, rather than surface behavior, that matters when we observe motions</li>
+<li>Research has found that we do not encode the complete details of human motion in space; instead, we perceive motions in terms of intent</li>
+<li>Reading intentions has even led to species-unique forms of cultural learning and cognition</li>
+</ul>
+<h2 id="from-animacy-to-rationality">From Animacy to Rationality</h2>
+<ul>
+<li>latent mental states about goals, beliefs, and intentions from nothing but visual stimuli. Surprisingly, such visual stimuli do not need to contain rich semantics or visual features. An iconic illustration of this is the seminal Heider-Simmel display created in the 1940s [313]; see Fig. 28 for more detail.</li>
+<li>dynamic motion and temporal contingency were the crucial factors for the successful perception of social relationships and mental states</li>
+<li>A question naturally arises: what is the underlying mechanism with which the human visual system perceives and interprets such a richly social world?</li>
+<li>“rationality principle.”</li>
+<li>This theory states that humans view themselves and others as causal agents: (i) they devote their limited time and resources only to those actions that change the world in accordance with their intentions and desires; and (ii) they achieve their intentions rationally by maximizing their utility while minimizing their costs, given their beliefs about the world</li>
+<li>psychophysics of chasing, one of the most salient and evolutionarily important types of intentional behavior.</li>
+<li>The results showed that humans can effectively detect and avoid wolves with small subtlety values, whereas wolves with modest subtlety values turned out to be the most “dangerous.</li>
+<li>This result is consistent with the “rationality principle,” where human perception assumes that an agent’s intentional action will be one that maximizes its efficiency in reaching its goal.</li>
+<li>Such an early-emerging sensitivity to the causal powers of agents engaged in costly and goal-directed actions may provide one important foundation for the rich causal and social learning that characterizes our species.</li>
+<li>The rationality principle has been formally modeled as inverse planning governed by Bayesian inference [104, 323, 114]. Planning is a process by which intent causes action. Inverse planning, by inverting the rational planning model via Bayesian inference that integrates the likelihood of observed actions with prior mental states, can infer the latent mental intent. Based on inverse planning, Baker et al. [104] proposed a framework for goal inference, in which the bottom-up information of behavior observations and the top-down prior knowledge of goal space are integrated to allow inference of underlying intent. In addition, Bayesian networks, with their flexibility in representing probabilistic dependencies and causal relationships, as well as the efficiency of inference methods, have proven to be one of the most powerful and successful approaches for intent recognition</li>
+<li>Moving from the symbolic input to real video input, Holtzen et al. [318] presented an inverse planning method to infer human hierarchical intentions from partially observed RGBD videos. Their algorithm is able to infer human intentions by reverse-engineering decision-making and action planning processes in human minds under a Bayesian probabilistic programming framework; see Fig. 30 [318] for more details. The intentions are represented as a novel hierarchical, compositional, and probabilistic graph structure that describes the relationships between actions and plans.</li>
+<li>By bridging from the abstract Heider-Simmel display to aerial videos, Shu et al. [112] proposed a method to infer humans’ intentions with respect to interaction by observing motion trajectories (Fig. 31).</li>
+</ul>
+<h2 id="beyond-action-prediction">Beyond Action Prediction</h2>
+<ul>
+<li>In modern computer vision and AI systems [327], intent is related to action prediction much more profoundly than through simply predicting action labels.</li>
+<li>(i) action-effect association, (ii) simulation procedures, and (iii) teleological reasoning. They concluded that action-effect association and simulation could only serve action monitoring and prediction; social learning, in contrast, requires the inferential productivity of teleological reasoning.</li>
+<li>Simulation theory claims that the mechanism underlying the attribution of intentions to actions might rely on simulating the observed action and mapping it onto our own experiences and intent representations</li>
+<li>In order to understand others’ intentions, humans subconsciously empathize with the person they are observing and estimate what their own actions and intentions might be in that situation. Here, action-effect association [329] plays an important role in quick online intent prediction, and the ability to encode and remember these two component associations contributes to infants’ imitation skills and intentional action understanding</li>
+<li>mirror neuron [331], which has been linked to intent understanding in many studies</li>
+<li>To address social learning, a teleological action interpretational system [335] takes a “functional stance” for the computational representation of goal-directed action [103], where such teleological representations are generated by the aforementioned inferential “rationality principle”</li>
+<li>Furthermore, action predictions can be made by breaking down a path toward a goal into a hierarchy of sub-goals, the most basic of which are comprised of elementary motor acts such as grasping.</li>
+<li>These three mechanisms do not compete; instead, they complement each other. The fast effect prediction provided by action-effect associations can serve as a starting hypothesis for teleological reasoning or simulation procedure; the solutions provided by teleological reasoning in social learning can also be stored as action-effect associations for subsequent rapid recall.</li>
+</ul>
+<h2 id="building-blocks-for-intent-in-computer-vision">Building Blocks for Intent in Computer Vision</h2>
+<ul>
+<li>visual surveillance, human-robot interaction, and autonomous driving. In order to better predict intent based on pixel inputs, it is necessary and indispensable to fully exploit comprehensive cues such as motion trajectory, gaze dynamics, body posture and movements, human-object relationships, and communicative gestures (e.g., pointing).</li>
+<li>Motion trajectory alone could be a strong signal for intent prediction,</li>
+<li>Shu et al. [113] studied possible underlying computational mechanisms and proposed a unified psychological space that reveals the partition between the perception of physical events involving inanimate objects and the perception of social events involving human interactions with other agents.</li>
+<li>Eye gaze, being closely related to underlying attention, intent, emotion, personality, and anything a human is thinking and doing, also plays an important role in allowing humans to “read” other peoples’ minds.  Social eye gaze functions also transcend cultural differences, forming a kind of universal language.  Wei et al. [334] proposed a hierarchical human-attention-object (HAO) model that represents tasks, intentions, and attention under a unified framework. Under this model, a task is represented as sequential intentions described by hand-eye coordination under a planner represented by a grammar;</li>
+<li>Communicative gazes and gestures (e.g., pointing) stand out for intent expression and perception in collaborative interactions.  They examined the inferring of shared eye gazes in third-person social scene videos, which is a phenomenon in which two or more individuals simultaneously look at a common target in social scenes. A follow-up work [340] studied various types of gaze communications in social activities from both the atomic level and event level</li>
+<li>Humans communicate intentions multimodally; thus, facial expression, head pose, body posture and orientation, arm motion, gesture, proxemics, and relationships with other agents and objects can all contribute to human intent analysis and comprehension. intent recognition that focuses on uncertainty reduction.  Shu et al. [344] presented a generative model for robot learning of social affordance from human activity videos.</li>
+<li>Such social affordance could also be represented by a hierarchical grammar model [345], enabling real-time motion inference for human-robot interaction;</li>
+</ul>
+<h1 id="learning-utility-the-preference-of-choices">Learning Utility: The Preference of Choices</h1>
+<ul>
+<li>an agent makes rational decisions choices based on their beliefs and desires to maximize its expected utility. This is known as the principle of maximum expected utility</li>
+<li>A utility function is a mathematical formulation that ranks the preferences of an individual such that
+$U(a) &gt; U(b)$, where choice $a$ is preferred over choice $b$.</li>
+<li>By observing a rational agent’s preferences, however, an observer can construct a utility function that represents what the agent is actually trying to achieve, even if the agent does not know it [346]. It is also worth noting that utility theory is a positive theory that seeks to explain the individuals’ observed behavior and choices, which is different from a normative theory that indicates how people should behave;</li>
+<li>Formally, the core idea behind utility theory is straightforward: every possible action or state within a given model can be described with a single, uniform value.</li>
+<li>utility measures how much we desire something in a more subjective and contextdependent perspective, whereas value is a measurable quantity (e.g., price), which tends to be more objective.</li>
+<li>Similarly, Shukla et al. [350] adopted the idea of learning human utility in order to teach a robotics task using human demonstrations.</li>
+<li>In addition, the rationality principle has been studied in the field of linguistics and philosophy, notably in influential work on the theory of implicature by Grice [351]. The core insight of Grice’s work is that language use is a form of rational action; thus, technical tools for reasoning about rational action should elucidate linguistic phenomena</li>
+<li>Based on how the expected utility influences the distribution, social goals (e.g., cooperation and competition) [364, 365] and faireness [366] can also be well explained. On a broader scale, utility can enable individuals to be self-identified in society during the social learning process;</li>
+</ul>
+<h1 id="summary-and-discussions">Summary and Discussions</h1>
+<ul>
+<li>Today’s robots fundamentally lack physical and social common sense; this limitation inhibits their capacity to aid in our daily lives. In this article, we have reviewed five concepts that are the crucial building blocks of common sense: functionality, physics, intent, causality, and utility (FPICU).</li>
+<li>There are indeed many other topics that we believe are also essential AI ingredients; for example</li>
+<li>A physically realistic VR/MR platform: from big data to big tasks.  Here, we argue that the ultimate standard for validating the effectiveness of FPICU in AI is to examine whether an agent is capable of (i) accomplishing the very same task using different sets of objects with different instructions and/ or sequences of actions in different environments; and (ii) rapidly adapting such learned knowledge to entirely new tasks.</li>
+<li>Social system: the emergence of language, communication, and morality.  In most cases, algorithms designed for a single agent would be difficult to generalize to a multiple-agent systems (MAS) setting</li>
+<li>Measuring the limits of an intelligence system: IQ tests.  John C. Raven [373] proposed the raven’s prograssive matrices test (RPM) in the image domain. Empirical studies show that abstract-level reasoning, combined with effective feature-extraction models, could notably improve the performance of reasoning, analogy, and generalization. However, the performance gap between human and computational models calls for future research in this field;</li>
+</ul>
+<h2 id="physically-realistic-vrmr-platform-from-big-data-to-big-tasks">Physically-Realistic VR/MR Platform: From Big-Data to Big-Tasks</h2>
+<ul>
+<li>A hallmark of machine intelligence is the capability to rapidly adapt to new tasks and “achieve goals in a wide range of environments”</li>
+<li>Such synthetic data could be relatively easily scaled up compared with traditional data collection and labeling processes.</li>
+<li>synthetic data from the virtual world is becoming increasingly similar to data collected from the physical world.</li>
+<li>Using a holistic evaluation, whether a method or a system is intelligent or not is no longer measured by the successful performance of a single narrow task; rather, it is measured by the ability to perform well across various tasks:</li>
+<li>To build this kind of task-driven evaluation, physicsbased simulations for multi-material, multi-physics phenomena (Fig. 37) will play a central role.</li>
+<li>Here, we provide a brief review of the recent physics-based simulation methods, with a particular focus on the material point method (MPM).</li>
+<li>The accuracy of physics-based reasoning greatly relies on the fidelity of a physics-based simulation.</li>
+<li>The most challenging problems are those involving extreme deformation, topology change, and interactions among different materials and phases.</li>
+</ul>
+<h2 id="social-system-emergence-of-language-communication-and-morality">Social System: Emergence of Language, Communication, and Morality</h2>
+<ul>
+<li>In classic AI, a multiagent communication strategy is modeled using a predefined rule-based system (e.g., adaptive learning of communication strategies in MAS</li>
+<li>By modeling communication as a particular type of action, recent research [370, 443, 444] has shown that agents can learn how to communicate with continuous signals that are only decipherable within a group.</li>
+<li>Morality is an abstract and complex concept composed of common principles such as fairness, obligation, and permissibility.</li>
+<li>One recent approach to moral learning combines utility calculus and Bayesian inference to distinguish and evaluate different principles</li>
+</ul>
+<h2 id="measuring-the-limits-of-intelligence-system-iq-tests">Measuring the Limits of Intelligence System: IQ tests</h2>
+<ul>
+<li>rather, “analogous” emphasizes commonality on a more abstract level</li>
+<li>To make a successful analogy, the key is to understand causes and their effects</li>
+<li>One stream is the psychometric tradition of four-term or “proportional” analogies, the earliest discussions of which can be traced back to Aristotle [465]. An example in AI is the word2vec model [466, 467], which is capable of making a four-term word analogy; In the image domain, a similar test was invented by John C. Raven [373]—the raven’s prograssive matrices test (RPM).</li>
+<li>RPM lies directly at the center: it is diagnostic of abstract and structural reasoning ability [470], and captures the defining feature of high-level cognition—that is, fluid intelligence</li>
+<li>The RAVEN dataset [374] was created to push the limit of current vision systems’ reasoning and analogy-making ability, and to promote further research in this area. The dataset is designed to focus on reasoning and analogizing instead of only visual recognition. It is unique in the sense that it builds a semantic link between the visual reasoning and structural reasoning in RPM by grounding each problem into a sentence derived from an attributed stochastic image grammar attributed stochastic  image grammar (A-SIG): each instance is a sentence sampled from a predefined A-SIG, and a rendering engine transforms the sentence into its corresponding image.</li>
+<li>Smith and Gentner [485] summarized that comparing cases facilitates transfer learning and problem-solving, as well as the ability to learn relational categories. In his structure-mapping theory, Gentner [486] postulated that learners generate a structural alignment between two representations when they compare two cases.</li>
+<li>Parallel to work on RPM, work on number sense [490] bridges the induction of symbolic concepts and the competence of problem-solving;</li>
+<li>A recent work approaches the analogy problem from this perspective of strong mathematical reasoning</li>
+<li>relational reasoning, where the machine is given two figures of numbers following hidden arithmetic computations and is tasked to work out a missing entry in the final answer</li>
+<li>This work also sheds some light on how machine reasoning could be improved: the fusing of classic search-based algorithms with modern neural networks in order to discover essential number concepts in future research would be an encouraging development.</li>
+</ul>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/academic/">Academic</a>
+  
+  <a class="badge badge-light" href="/tag/cv/">CV</a>
+  
+  <a class="badge badge-light" href="/tag/cocosci/">CoCoSci</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fexample.com%2Fpost%2Fdark-beyond-deep%2F&amp;text=Dark%2C&#43;Beyond&#43;Deep&#43;-&#43;A&#43;Paradigm&#43;Shift&#43;to&#43;Cognitive&#43;AI&#43;with&#43;Humanlike&#43;Common&#43;Sense" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fexample.com%2Fpost%2Fdark-beyond-deep%2F&amp;t=Dark%2C&#43;Beyond&#43;Deep&#43;-&#43;A&#43;Paradigm&#43;Shift&#43;to&#43;Cognitive&#43;AI&#43;with&#43;Humanlike&#43;Common&#43;Sense" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=Dark%2C%20Beyond%20Deep%20-%20A%20Paradigm%20Shift%20to%20Cognitive%20AI%20with%20Humanlike%20Common%20Sense&amp;body=https%3A%2F%2Fexample.com%2Fpost%2Fdark-beyond-deep%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fexample.com%2Fpost%2Fdark-beyond-deep%2F&amp;title=Dark%2C&#43;Beyond&#43;Deep&#43;-&#43;A&#43;Paradigm&#43;Shift&#43;to&#43;Cognitive&#43;AI&#43;with&#43;Humanlike&#43;Common&#43;Sense" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Dark%2C&#43;Beyond&#43;Deep&#43;-&#43;A&#43;Paradigm&#43;Shift&#43;to&#43;Cognitive&#43;AI&#43;with&#43;Humanlike&#43;Common&#43;Sense%20https%3A%2F%2Fexample.com%2Fpost%2Fdark-beyond-deep%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fexample.com%2Fpost%2Fdark-beyond-deep%2F&amp;title=Dark%2C&#43;Beyond&#43;Deep&#43;-&#43;A&#43;Paradigm&#43;Shift&#43;to&#43;Cognitive&#43;AI&#43;with&#43;Humanlike&#43;Common&#43;Sense" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://example.com/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu78482ed6fd3911eb675c3aef45a3fb83_32147_270x270_fill_q75_lanczos_center.jpg" alt="Haofei Hou"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://example.com/">Haofei Hou</a></h5>
+      <h6 class="card-subtitle">Undergraduate</h6>
+      <p class="card-text">My research interests include Computational Cognitive Science, Artificial Intelligence and Reinforcement Learning.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:yuechuhaoxi020609@outlook.com" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/yuechuhaoxi020609" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+<p class="powered-by">
+  
+  <a href="/privacy/">Privacy Policy</a>
+  
+  
+   &middot; 
+  <a href="/terms/">Terms</a>
+  
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2023 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.d26509351aa0ff874abbee824e982e9b.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/en/js/wowchemy.min.e8ee06ba8371980ffde659871dd593b0.js"></script>
+
+
+
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

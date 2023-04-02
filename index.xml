@@ -33,57 +33,354 @@
     </item>
     
     <item>
+      <title>Dark, Beyond Deep - A Paradigm Shift to Cognitive AI with Humanlike Common Sense</title>
+      <link>https://example.com/post/dark-beyond-deep/</link>
+      <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/dark-beyond-deep/</guid>
+      <description>&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;“small data for big tasks” paradigm&lt;/li&gt;
+&lt;li&gt;models of common sense&lt;/li&gt;
+&lt;li&gt;We identify functionality, physics, intent, causality, and utility (FPICU) as the five core domains of cognitive AI with humanlike common sense.&lt;/li&gt;
+&lt;li&gt;FPICU is concerned with the questions of “why” and “how,” beyond the dominant “what” and “where” framework for understanding vision. They are invisible in terms of pixels but nevertheless drive the creation, maintenance, and development of visual scenes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;a-call-for-a-paradigm-shift-in-vision-and-ai&#34;&gt;A Call for a Paradigm Shift in Vision and AI&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;The classic definition of computer vision proposed by the pioneer David Marr is to look at “what” is “where.” Here, “what” refers to object recognition (object vision), and “where” denotes three-dimensional (3D) reconstruction and object localization (spatial vision)&lt;/li&gt;
+&lt;li&gt;require large sets of labeled training data designed for special tasks, and lack a general understanding of common facts—that is, facts that are obvious to the average human adult—that describe how our physical and social worlds work.&lt;/li&gt;
+&lt;li&gt;missing dimensions and the potential benefits of joint representation and joint inference.&lt;/li&gt;
+&lt;li&gt;The concept of “darkness” is perpendicular to and richer than the meanings of “latent” or “hidden” used in vision and probabilistic modeling;  darkness” is a measure of the relative difficulty of classifying an entity or inferring about a relationship based on how much invisible common sense needed beyond the visible appearance or geometry.&lt;/li&gt;
+&lt;li&gt;Section 2: paper starts by revisiting a classic view of computer vision in terms of “what” and “where”, task-driven&lt;/li&gt;
+&lt;li&gt;Section 3: In order to use “small data” to solve “big tasks,” we then identify and review five crucial axes of visual common sense: Functionality, Physics, perceived Intent, Causality, and Utility (FPICU). Causality&lt;/li&gt;
+&lt;li&gt;Section 4: The application of causality (i.e., intuitive physics; )&lt;/li&gt;
+&lt;li&gt;Section 5: Functionality&lt;/li&gt;
+&lt;li&gt;Section 6: infer intent&lt;/li&gt;
+&lt;li&gt;Section 7: utility-driven&lt;/li&gt;
+&lt;li&gt;In a series of studies, we demonstrate that these five critical aspects of “dark entities” and “dark relationships” indeed support various visual tasks beyond just classification.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;vision-from-data-driven-to-task-driven&#34;&gt;Vision: From Data-driven to Task-driven&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;From a biological perspective, the majority of living creatures use a single (with multiple components) vision system to perform thousands of tasks.&lt;/li&gt;
+&lt;li&gt;these results indicate that our biological vision system possesses a mechanism for perceiving object functionality (i.e., how an object can be manipulated as a tool) that is independent of the mechanism governing face recognition (and recognition of other objects)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;what-task-centered-visual-recognition&#34;&gt;“What”: Task-centered Visual Recognition&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;these approaches have left unclear how classification interacts with scene semantics and enables cognitive reasoning&lt;/li&gt;
+&lt;li&gt;human vision organizes representations during the inference process even for “simple” categorical recognition tasks.&lt;/li&gt;
+&lt;li&gt;scene categorization and the information-gathering process are constrained by these categorization tasks, suggesting a bidirectional interplay between the visual input and the viewer’s needs/tasks&lt;/li&gt;
+&lt;li&gt;the representation of the same object can vary according to the planned task&lt;/li&gt;
+&lt;li&gt;task-driven nature of scene categorization.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;where-constructing-3d-scenes-as-a-series-of-tasks&#34;&gt;“Where”: Constructing 3D Scenes as a Series of Tasks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;scene reconstruction from a single two-dimensional (2D) image is a well-known illposed problem; there may exist an infinite number of possible 3D configurations that match the projected 2D observed images&lt;/li&gt;
+&lt;li&gt;enable agents to perform tasks by generating the best possible configuration in terms of functionality, physics, and object relationships.&lt;/li&gt;
+&lt;li&gt;there is now abundant evidence that humans represent the 3D layout of a scene in a way that fundamentally differs from any current computer vision algorithms&lt;/li&gt;
+&lt;li&gt;human vision is error-prone and distorted in terms of localization&lt;/li&gt;
+&lt;li&gt;Grid cells encode a cognitive representation of Euclidean space, implying a different mechanism for perceiving and processing locations and directions.&lt;/li&gt;
+&lt;li&gt;Xie et al.  proposed a representational model for grid cells, in which the 2D self-position of an agent is represented by a high-dimensional vector, and the 2D self-motion or displacement of the agent is represented by a matrix that transforms the vector.&lt;/li&gt;
+&lt;li&gt;how we navigate complex environments while remaining able at all times to return to an original location (i.e., homing) remains a mystery in biology and neuroscience.&lt;/li&gt;
+&lt;li&gt;the task-dependent representation of space can shed some light.&lt;/li&gt;
+&lt;li&gt;neither based on a stable 3D model of a scene nor a distorted one; instead, participants seemed to form a flat and task-dependent representation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;beyond-what-and-where-towards-scene-understanding-with-humanlike-common-sense&#34;&gt;Beyond “What” and “Where”: Towards Scene Understanding with Humanlike Common Sense&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;rich as videos and much sparser visual inputs&lt;/li&gt;
+&lt;li&gt;To enable an artificial agent with similar capabilities, we call for joint reasoning algorithms on a joint representation that integrates (i) the “visible” traditional recognition and categorization of objects, scenes, actions, events, and so forth; and (ii) the “dark” higher level concepts of fluent, causality, physics, functionality, affordance, intentions/goals, utility, and so forth.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;fluent-and-perceived-causality&#34;&gt;Fluent and Perceived Causality&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A fluent refers to a transient state of an object that is time-variant.&lt;/li&gt;
+&lt;li&gt;Fluents are linked to perceived causality in the psychology literature.&lt;/li&gt;
+&lt;li&gt;Fluents and perceived causality are different from the visual attributes of objects. The latter are permanent over the course of observation;&lt;/li&gt;
+&lt;li&gt;Human cognition has the innate capability (observed in infants) and strong inclination to perceive the causal effects between actions and changes of fluents;&lt;/li&gt;
+&lt;li&gt;but most daily actions, such as opening a door, are defined by cause and effect (a door’s fluent changes from “closed” to “open,” regardless of how it is opened), rather than by the human’s position, movement, or spatial-temporal features&lt;/li&gt;
+&lt;li&gt;Overall, the status of a scene can be viewed as a collection of fluents that record the history of actions. Nevertheless, fluents and causal reasoning have not yet been systematically studied in machine vision, despite their ubiquitous presence in images and videos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;intuitive-physics&#34;&gt;Intuitive Physics&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;the knowledge of Newtonian principles and probabilistic representations is generally applied in human physical reasoning, and that an intuitive physical model is an important aspect of human-level complex scene understanding.&lt;/li&gt;
+&lt;li&gt;By human design, objects should be physically stable and safe with respect to gravity and various other potential disturbances&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;functionality&#34;&gt;Functionality&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;These functions and needs are invisible in images, but shape the scene’s layout.&lt;/li&gt;
+&lt;li&gt;researchers identified mirror neurons in the pre-motor cortical area that seem to encode actions through poses and interactions with objects and scenes [102]. Concepts in the human mind are not only represented by prototypes—that is, exemplars as in current computer vision and machine learning approaches—but also by functionality&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;intentions-and-goals&#34;&gt;Intentions and Goals&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;We argue that intent can be treated as the transient status of agents (humans and animals)&lt;/li&gt;
+&lt;li&gt;(i) They are hierarchically organized in a sequence of goals and are the main factors driving actions and events in a scene. (ii) They are completely “dark,” that is, not represented by pixels. (iii) Unlike the instant change of fluents in response to actions, intentions are often formed across long spatiotemporal ranges.&lt;/li&gt;
+&lt;li&gt;functional object&lt;/li&gt;
+&lt;li&gt;emits a field of attraction over the scene, not much different from a gravity field or an electric field&lt;/li&gt;
+&lt;li&gt;The trajectory of a person with a certain intention moving through these fields follows a least-action principle in Lagrange mechanics that derives all motion equations by minimizing the potential and kinematic energies integrated over time&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;utility-and-preference&#34;&gt;Utility and Preference&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;we can mostly assume that the observed agents make near-optimal choices to minimize the cost of certain tasks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Generalization.&lt;/li&gt;
+&lt;li&gt;Small sample learning.&lt;/li&gt;
+&lt;li&gt;Bidirectional inference.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;causal-perception-and-reasoning-the-basis-for-understanding&#34;&gt;Causal Perception and Reasoning: The Basis for Understanding&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;People have innate assumptions about causes, and causal reasoning can be activated almost automatically and irresistibly. In our opinion, causality is the foundation of the other four FPICU elements (functionality, physics, intent, and utility).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;human-causal-perception-and-reasoning&#34;&gt;Human Causal Perception and Reasoning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Early psychological work focused on an associative mechanism as the basis for human causal learning and reasoning&lt;/li&gt;
+&lt;li&gt;Rescorla-Wagner model was used to explain how humans (and animals) build expectations using the cooccurrence of perceptual stimuli&lt;/li&gt;
+&lt;li&gt;more recent studies have shown that human causal learning is a rational Bayesian process [126, 129, 130] involving the acquisition of abstract causal structure [131, 132] and strength values for cause-effect relationships&lt;/li&gt;
+&lt;li&gt;Irresistibility. One cannot stop seeing salient causality, just as one cannot stop seeing color and depth.&lt;/li&gt;
+&lt;li&gt;Tight control by spatial-temporal patterns of motion&lt;/li&gt;
+&lt;li&gt;Richness&lt;/li&gt;
+&lt;li&gt;“adaptation” is a phenomenon in which an observer adapts to stimuli after a period of sustained viewing, such that their perceptual response to those stimuli becomes weaker&lt;/li&gt;
+&lt;li&gt;physical causality is extracted during early visual processing&lt;/li&gt;
+&lt;li&gt;One unique function of causality is the support of counterfactual reasoning.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;causal-transfer-challenges-for-machine-intelligence&#34;&gt;Causal Transfer: Challenges for Machine Intelligence&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Recent successes of systems such as deep reinforcement learning (RL) showcase a broad range of applications&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;causality-in-statistical-learning&#34;&gt;Causality in Statistical Learning&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;“Estimating causal effects f treatments in randomized and nonrandomized studies;”&lt;/li&gt;
+&lt;li&gt;Rubin causal model&lt;/li&gt;
+&lt;li&gt;the Rubin causal model is potential outcomes.&lt;/li&gt;
+&lt;li&gt;A common manifestation of this problem is the latent variables that influence both the treatment assignment and the potential outcomes&lt;/li&gt;
+&lt;li&gt;A very prominent example is the propensity score [148], which is the conditional probability of assigning one treatment to a subject given the background variables of the subject&lt;/li&gt;
+&lt;li&gt;Causality was further developed in Pearl’s probabilistic graphical model (i.e., causal Bayesian networks (CBNs))&lt;/li&gt;
+&lt;li&gt;despite attempts to learn causal structure from observational data, most structure learning approaches cannot typically succeed beyond identifying a Markov equivalence class of possible structures&lt;/li&gt;
+&lt;li&gt;These works suggest that human causal perception is less rigorous than formal science but still maintains effectiveness in learning and understanding of daily events.&lt;/li&gt;
+&lt;li&gt;Fire and Zhu proposed a method to learn “dark” causal relationships from image and video inputs, as illustrated in Fig. 14; in this study, systems learn how the status of a door, light, and screen relate to human actions&lt;/li&gt;
+&lt;li&gt;To answer this question, the method utilizes the information projection framework, maximizing the amount of information gain after adding a causal relation,  and then minimizing the divergence between the model and observed statistics.&lt;/li&gt;
+&lt;li&gt;Xu et al. used a Causal And-Or Graph (C-AOG) model to tackle this kind of “visibility fluent reasoning” problem. They consider the visibility status of an object as a fluent variable, whose change is mostly attributed to its interaction with its surroundings,&lt;/li&gt;
+&lt;li&gt;jointly reason about the visibility fluent change and track humans&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;causality-in-computer-vision&#34;&gt;Causality in Computer Vision&lt;/h2&gt;
+&lt;h1 id=&#34;intuitive-physics-cues-of-the-physical-world&#34;&gt;Intuitive Physics: Cues of the Physical World&lt;/h1&gt;
+&lt;h2 id=&#34;intuitive-physics-in-human-cognition&#34;&gt;Intuitive Physics in Human Cognition&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Early research in intuitive physics provides several examples of situations in which humans demonstrate common misconceptions about how objects in the environment behave.&lt;/li&gt;
+&lt;li&gt;researchers have developed alternative experimental approaches to study the development of infants’ physical knowledge. The most widely used approach is the violation-of-expectation method, in which infants see two test events: an expected event, consistent with the expectation shown, and an unexpected event, violating the expectation.&lt;/li&gt;
+&lt;li&gt;These findings suggest that these brain regions use a generalized mental engine for intuitive physical inference—that is, the brain’s “physics engine.”&lt;/li&gt;
+&lt;li&gt;Human intuitive physics can be modeled as an approximated physical engine with a Bayesian probabilistic model, possessing the following distinguishing properties&lt;/li&gt;
+&lt;li&gt;expands to the perception and simulation of the physical properties of liquids and sand&lt;/li&gt;
+&lt;li&gt;instead, they rely on perceived physical variables to make quantitative judgments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;physics-based-reasoning-in-computer-vision&#34;&gt;Physics-based Reasoning in Computer Vision&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Statistical modeling aims to capture the “patterns generated by the world in any modality, with all their naturally occurring complexity and ambiguity, with the goal of reconstructing the processes, objects and events that produced them.”&lt;/li&gt;
+&lt;li&gt;Alternatively, perceptual organization and Gestalt laws aim to resolve the 3D reconstruction problem from a single RGB image without considering depth. Instead, they use priors—groupings and structural cues that are likely to be invariant over wide ranges of viewpoints—resulting in feature-based approaches .&lt;/li&gt;
+&lt;li&gt;Stability and safety in scene understanding.&lt;/li&gt;
+&lt;li&gt;Physical relationships in 3D scenes&lt;/li&gt;
+&lt;li&gt;very limited (if any) physics-based simulation is applied.&lt;/li&gt;
+&lt;li&gt;Specifically, a generative model named Galileo was proposed for physical scene understanding using real-world videos and images.&lt;/li&gt;
+&lt;li&gt;The model can infer these latent properties using relatively brief runs of markov chain monte carlo (MCMC), which drive simulations in the physics engine to fit key features of visual observations.&lt;/li&gt;
+&lt;li&gt;With a new dataset named Physics 101 containing 17 408 video clips and 101 objects of various materials and appearances (i.e., shapes, colors, and sizes), the proposed unsupervised representation learning model, which explicitly encodes basic physical laws into the structure, can learn the physical properties of objects from videos.&lt;/li&gt;
+&lt;li&gt;built a system that calculated various physical concepts from just a single example of tool use (Fig. 19), enabling it to reason about the essential physical concepts of the task (e.g., the force required to crack nuts).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;functionality-and-affordance-the-opportunity-for-task-and-action&#34;&gt;Functionality and Affordance: The Opportunity for Task and Action&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Perception of an environment inevitably leads to a course of action&lt;/li&gt;
+&lt;li&gt;“an object is first identified as having important functional relations”&lt;/li&gt;
+&lt;li&gt;“perceptual analysis is derived of the functional concept”&lt;/li&gt;
+&lt;li&gt;Functional understanding of objects and scenes is rooted in identifying possible tasks that can be performed with an object . This is deeply related to the perception of causality, as covered in Section 3; to understand how an object can be used, an agent must understand what change of state will result if an object is interacted with in any way. While affordances depend directly on the actor, functionality is a permanent property of an object independent of the characteristics of the user; see an illustration of this distinction in Fig. 21. These two interweaving concepts are more invariant for object and scene understanding than their geometric and appearance aspects. Specifically, we argue that:&lt;/li&gt;
+&lt;li&gt;Objects, especially human-made ones, are defined by their functions, or by the actions they are associated with;&lt;/li&gt;
+&lt;li&gt;Scenes, especially human-made ones, are defined by the actions than can be performed within them.&lt;/li&gt;
+&lt;li&gt;functionality and affordance&lt;/li&gt;
+&lt;li&gt;both the object level and scene level&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;revelation-from-tool-use-in-animal-cognition&#34;&gt;Revelation from Tool Use in Animal Cognition&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Dr. Jane Goodall observed wild chimpanzees manufacturing and using tools with regularity&lt;/li&gt;
+&lt;li&gt;some animals have the capability (and possibly the intrinsic motivation) to reason about the functional properties of tools.&lt;/li&gt;
+&lt;li&gt;First, why can some species devise innovative solutions, while others facing the same situation cannot? Look at the example in Fig. 20 [232]: by observing only a single demonstration of a person achieving the complex task of cracking a nut, we humans can effortlessly reason about which of the potential candidates from a new set of random and very different objects is best capable of helping us complete the same task. Reasoning across such large intraclass variance is extremely difficult to capture and describe for modern computer vision and AI systems.&lt;/li&gt;
+&lt;li&gt;Second, how can this functional reasoning capability emerge if one does not possess it innately? New Caledonian crows are well-known for their propensity and dexterity at making and using tools; meanwhile, although a crow’s distant cousin, the rook, is able to reason and use tools in a lab setting, even they do not use tools in the wild [259]. These findings suggest that the ability to represent tools may be more of a domain-general cognitive capacity based on functional reasoning than an adaptive specialization.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;perceiving-functionality-and-affordance&#34;&gt;Perceiving Functionality and Affordance&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;available structures should be described in terms of functions provided and functions performed.&lt;/li&gt;
+&lt;li&gt;They pointed out that it is possible to use a single functional description to represent all possible cups, despite there being an infinite number of individual physical descriptions of cups or many other objects.&lt;/li&gt;
+&lt;li&gt;“Tool”  Zhu et al. [232] cast the tool understanding problem as a task-oriented object-recognition problem, the core of which is understanding an object’s underlying functions, physics, and causality.&lt;/li&gt;
+&lt;li&gt;“Container”  they showed six-year-old children could still be confused by the complex phenomenon of pouring liquid into containers. one of the earliest spatial relationships to be learned, preceding other common ones e.g., occlusions [272] and support relationships. ontology, topology, first-order logic, and knowledge base.&lt;/li&gt;
+&lt;li&gt;“Chair” is an exemplar class for affordance. In particular, Grabner et al. [108] designed an “affordance detector” for chairs by fitting typical human sitting poses onto 3D objects.&lt;/li&gt;
+&lt;li&gt;“Human” context has proven to be a critical component in modeling the constraints on possible usage of objects in a scene. In approaching this kind of problem, all methods imagine different potential human positioning relative to objects to help parse and understand the visible elements of the scene.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;mirroring-causal-equivalent-functionality--affordance&#34;&gt;Mirroring: Causal-equivalent Functionality &amp;amp; Affordance&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;It is difficult to evaluate a computer vision or AI system’s facility at reasoning with functionality and affordance;&lt;/li&gt;
+&lt;li&gt;the same object or environment does not necessarily introduce the same functionality and affordance to both robots and humans&lt;/li&gt;
+&lt;li&gt;In these cases, a system must reason about the underlying mechanisms of affordance, rather than simply mimicking the motions of a human demonstration. This common problem is known as the “correspondence problem”  in learning from demonstration (LfD);&lt;/li&gt;
+&lt;li&gt;Currently, the majority of work in LfD uses a one-to-one mapping between human demonstration and robot execution, restricting the LfD to mimicking the human’s low-level motor controls and replicating a nearly identical procedure. Consequently, the “correspondence problem” is insufficiently addressed, and the acquired skills are difficult to adapt to new robots or new situations;&lt;/li&gt;
+&lt;li&gt;robot must obtain deeper understanding in functional and causal understanding of the manipulation, which demands more explicit modeling of knowledge about physical objects and forces. The key to imitating manipulation is using functionality and affordance to create causal-equivalent manipulation;&lt;/li&gt;
+&lt;li&gt;Rather than over-imitating the motion trajectories of the demonstration, the robot is encouraged to seek functionally equivalent but possibly visually different actions that can produce the same effect and achieve the same goal as those in the demonstration.&lt;/li&gt;
+&lt;li&gt;force-based&lt;/li&gt;
+&lt;li&gt;goal-oriented:&lt;/li&gt;
+&lt;li&gt;mirroring without overimitation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;perceiving-intent-the-sense-of-agency&#34;&gt;Perceiving Intent: The Sense of Agency&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Crucially, such a sense of agency further entails&lt;/li&gt;
+&lt;li&gt;intentionality&lt;/li&gt;
+&lt;li&gt;rationality of actions in relation to goals&lt;/li&gt;
+&lt;li&gt;The perception and comprehension of intent enable humans to better understand and predict the behavior of other agents and engage with others in cooperative activities with shared goals.&lt;/li&gt;
+&lt;li&gt;rationality principle as the mechanism with which both infants and adults perceive animate objects as intentional beings.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;the-sense-of-agency&#34;&gt;The Sense of Agency&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;theory of mind (ToM) refers to the ability to attribute mental states, including beliefs, desires, and intentions, to oneself and others. Perceiving and understanding an agent’s intent based on their belief and desire is the ultimate goal, since people largely act to fulfill intentions arising from their beliefs and desires.&lt;/li&gt;
+&lt;li&gt;After their first birthday, infants begin to understand that an actor may consider various plans to pursue a goal, and choose one to intentionally enact based on environmental reality . Eighteen-month-old children are able to both infer and imitate the intended goal of an action even if the action repeatedly fails to achieve the goal&lt;/li&gt;
+&lt;li&gt;concrete action goals, higher order plans, and collaborative goals&lt;/li&gt;
+&lt;li&gt;Despite the complexity of the behavioral streams we actually witness, we readily process action in intentional terms from infancy onward [303]. It is underlying intent, rather than surface behavior, that matters when we observe motions&lt;/li&gt;
+&lt;li&gt;Research has found that we do not encode the complete details of human motion in space; instead, we perceive motions in terms of intent&lt;/li&gt;
+&lt;li&gt;Reading intentions has even led to species-unique forms of cultural learning and cognition&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;from-animacy-to-rationality&#34;&gt;From Animacy to Rationality&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;latent mental states about goals, beliefs, and intentions from nothing but visual stimuli. Surprisingly, such visual stimuli do not need to contain rich semantics or visual features. An iconic illustration of this is the seminal Heider-Simmel display created in the 1940s [313]; see Fig. 28 for more detail.&lt;/li&gt;
+&lt;li&gt;dynamic motion and temporal contingency were the crucial factors for the successful perception of social relationships and mental states&lt;/li&gt;
+&lt;li&gt;A question naturally arises: what is the underlying mechanism with which the human visual system perceives and interprets such a richly social world?&lt;/li&gt;
+&lt;li&gt;“rationality principle.”&lt;/li&gt;
+&lt;li&gt;This theory states that humans view themselves and others as causal agents: (i) they devote their limited time and resources only to those actions that change the world in accordance with their intentions and desires; and (ii) they achieve their intentions rationally by maximizing their utility while minimizing their costs, given their beliefs about the world&lt;/li&gt;
+&lt;li&gt;psychophysics of chasing, one of the most salient and evolutionarily important types of intentional behavior.&lt;/li&gt;
+&lt;li&gt;The results showed that humans can effectively detect and avoid wolves with small subtlety values, whereas wolves with modest subtlety values turned out to be the most “dangerous.&lt;/li&gt;
+&lt;li&gt;This result is consistent with the “rationality principle,” where human perception assumes that an agent’s intentional action will be one that maximizes its efficiency in reaching its goal.&lt;/li&gt;
+&lt;li&gt;Such an early-emerging sensitivity to the causal powers of agents engaged in costly and goal-directed actions may provide one important foundation for the rich causal and social learning that characterizes our species.&lt;/li&gt;
+&lt;li&gt;The rationality principle has been formally modeled as inverse planning governed by Bayesian inference [104, 323, 114]. Planning is a process by which intent causes action. Inverse planning, by inverting the rational planning model via Bayesian inference that integrates the likelihood of observed actions with prior mental states, can infer the latent mental intent. Based on inverse planning, Baker et al. [104] proposed a framework for goal inference, in which the bottom-up information of behavior observations and the top-down prior knowledge of goal space are integrated to allow inference of underlying intent. In addition, Bayesian networks, with their flexibility in representing probabilistic dependencies and causal relationships, as well as the efficiency of inference methods, have proven to be one of the most powerful and successful approaches for intent recognition&lt;/li&gt;
+&lt;li&gt;Moving from the symbolic input to real video input, Holtzen et al. [318] presented an inverse planning method to infer human hierarchical intentions from partially observed RGBD videos. Their algorithm is able to infer human intentions by reverse-engineering decision-making and action planning processes in human minds under a Bayesian probabilistic programming framework; see Fig. 30 [318] for more details. The intentions are represented as a novel hierarchical, compositional, and probabilistic graph structure that describes the relationships between actions and plans.&lt;/li&gt;
+&lt;li&gt;By bridging from the abstract Heider-Simmel display to aerial videos, Shu et al. [112] proposed a method to infer humans’ intentions with respect to interaction by observing motion trajectories (Fig. 31).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;beyond-action-prediction&#34;&gt;Beyond Action Prediction&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;In modern computer vision and AI systems [327], intent is related to action prediction much more profoundly than through simply predicting action labels.&lt;/li&gt;
+&lt;li&gt;(i) action-effect association, (ii) simulation procedures, and (iii) teleological reasoning. They concluded that action-effect association and simulation could only serve action monitoring and prediction; social learning, in contrast, requires the inferential productivity of teleological reasoning.&lt;/li&gt;
+&lt;li&gt;Simulation theory claims that the mechanism underlying the attribution of intentions to actions might rely on simulating the observed action and mapping it onto our own experiences and intent representations&lt;/li&gt;
+&lt;li&gt;In order to understand others’ intentions, humans subconsciously empathize with the person they are observing and estimate what their own actions and intentions might be in that situation. Here, action-effect association [329] plays an important role in quick online intent prediction, and the ability to encode and remember these two component associations contributes to infants’ imitation skills and intentional action understanding&lt;/li&gt;
+&lt;li&gt;mirror neuron [331], which has been linked to intent understanding in many studies&lt;/li&gt;
+&lt;li&gt;To address social learning, a teleological action interpretational system [335] takes a “functional stance” for the computational representation of goal-directed action [103], where such teleological representations are generated by the aforementioned inferential “rationality principle”&lt;/li&gt;
+&lt;li&gt;Furthermore, action predictions can be made by breaking down a path toward a goal into a hierarchy of sub-goals, the most basic of which are comprised of elementary motor acts such as grasping.&lt;/li&gt;
+&lt;li&gt;These three mechanisms do not compete; instead, they complement each other. The fast effect prediction provided by action-effect associations can serve as a starting hypothesis for teleological reasoning or simulation procedure; the solutions provided by teleological reasoning in social learning can also be stored as action-effect associations for subsequent rapid recall.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;building-blocks-for-intent-in-computer-vision&#34;&gt;Building Blocks for Intent in Computer Vision&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;visual surveillance, human-robot interaction, and autonomous driving. In order to better predict intent based on pixel inputs, it is necessary and indispensable to fully exploit comprehensive cues such as motion trajectory, gaze dynamics, body posture and movements, human-object relationships, and communicative gestures (e.g., pointing).&lt;/li&gt;
+&lt;li&gt;Motion trajectory alone could be a strong signal for intent prediction,&lt;/li&gt;
+&lt;li&gt;Shu et al. [113] studied possible underlying computational mechanisms and proposed a unified psychological space that reveals the partition between the perception of physical events involving inanimate objects and the perception of social events involving human interactions with other agents.&lt;/li&gt;
+&lt;li&gt;Eye gaze, being closely related to underlying attention, intent, emotion, personality, and anything a human is thinking and doing, also plays an important role in allowing humans to “read” other peoples’ minds.  Social eye gaze functions also transcend cultural differences, forming a kind of universal language.  Wei et al. [334] proposed a hierarchical human-attention-object (HAO) model that represents tasks, intentions, and attention under a unified framework. Under this model, a task is represented as sequential intentions described by hand-eye coordination under a planner represented by a grammar;&lt;/li&gt;
+&lt;li&gt;Communicative gazes and gestures (e.g., pointing) stand out for intent expression and perception in collaborative interactions.  They examined the inferring of shared eye gazes in third-person social scene videos, which is a phenomenon in which two or more individuals simultaneously look at a common target in social scenes. A follow-up work [340] studied various types of gaze communications in social activities from both the atomic level and event level&lt;/li&gt;
+&lt;li&gt;Humans communicate intentions multimodally; thus, facial expression, head pose, body posture and orientation, arm motion, gesture, proxemics, and relationships with other agents and objects can all contribute to human intent analysis and comprehension. intent recognition that focuses on uncertainty reduction.  Shu et al. [344] presented a generative model for robot learning of social affordance from human activity videos.&lt;/li&gt;
+&lt;li&gt;Such social affordance could also be represented by a hierarchical grammar model [345], enabling real-time motion inference for human-robot interaction;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;learning-utility-the-preference-of-choices&#34;&gt;Learning Utility: The Preference of Choices&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;an agent makes rational decisions choices based on their beliefs and desires to maximize its expected utility. This is known as the principle of maximum expected utility&lt;/li&gt;
+&lt;li&gt;A utility function is a mathematical formulation that ranks the preferences of an individual such that
+$U(a) &amp;gt; U(b)$, where choice $a$ is preferred over choice $b$.&lt;/li&gt;
+&lt;li&gt;By observing a rational agent’s preferences, however, an observer can construct a utility function that represents what the agent is actually trying to achieve, even if the agent does not know it [346]. It is also worth noting that utility theory is a positive theory that seeks to explain the individuals’ observed behavior and choices, which is different from a normative theory that indicates how people should behave;&lt;/li&gt;
+&lt;li&gt;Formally, the core idea behind utility theory is straightforward: every possible action or state within a given model can be described with a single, uniform value.&lt;/li&gt;
+&lt;li&gt;utility measures how much we desire something in a more subjective and contextdependent perspective, whereas value is a measurable quantity (e.g., price), which tends to be more objective.&lt;/li&gt;
+&lt;li&gt;Similarly, Shukla et al. [350] adopted the idea of learning human utility in order to teach a robotics task using human demonstrations.&lt;/li&gt;
+&lt;li&gt;In addition, the rationality principle has been studied in the field of linguistics and philosophy, notably in influential work on the theory of implicature by Grice [351]. The core insight of Grice’s work is that language use is a form of rational action; thus, technical tools for reasoning about rational action should elucidate linguistic phenomena&lt;/li&gt;
+&lt;li&gt;Based on how the expected utility influences the distribution, social goals (e.g., cooperation and competition) [364, 365] and faireness [366] can also be well explained. On a broader scale, utility can enable individuals to be self-identified in society during the social learning process;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;summary-and-discussions&#34;&gt;Summary and Discussions&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Today’s robots fundamentally lack physical and social common sense; this limitation inhibits their capacity to aid in our daily lives. In this article, we have reviewed five concepts that are the crucial building blocks of common sense: functionality, physics, intent, causality, and utility (FPICU).&lt;/li&gt;
+&lt;li&gt;There are indeed many other topics that we believe are also essential AI ingredients; for example&lt;/li&gt;
+&lt;li&gt;A physically realistic VR/MR platform: from big data to big tasks.  Here, we argue that the ultimate standard for validating the effectiveness of FPICU in AI is to examine whether an agent is capable of (i) accomplishing the very same task using different sets of objects with different instructions and/ or sequences of actions in different environments; and (ii) rapidly adapting such learned knowledge to entirely new tasks.&lt;/li&gt;
+&lt;li&gt;Social system: the emergence of language, communication, and morality.  In most cases, algorithms designed for a single agent would be difficult to generalize to a multiple-agent systems (MAS) setting&lt;/li&gt;
+&lt;li&gt;Measuring the limits of an intelligence system: IQ tests.  John C. Raven [373] proposed the raven’s prograssive matrices test (RPM) in the image domain. Empirical studies show that abstract-level reasoning, combined with effective feature-extraction models, could notably improve the performance of reasoning, analogy, and generalization. However, the performance gap between human and computational models calls for future research in this field;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;physically-realistic-vrmr-platform-from-big-data-to-big-tasks&#34;&gt;Physically-Realistic VR/MR Platform: From Big-Data to Big-Tasks&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A hallmark of machine intelligence is the capability to rapidly adapt to new tasks and “achieve goals in a wide range of environments”&lt;/li&gt;
+&lt;li&gt;Such synthetic data could be relatively easily scaled up compared with traditional data collection and labeling processes.&lt;/li&gt;
+&lt;li&gt;synthetic data from the virtual world is becoming increasingly similar to data collected from the physical world.&lt;/li&gt;
+&lt;li&gt;Using a holistic evaluation, whether a method or a system is intelligent or not is no longer measured by the successful performance of a single narrow task; rather, it is measured by the ability to perform well across various tasks:&lt;/li&gt;
+&lt;li&gt;To build this kind of task-driven evaluation, physicsbased simulations for multi-material, multi-physics phenomena (Fig. 37) will play a central role.&lt;/li&gt;
+&lt;li&gt;Here, we provide a brief review of the recent physics-based simulation methods, with a particular focus on the material point method (MPM).&lt;/li&gt;
+&lt;li&gt;The accuracy of physics-based reasoning greatly relies on the fidelity of a physics-based simulation.&lt;/li&gt;
+&lt;li&gt;The most challenging problems are those involving extreme deformation, topology change, and interactions among different materials and phases.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;social-system-emergence-of-language-communication-and-morality&#34;&gt;Social System: Emergence of Language, Communication, and Morality&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;In classic AI, a multiagent communication strategy is modeled using a predefined rule-based system (e.g., adaptive learning of communication strategies in MAS&lt;/li&gt;
+&lt;li&gt;By modeling communication as a particular type of action, recent research [370, 443, 444] has shown that agents can learn how to communicate with continuous signals that are only decipherable within a group.&lt;/li&gt;
+&lt;li&gt;Morality is an abstract and complex concept composed of common principles such as fairness, obligation, and permissibility.&lt;/li&gt;
+&lt;li&gt;One recent approach to moral learning combines utility calculus and Bayesian inference to distinguish and evaluate different principles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;measuring-the-limits-of-intelligence-system-iq-tests&#34;&gt;Measuring the Limits of Intelligence System: IQ tests&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;rather, “analogous” emphasizes commonality on a more abstract level&lt;/li&gt;
+&lt;li&gt;To make a successful analogy, the key is to understand causes and their effects&lt;/li&gt;
+&lt;li&gt;One stream is the psychometric tradition of four-term or “proportional” analogies, the earliest discussions of which can be traced back to Aristotle [465]. An example in AI is the word2vec model [466, 467], which is capable of making a four-term word analogy; In the image domain, a similar test was invented by John C. Raven [373]—the raven’s prograssive matrices test (RPM).&lt;/li&gt;
+&lt;li&gt;RPM lies directly at the center: it is diagnostic of abstract and structural reasoning ability [470], and captures the defining feature of high-level cognition—that is, fluid intelligence&lt;/li&gt;
+&lt;li&gt;The RAVEN dataset [374] was created to push the limit of current vision systems’ reasoning and analogy-making ability, and to promote further research in this area. The dataset is designed to focus on reasoning and analogizing instead of only visual recognition. It is unique in the sense that it builds a semantic link between the visual reasoning and structural reasoning in RPM by grounding each problem into a sentence derived from an attributed stochastic image grammar attributed stochastic  image grammar (A-SIG): each instance is a sentence sampled from a predefined A-SIG, and a rendering engine transforms the sentence into its corresponding image.&lt;/li&gt;
+&lt;li&gt;Smith and Gentner [485] summarized that comparing cases facilitates transfer learning and problem-solving, as well as the ability to learn relational categories. In his structure-mapping theory, Gentner [486] postulated that learners generate a structural alignment between two representations when they compare two cases.&lt;/li&gt;
+&lt;li&gt;Parallel to work on RPM, work on number sense [490] bridges the induction of symbolic concepts and the competence of problem-solving;&lt;/li&gt;
+&lt;li&gt;A recent work approaches the analogy problem from this perspective of strong mathematical reasoning&lt;/li&gt;
+&lt;li&gt;relational reasoning, where the machine is given two figures of numbers following hidden arithmetic computations and is tasked to work out a missing entry in the final answer&lt;/li&gt;
+&lt;li&gt;This work also sheds some light on how machine reasoning could be improved: the fusing of classic search-based algorithms with modern neural networks in order to discover essential number concepts in future research would be an encouraging development.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Building machines that learn and think like people</title>
       <link>https://example.com/post/build-humanlike-machine/</link>
       <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://example.com/post/build-humanlike-machine/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;h3 id=&#34;two-different-computational-approaches-to-intelligence&#34;&gt;two different computational approaches to intelligence&lt;/h3&gt;
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+&lt;h2 id=&#34;two-different-computational-approaches-to-intelligence&#34;&gt;two different computational approaches to intelligence&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;pattern recognition approach treats prediction as primary, usually in the context of a specific classification, regression, or control task.  discovering features that have high-value states in common across a large, diverse set of training data.&lt;/li&gt;
 &lt;li&gt;model building. Cognition is about using these models to understand the world, to explain, to imagine what could have happened that didn’t, or what could be true that isn’t, and then planning.&lt;/li&gt;
 &lt;li&gt;prediction and explanation, is central to our view of human intelligence.  pattern recognition can support model building, through “model-free” algorithms that learn through experience how to make essential inferences more computationally efficient&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;what-this-article-is-not&#34;&gt;What this article is not&lt;/h3&gt;
+&lt;h2 id=&#34;what-this-article-is-not&#34;&gt;What this article is not&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;we believe that reverse engineering human intelligence  can usefully inform AI and machine learning.&lt;/li&gt;
 &lt;li&gt;avoiding cognitive or neural inspiration as well as claims of cognitive or neural plausibility  is a  approach to developing AI. But this article has little pertinence to this approach.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;overview-of-the-key-ideas&#34;&gt;Overview of the key ideas&lt;/h3&gt;
+&lt;h2 id=&#34;overview-of-the-key-ideas&#34;&gt;Overview of the key ideas&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;propose a set of core ingredients for building more human-like learning and thinking machines&lt;/li&gt;
 &lt;li&gt;mainly in Section 4 Core ingredients of human intelligence&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;cognitive-and-neural-inspiration-in-artificial-intelligence&#34;&gt;Cognitive and neural inspiration in artificial intelligence&lt;/h2&gt;
+&lt;h1 id=&#34;cognitive-and-neural-inspiration-in-artificial-intelligence&#34;&gt;Cognitive and neural inspiration in artificial intelligence&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;behaviorist view&lt;/li&gt;
 &lt;li&gt;Cognitive science&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;pdp-approach&#34;&gt;PDP approach&lt;/h3&gt;
+&lt;h2 id=&#34;pdp-approach&#34;&gt;PDP approach&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;knowledge is thus distributed across the collection of units rather than localized as in most symbolic data structures.&lt;/li&gt;
 &lt;li&gt;Neural network models and the PDP approach offer a view of the mind (and intelligence more broadly) that is sub-symbolic and often populated with minimal constraints and inductive biases to guide learning.&lt;/li&gt;
 &lt;li&gt;Proponents of this approach maintain that many classic types of structured knowledge, such as graphs, grammars can be useful yet misleading metaphors for characterizing thought.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;question&#34;&gt;Question&lt;/h3&gt;
+&lt;h2 id=&#34;question&#34;&gt;Question&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;neural networks have such broad application in machine vision, language, and control, and they can be trained to emulate the rule-like and structured behaviors that characterize cognition&lt;/li&gt;
 &lt;li&gt;do we need more to develop truly human-like learning and thinking machines?&lt;/li&gt;
 &lt;li&gt;How far can relatively generic neural networks bring us toward this goal?&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;challenges-for-building-more-human-like-machines&#34;&gt;Challenges for building more human-like machines&lt;/h2&gt;
-&lt;h3 id=&#34;the-characters-challenge&#34;&gt;The Characters Challenge&lt;/h3&gt;
+&lt;h1 id=&#34;challenges-for-building-more-human-like-machines&#34;&gt;Challenges for building more human-like machines&lt;/h1&gt;
+&lt;h2 id=&#34;the-characters-challenge&#34;&gt;The Characters Challenge&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;learning simple visual concepts&lt;/li&gt;
 &lt;li&gt;People learn a lot more from a lot less, and capturing these human-level learning abilities in machines is the Characters Challenge&lt;/li&gt;
 &lt;li&gt;Although humans and neural networks may perform equally well on the MNIST digit recognition task and other large-scale image classification tasks, it does not mean that they learn and think in the same way.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;two-important-differences-between-cnn-and-human-in-learning-simple-visual-concepts&#34;&gt;two important differences between CNN and human in learning simple visual concepts&lt;/h4&gt;
+&lt;h3 id=&#34;two-important-differences-between-cnn-and-human-in-learning-simple-visual-concepts&#34;&gt;two important differences between CNN and human in learning simple visual concepts&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;people learn from fewer examples and they learn richer representations&lt;/li&gt;
 &lt;li&gt;people learn more than how to do pattern recognition: they learn a concept, that is, a model of the class that allows their acquired knowledge to be flexibly applied in new ways.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;some-difficulty&#34;&gt;Some difficulty&lt;/h4&gt;
+&lt;h3 id=&#34;some-difficulty&#34;&gt;Some difficulty&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;A single example of a new visual concept (red box) can be enough information to support the&lt;/li&gt;
 &lt;li&gt;classification of new examples&lt;/li&gt;
@@ -91,7 +388,7 @@
 &lt;li&gt;parsing an object into parts and relations&lt;/li&gt;
 &lt;li&gt;generation of new concepts from related concepts.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;the-frostbite-challenge&#34;&gt;The Frostbite Challenge&lt;/h3&gt;
+&lt;h2 id=&#34;the-frostbite-challenge&#34;&gt;The Frostbite Challenge&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;learning to play the Atari game Frostbite&lt;/li&gt;
 &lt;li&gt;Failed on accomplishing a sub-goal (such as reaching an ice floe) and then safely proceed to the next sub-goal&lt;/li&gt;
@@ -109,17 +406,17 @@
 &lt;li&gt;How do we bring to bear rich prior knowledge to learn new tasks and solve new problems so quickly?&lt;/li&gt;
 &lt;li&gt;What form does that prior knowledge take, and how is it constructed, from some combination of inbuilt capacities and previous experience?&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;core-ingredients-of-human-intelligence&#34;&gt;Core ingredients of human intelligence&lt;/h2&gt;
+&lt;h1 id=&#34;core-ingredients-of-human-intelligence&#34;&gt;Core ingredients of human intelligence&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Whether learned, built in, or enriched, the key claim is that these ingredients play an active and important role in producing human-like learning and thought, in ways contemporary machine learning has yet to capture.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;developmental-start-up-software&#34;&gt;Developmental start-up software&lt;/h3&gt;
+&lt;h2 id=&#34;developmental-start-up-software&#34;&gt;Developmental start-up software&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Early in development, humans have a foundational understanding of several core domains including number (numerical and set operations), space (geometry and navigation), physics (inanimate objects and mechanics), and psychology (agents and groups).&lt;/li&gt;
 &lt;li&gt;The underlying cognitive representations can be understood as “intuitive theories,” with a causal structure resembling a scientific theory&lt;/li&gt;
 &lt;li&gt;focus on the early understanding of objects and agents.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;intuitive-physics&#34;&gt;Intuitive physics&lt;/h4&gt;
+&lt;h3 id=&#34;intuitive-physics&#34;&gt;Intuitive physics&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;At the age of 2 months, and possibly earlier, human infants expect inanimate objects to follow principles of persistence, continuity, cohesion, and solidity.&lt;/li&gt;
 &lt;li&gt;At around 6 months, infants have already developed different expectations for rigid bodies, soft bodies, and liquids&lt;/li&gt;
@@ -135,13 +432,13 @@
 &lt;li&gt;But incorporating a physics-engine–based representation could help DQNs learn to play games such as Frostbite in a faster and more general way, whether the physics knowledge is captured implicitly in a neural network or more explicitly in a simulator.&lt;/li&gt;
 &lt;li&gt;When a new object type such as a bear is introduced, as in the later levels of Frostbite (Fig. 2D), a network endowed with intuitive physics would also have an easier time adding this object type to its knowledge&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h5 id=&#34;challenges&#34;&gt;Challenges&lt;/h5&gt;
+&lt;h4 id=&#34;challenges&#34;&gt;Challenges&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;For networks trained on object classification,deeper layers often become sensitive to successively higher-level features, from edges to textures to shapeparts to full objects.&lt;/li&gt;
 &lt;li&gt;For deep networks trained on physics-related data,it remains to be seen whether higher layers will encode objects, general physical properties, forces, and approximately Newtonian dynamics.&lt;/li&gt;
 &lt;li&gt;would it generalize broadly beyond training contexts as people’s more explicit physical concepts do?&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;intuitive-psychology&#34;&gt;Intuitive psychology&lt;/h4&gt;
+&lt;h3 id=&#34;intuitive-psychology&#34;&gt;Intuitive psychology&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Pre-verbal infants distinguish animate agents from inanimate objects. This distinction is partially based on innate or early-present detectors for low-level cues, such as the presence of eyes, motion initiated from rest, and biological motion&lt;/li&gt;
 &lt;li&gt;Beyond these low-level cues, infants also expect agents to act contingently and reciprocally, to have goals, and to take efficient actions toward those goals subject to constraints&lt;/li&gt;
@@ -157,7 +454,7 @@
 &lt;li&gt;Connectionists have argued that innate constraints in the form of hard-wired cortical circuits are unlikely , but a simple inductive bias, for example, the tendency to notice things that move other things, can bootstrap reasoning about more abstract concepts of agency&lt;/li&gt;
 &lt;li&gt;Similarly, a great deal of goal-directed and socially directed actions can also be boiled down to a simple utility calculus, in a way that could be shared with other cognitive abilities.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;learning-as-rapid-model-building&#34;&gt;Learning as rapid model building&lt;/h3&gt;
+&lt;h2 id=&#34;learning-as-rapid-model-building&#34;&gt;Learning as rapid model building&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;There are many learning algorithms for neural networks, including the perceptron algorithm (Rosenblatt 1958), Hebbian learning (Hebb 1949), the BCM rule (Bienenstock et al. 1982), backpropagation (Rumelhart et al. 1986a), the wake-sleep algorithm (Hinton et al. 1995), and contrastive divergence (Hinton 2002).&lt;/li&gt;
 &lt;li&gt;Human “one-shot” learning&lt;/li&gt;
@@ -168,13 +465,13 @@
 &lt;li&gt;In addition to evaluating several types of deep learning models, we developed an algorithm using Bayesian program learning (BPL) that represents concepts as simple stochastic programs: structured procedures that generate new examples of a concept when executed&lt;/li&gt;
 &lt;li&gt;These programs allow the model to express causal knowledge about how the raw data are formed, and the probabilistic semantics allow the model to handle noise and perform creative tasks. Structure sharing across concepts is accomplished by the compositional re-use of stochastic primitives that can combine in new ways to create new concepts.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;compositionality&#34;&gt;Compositionality&lt;/h4&gt;
+&lt;h3 id=&#34;compositionality&#34;&gt;Compositionality&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Compositionality is the classic idea that new representations can be constructed through the combination of primitive elements.&lt;/li&gt;
 &lt;li&gt;Compositionality is also at the core of productivity: an infinite number of representations can be constructed from a finite set of primitives&lt;/li&gt;
 &lt;li&gt;To capture the full extent of the mind’s compositionality, a model must include explicit representations of objects, identity, and relations, all while maintaining a notion of “coherence” when understanding novel configurations.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;causality&#34;&gt;Causality&lt;/h4&gt;
+&lt;h3 id=&#34;causality&#34;&gt;Causality&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;To capture the full extent of the mind’s compositionality, a model must include explicit representations of objects, identity, and relations, all while maintaining a notion of “coherence” when understanding novel configurations.&lt;/li&gt;
 &lt;li&gt;Concept learning and vision models that use causality are usually generative but not every generative model is also causal.&lt;/li&gt;
@@ -189,7 +486,7 @@ itive psychology, much like the game engine that generates the game dynamics and
 &lt;li&gt;Inference is the process of inverting this causal generative model, explaining the raw pixels as objects and their interactions, such as the agent stepping on an ice floe to deactivate it or a crab pushing the agent into the water.&lt;/li&gt;
 &lt;li&gt;Deep neural networks could play a role in two ways: by serving as a bottom-up proposer to make probabilistic inference more tractable in a structured generative model or by serving as the causal generative model if imbued with the right set of ingredients.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;learning-to-learn&#34;&gt;Learning-to-learn&lt;/h4&gt;
+&lt;h3 id=&#34;learning-to-learn&#34;&gt;Learning-to-learn&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;When humans or machines make inferences that go far beyond the data, strong prior knowledge (or inductive biases or constraints) must be making up the difference.&lt;/li&gt;
 &lt;li&gt;One way people acquire this prior knowledge is through “learning-to-learn,” a term introduced by Harlow (1949) and closely related to the machine learning notions of “transfer learning,” “multitask learning,” and “representation learning.”&lt;/li&gt;
@@ -205,13 +502,13 @@ itive psychology, much like the game engine that generates the game dynamics and
 &lt;li&gt;In sum, the interaction between representation and previous experience may be key to building machines that learn as fast as people.&lt;/li&gt;
 &lt;li&gt;if such a system aims to learn compositionally structured causal models of each game – built on a foundation of intuitive physics and psychology – it could transfer knowledge more efficiently and thereby learn new games much more quickly.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;thinking-fast&#34;&gt;Thinking Fast&lt;/h3&gt;
+&lt;h2 id=&#34;thinking-fast&#34;&gt;Thinking Fast&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;In general, richer and more structured models require more complex and slower inference algorithms, similar to how complex models require more data, making the speed of perception and thought all the more remarkable.&lt;/li&gt;
 &lt;li&gt;The combination of rich models with efficient inference suggests another way psychology and neuroscience may usefully inform AI.&lt;/li&gt;
 &lt;li&gt;This section discusses possible paths toward resolving the conflict between fast inference and structured representations, including Helmholtz machine–style approximate inference in generative models and cooperation between model-free and model-based reinforcement learning systems&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;approximate-inference-in-structured-models&#34;&gt;Approximate inference in structured models&lt;/h4&gt;
+&lt;h3 id=&#34;approximate-inference-in-structured-models&#34;&gt;Approximate inference in structured models&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;In contrast, whereas representing intuitive theories and structured causal models is less natural in deep neural networks, recent progress has demonstrated the remarkable effectiveness of gradient-based learning in high-dimensional parameter spaces.&lt;/li&gt;
 &lt;li&gt;A complete account of learning and inference must explain how the brain does so much with limited computational resources&lt;/li&gt;
@@ -226,7 +523,7 @@ itive psychology, much like the game engine that generates the game dynamics and
 &lt;li&gt;These feed-forward mappings can be learned in various ways, for example, using paired generative/recognition networks and variational optimization, or nearest-neighbor density estimation&lt;/li&gt;
 &lt;li&gt;One implication of amortization is that solutions to different problems will become correlated because of the sharing of amortized computations.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;model-based-and-model-free-reinforcement-learning&#34;&gt;Model-based and model-free reinforcement learning&lt;/h4&gt;
+&lt;h3 id=&#34;model-based-and-model-free-reinforcement-learning&#34;&gt;Model-based and model-free reinforcement learning&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;There is indeed substantial evidence that the brain uses similar model-free learning algorithms in simple associative learning or discrimination learning tasks&lt;/li&gt;
 &lt;li&gt;Considerable evidence suggests that the brain also has a model-based learning system, responsible for building a “cognitive map” of the environment and using it to plan action sequences for more complex tasks Model-based planning is an essential ingredient of human intelligence, enabling flexible adaptation to new tasks and goals;&lt;/li&gt;
@@ -236,8 +533,8 @@ itive psychology, much like the game engine that generates the game dynamics and
 &lt;li&gt;all externally provided rewards are reinterpreted according to the “internal value” of the agent,&lt;/li&gt;
 &lt;li&gt;There may also be an intrinsic drive to reduce uncertainty and construct models of the 8environment&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;responses-to-common-questionswhat-we-believe&#34;&gt;Responses to common questions(What we believe)&lt;/h2&gt;
-&lt;h3 id=&#34;comparing-the-learning-speeds-of-humans-and-neural-networks-on-specific-tasks-is-not-meaningful-because-humans-have-extensive-prior-experience&#34;&gt;Comparing the learning speeds of humans and neural networks on specific tasks is not meaningful, because humans have extensive prior experience&lt;/h3&gt;
+&lt;h1 id=&#34;responses-to-common-questionswhat-we-believe&#34;&gt;Responses to common questions(What we believe)&lt;/h1&gt;
+&lt;h2 id=&#34;comparing-the-learning-speeds-of-humans-and-neural-networks-on-specific-tasks-is-not-meaningful-because-humans-have-extensive-prior-experience&#34;&gt;Comparing the learning speeds of humans and neural networks on specific tasks is not meaningful, because humans have extensive prior experience&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;If deep learning researchers see themselves as trying to capture the equivalent of humans’ collective evolutionary experience, this would be equivalent to a truly immense “pre-training” phase.&lt;/li&gt;
 &lt;li&gt;We are less committed to a particular story regarding the origins of the ingredients,&lt;/li&gt;
@@ -245,14 +542,14 @@ itive psychology, much like the game engine that generates the game dynamics and
 &lt;li&gt;To build these representations from scratch might require exploring fundamental structural variations in the network’s architecture, which gradient-based learning in weight space is not prepared to do. Although deep learning researchers do explore many such architectural variations&lt;/li&gt;
 &lt;li&gt;dynamics of structure search may look much more like the slow random hill climbing of evolution than the smooth, methodical progress of stochastic gradient descent.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;biological-plausibility-suggests-theories-of-intelligence-should-start-with-neural-networks&#34;&gt;Biological plausibility suggests theories of intelligence should start with neural networks&lt;/h3&gt;
+&lt;h2 id=&#34;biological-plausibility-suggests-theories-of-intelligence-should-start-with-neural-networks&#34;&gt;Biological plausibility suggests theories of intelligence should start with neural networks&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;We have focused on how cognitive science can motivate and guide efforts to engineer human-like AI, in contrast to some advocates of deep neural networks who cite neuro-science for inspiration.&lt;/li&gt;
 &lt;li&gt;Unfortunately, what we “know” about the brain is not all that clear-cut.&lt;/li&gt;
 &lt;li&gt;Hebbian learning is another case in point. In the form of long-term potentiation (LTP) and spike-timing dependent plasticity (STDP), Hebbian learning mechanisms are often cited as biologically supported.&lt;/li&gt;
 &lt;li&gt;Most relevantly for our focus, it would be especially challenging to try to implement the ingredients described in this article using purely Hebbian mechanisms.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;language-is-essential-for-human-intelligence-why-is-it-not-more-prominent-here&#34;&gt;Language is essential for human intelligence. Why is it not more prominent here?&lt;/h3&gt;
+&lt;h2 id=&#34;language-is-essential-for-human-intelligence-why-is-it-not-more-prominent-here&#34;&gt;Language is essential for human intelligence. Why is it not more prominent here?&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;We have said little in this article about people’s ability to communicate and think in natural language, a distinctively human cognitive capacity where machine capabilities strikingly lag.&lt;/li&gt;
 &lt;li&gt;We believe that understanding language and its role in intelligence goes hand-in-hand with understanding the building blocks discussed in this article.&lt;/li&gt;
@@ -260,12 +557,12 @@ itive psychology, much like the game engine that generates the game dynamics and
 &lt;li&gt;Is it recursion, or some new kind of recursive structure uilding ability? Is it the ability to re-use symbols by name ? Is it the ability to understand others intentionally and build shared intentionality ? Is it some new version of these things, or is it just more of the aspects of these capacities that are already present in infants?&lt;/li&gt;
 &lt;li&gt;But with language, older children become able to reason about a much wider range of physical and psychological situations . Language also facilitates more powerful learning-to-learn and compositionality.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;looking-forward&#34;&gt;Looking forward&lt;/h2&gt;
+&lt;h1 id=&#34;looking-forward&#34;&gt;Looking forward&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Machine performance may rival or exceed human performance on particular tasks, and algorithms may take inspiration from neuroscience or aspects of psychology, but it does not follow that the algorithm learns or thinks like a person. This is a higher bar worth reaching for, potentially leading to more powerful algorithms, while also helping unlock the mysteries of the human mind.&lt;/li&gt;
 &lt;li&gt;When comparing people with the current best algorithms in AI and machine learning, people learn from fewer data and generalize in richer and more flexible ways.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;promising-directions-in-deep-learning&#34;&gt;Promising directions in deep learning&lt;/h3&gt;
+&lt;h2 id=&#34;promising-directions-in-deep-learning&#34;&gt;Promising directions in deep learning&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;There has been recent interest in integrating psychological ingredients with deep neural networks, especially selective   attention, augmented working memory, and experience replay.&lt;/li&gt;
 &lt;li&gt;Paralleling the human perceptual apparatus, selective  attention forces deep learning models to process raw, perceptual data as a series of high-resolution “foveal glimpses” rather than all at once.&lt;/li&gt;
@@ -281,26 +578,26 @@ itive psychology, much like the game engine that generates the game dynamics and
 &lt;li&gt;Humans represent their strategies as a response to these constraints, such that if the game changes, they can begin to adjust their strategies accordingly.&lt;/li&gt;
 &lt;li&gt;We believe it would be richly rewarding for AI and cognitive science to pursue this challenge together and that such systems could be a compelling testbed for the principles this article suggests, as well as building on all of the progress to date that AlphaGo represents.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;future-applications-to-practical-ai-problems&#34;&gt;Future applications to practical AI problems&lt;/h3&gt;
-&lt;h4 id=&#34;scene-understanding&#34;&gt;Scene understanding&lt;/h4&gt;
+&lt;h2 id=&#34;future-applications-to-practical-ai-problems&#34;&gt;Future applications to practical AI problems&lt;/h2&gt;
+&lt;h3 id=&#34;scene-understanding&#34;&gt;Scene understanding&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Deep learning is moving beyond object recognition and toward scene understanding, as evidenced by a flurry of recent work focused on generating natural language captions for images&lt;/li&gt;
 &lt;li&gt;Yet current algorithms are still better at recognizing objects than understanding scenes, often getting the key objects right but their causal relationships wrong&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;autonomous-agents-and-intelligent-devices&#34;&gt;Autonomous agents and intelligent devices&lt;/h4&gt;
-&lt;h4 id=&#34;autonomous-driving&#34;&gt;Autonomous driving&lt;/h4&gt;
+&lt;h3 id=&#34;autonomous-agents-and-intelligent-devices&#34;&gt;Autonomous agents and intelligent devices&lt;/h3&gt;
+&lt;h3 id=&#34;autonomous-driving&#34;&gt;Autonomous driving&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Similarly, other drivers on the road have similarly complex mental states underlying their behavior&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;creative-design&#34;&gt;Creative design&lt;/h4&gt;
+&lt;h3 id=&#34;creative-design&#34;&gt;Creative design&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Although we are still far from developing AI systems that can tackle these types of tasks, we see compositionality and causality as central to this goal.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;toward-more-human-like-learning-and-thinking-machines&#34;&gt;Toward more human-like learning and thinking machines&lt;/h3&gt;
+&lt;h2 id=&#34;toward-more-human-like-learning-and-thinking-machines&#34;&gt;Toward more human-like learning and thinking machines&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;we suggest that deep learning and other computational paradigms should aim to tackle these tasks using as few training data as people need, and also to evaluate models on a range of human-like generalizations beyond the one task on which the model was trained.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;note&#34;&gt;Note&lt;/h2&gt;
+&lt;h1 id=&#34;note&#34;&gt;Note&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;The Atari games are deterministic, raising the possibility that a learner can succeed by memorizing long sequences of actions without learning to generalize&lt;/li&gt;
 &lt;li&gt;Although it is unclear if the DQN also memorizes action sequences, an alternative “human starts” metric provides a stronger test of generalization&lt;/li&gt;
@@ -308,14 +605,14 @@ itive psychology, much like the game engine that generates the game dynamics and
 &lt;li&gt;A new approach using convolutional “matching networks” achieves good one-shot classification performance when discriminating between characters from different alphabets&lt;/li&gt;
 &lt;li&gt;In the interest of brevity, we do not discuss here another important vein of work linking neural circuits to variational approximations (Bastos et al. 2012), which have received less attention in the psychological literature.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;the-three-major-paradigms-of-ai-symbolicism-connectionism-behaviorism&#34;&gt;The three major paradigms of AI: symbolicism, connectionism, behaviorism&lt;/h2&gt;
-&lt;h3 id=&#34;symbolicism&#34;&gt;Symbolicism&lt;/h3&gt;
+&lt;h1 id=&#34;the-three-major-paradigms-of-ai-symbolicism-connectionism-behaviorism&#34;&gt;The three major paradigms of AI: symbolicism, connectionism, behaviorism&lt;/h1&gt;
+&lt;h2 id=&#34;symbolicism&#34;&gt;Symbolicism&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;symbolicism=Logicism=Psychlogism=Computerism&lt;/li&gt;
 &lt;li&gt;The main principles are the hypothesis of a physical symbol system (i.e., a system that manipulates symbols) and the principle of limited rationality.&lt;/li&gt;
 &lt;li&gt;This category included most of the pioneers of artificial intelligence research.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;main-points&#34;&gt;Main points&lt;/h4&gt;
+&lt;h3 id=&#34;main-points&#34;&gt;Main points&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Symbolism is the foundation of human cognitive and mental activities&lt;/li&gt;
 &lt;li&gt;Computers operate as physical systems that manipulate symbols&lt;/li&gt;
@@ -323,13 +620,13 @@ itive psychology, much like the game engine that generates the game dynamics and
 &lt;li&gt;Computers can emulate or approximate human cognitive functions.&lt;/li&gt;
 &lt;li&gt;In 1957, Newell, Simon and their colleagues created a program named &amp;ldquo;Logic Theorist&amp;rdquo; that could prove mathematical theorems. It verified 38 out of the first 52 propositions in Whitehead and Russell&amp;rsquo;s &amp;ldquo;Principia Mathematica&amp;rdquo;, and subsequently confirmed some more.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;connectionism&#34;&gt;Connectionism&lt;/h3&gt;
+&lt;h2 id=&#34;connectionism&#34;&gt;Connectionism&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Connectionism is an approach in cognitive science that hopes to explain mental phenomena with artificial neural networks (ANNs).&lt;/li&gt;
 &lt;li&gt;The central principle of connectionism is to use simple and often consistent units interconnected networks, to describe psychological phenomena. Different models of connections and unit forms may vary. For example, the units and connections of the network can represent neurons and synapses, as in the human brain.&lt;/li&gt;
 &lt;li&gt;Lack of neuroscientific rationality.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;parallel-distributed-processing-pdp&#34;&gt;Parallel distributed processing, PDP&lt;/h4&gt;
+&lt;h3 id=&#34;parallel-distributed-processing-pdp&#34;&gt;Parallel distributed processing, PDP&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;It is a method of artificial neural networks that emphasizes the parallelism of neural processing and the distributedness of neural representations, providing researchers with a general mathematical framework. It mainly includes eight aspects:&lt;/li&gt;
 &lt;li&gt;A set of processing units, represented by a set of integers.&lt;/li&gt;
@@ -341,11 +638,11 @@ itive psychology, much like the game engine that generates the game dynamics and
 &lt;li&gt;The learning rule for modifying connections based on experience, expressed as weight changes based on any number of variables.&lt;/li&gt;
 &lt;li&gt;The environment that provides experience for the system, represented by a set of activation vectors for some subsets of units.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;experimentalism&#34;&gt;Experimentalism&lt;/h4&gt;
+&lt;h3 id=&#34;experimentalism&#34;&gt;Experimentalism&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;We can learn almost everything we know from the statistical patterns of sensory input.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;actionism&#34;&gt;Actionism&lt;/h3&gt;
+&lt;h2 id=&#34;actionism&#34;&gt;Actionism&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Actionism (Behaviorism), also known as evolutionary or cybernetic school, is based on cybernetics and perception-action control systems.&lt;/li&gt;
 &lt;li&gt;It argues that artificial intelligence originates from cybernetics.&lt;/li&gt;
@@ -355,6 +652,553 @@ itive psychology, much like the game engine that generates the game dynamics and
 &lt;li&gt;By the 1960s and 1970s , some progress had been made in these studies of cybernetic systems , sowing seeds for intelligent control and intelligent robots , which gave birth to intelligent control systems . Intelligent robot system .&lt;/li&gt;
 &lt;li&gt;Behaviorism did not appear until the end of the 20th century as a new school of artificial intelligence , attracting many people&amp;rsquo;s interest . The representative author of this school was Brooks&amp;rsquo;s six-legged walking robot , which was regarded as a new generation of &amp;ldquo;cybernetic animals&amp;rdquo; . It is a control system based on perception-action mode to simulate insect behavior .&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Welcome to Wowchemy, the website builder for Hugo</title>
+      <link>https://example.com/post/getting-started/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/getting-started/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;libr&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;hello&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
+&lt;li&gt;The template can be modified and customised to suit your needs. It&amp;rsquo;s a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a &lt;strong&gt;no-code solution (write in Markdown and customize with YAML parameters)&lt;/strong&gt; and having &lt;strong&gt;flexibility to later add even deeper personalization with HTML and CSS&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/main/starters/academic/preview.png&#34; alt=&#34;The template is mobile first with a responsive design to ensure that your site looks stunning on every device.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;get-started&#34;&gt;Get Started&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;👉 &lt;a href=&#34;https://wowchemy.com/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Create a new site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📚 &lt;a href=&#34;https://wowchemy.com/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Personalize your site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💬 &lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;Wowchemy community&lt;/strong&gt;&lt;/a&gt; or &lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Hugo community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐦 Twitter: &lt;a href=&#34;https://twitter.com/wowchemy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@wowchemy&lt;/a&gt; &lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search?q=%23MadeWithWowchemy&amp;amp;src=typed_query&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#MadeWithWowchemy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💡 &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-themes/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt; for &lt;em&gt;Wowchemy&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;⬆️ &lt;strong&gt;Updating Wowchemy?&lt;/strong&gt; View the &lt;a href=&#34;https://wowchemy.com/docs/hugo-tutorials/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Tutorial&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/updates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;crowd-funded-open-source-software&#34;&gt;Crowd-funded open-source software&lt;/h2&gt;
+&lt;p&gt;To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.&lt;/p&gt;
+&lt;h3 id=&#34;-click-here-to-become-a-sponsor-and-help-support-wowchemys-future-httpswowchemycomsponsor&#34;&gt;&lt;a href=&#34;https://wowchemy.com/sponsor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;❤️ Click here to become a sponsor and help support Wowchemy&amp;rsquo;s future ❤️&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;As a token of appreciation for sponsoring, you can &lt;strong&gt;unlock &lt;a href=&#34;https://wowchemy.com/sponsor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;these&lt;/a&gt; awesome rewards and extra features 🦄✨&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/wowchemy/hugo-academic-cli&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Academic CLI&lt;/a&gt;:&lt;/strong&gt; Automatically import publications from BibTeX&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://wowchemy.com/user-stories/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://wowchemy.com/docs/page-builder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://wowchemy.com/docs/import/jupyter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://wowchemy.com/docs/install-locally/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://wowchemy.com/docs/customization/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 34+ language packs including English, 中文, and Português&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;p&gt;Wowchemy and its templates come with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/customization&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully customizable.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-themes/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Writing technical content in Markdown</title>
+      <link>https://example.com/post/writing-technical-content/</link>
+      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/writing-technical-content/</guid>
+      <description>&lt;p&gt;Wowchemy is designed to give technical content creators a seamless experience. You can focus on the content and Wowchemy handles the rest.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Wowchemy.&lt;/p&gt;
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
+&lt;p&gt;Wowchemy supports a Markdown extension for highlighting code syntax. You can customize the styles under the &lt;code&gt;syntax_highlighter&lt;/code&gt; option in your &lt;code&gt;config/_default/params.yaml&lt;/code&gt; file.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```python
+import pandas as pd
+data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
+data.head()
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pandas&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pd&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pd&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;read_csv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;data.csv&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;mindmaps&#34;&gt;Mindmaps&lt;/h3&gt;
+&lt;p&gt;Wowchemy supports a Markdown extension for mindmaps.&lt;/p&gt;
+&lt;p&gt;Simply insert a Markdown &lt;code&gt;markmap&lt;/code&gt; code block and optionally set the height of the mindmap as shown in the example below.&lt;/p&gt;
+&lt;p&gt;A simple mindmap defined as a Markdown list:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;
+&lt;code&gt;
+```markmap {height=&#34;200px&#34;}
+- Hugo Modules
+  - wowchemy
+  - wowchemy-plugins-netlify
+  - wowchemy-plugins-netlify-cms
+  - wowchemy-plugins-reveal
+```
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;markmap&#34; style=&#34;height: 200px;&#34;&gt;
+
+&lt;pre&gt;- Hugo Modules
+  - wowchemy
+  - wowchemy-plugins-netlify
+  - wowchemy-plugins-netlify-cms
+  - wowchemy-plugins-reveal&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;A more advanced mindmap with formatting, code blocks, and math:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;
+&lt;code&gt;
+```markmap
+- Mindmaps
+  - Links
+    - [Wowchemy Docs](https://wowchemy.com/docs/)
+    - [Discord Community](https://discord.gg/z8wNYzb)
+    - [GitHub](https://github.com/wowchemy/wowchemy-hugo-themes)
+  - Features
+    - Markdown formatting
+    - **inline** ~~text~~ *styles*
+    - multiline
+      text
+    - `inline code`
+    -
+      ```js
+      console.log(&#39;hello&#39;);
+      console.log(&#39;code block&#39;);
+      ```
+    - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
+```
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;markmap&#34; style=&#34;height: 500px;&#34;&gt;
+
+&lt;pre&gt;- Mindmaps
+  - Links
+    - [Wowchemy Docs](https://wowchemy.com/docs/)
+    - [Discord Community](https://discord.gg/z8wNYzb)
+    - [GitHub](https://github.com/wowchemy/wowchemy-hugo-themes)
+  - Features
+    - Markdown formatting
+    - **inline** ~~text~~ *styles*
+    - multiline
+      text
+    - `inline code`
+    -
+      ```js
+      console.log(&#39;hello&#39;);
+      console.log(&#39;code block&#39;);
+      ```
+    - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;charts&#34;&gt;Charts&lt;/h3&gt;
+&lt;p&gt;Wowchemy supports the popular &lt;a href=&#34;https://plot.ly/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plotly&lt;/a&gt; format for interactive charts.&lt;/p&gt;
+&lt;p&gt;Save your Plotly JSON in your page folder, for example &lt;code&gt;line-chart.json&lt;/code&gt;, and then add the &lt;code&gt;{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code&gt; shortcode where you would like the chart to appear.&lt;/p&gt;
+&lt;p&gt;Demo:&lt;/p&gt;
+
+
+
+
+&lt;div id=&#34;chart-823157694&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;script&gt;
+  (function() {
+    let a = setInterval( function() {
+      if ( typeof window.Plotly === &#39;undefined&#39; ) {
+        return;
+      }
+      clearInterval( a );
+
+      Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
+        Plotly.plot(&#39;chart-823157694&#39;, chart.data, chart.layout, {responsive: true});
+      });
+    }, 500 );
+  })();
+&lt;/script&gt;
+
+&lt;p&gt;You might also find the &lt;a href=&#34;http://plotly-json-editor.getforge.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plotly JSON Editor&lt;/a&gt; useful.&lt;/p&gt;
+&lt;h3 id=&#34;math&#34;&gt;Math&lt;/h3&gt;
+&lt;p&gt;Wowchemy supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the &lt;code&gt;math&lt;/code&gt; option in your &lt;code&gt;config/_default/params.yaml&lt;/code&gt; file.&lt;/p&gt;
+&lt;p&gt;To render &lt;em&gt;inline&lt;/em&gt; or &lt;em&gt;block&lt;/em&gt; math, wrap your LaTeX math with &lt;code&gt;{{&amp;lt; math &amp;gt;}}$...${{&amp;lt; /math &amp;gt;}}&lt;/code&gt; or &lt;code&gt;{{&amp;lt; math &amp;gt;}}$$...$${{&amp;lt; /math &amp;gt;}}&lt;/code&gt;, respectively. (We wrap the LaTeX math in the Wowchemy &lt;em&gt;math&lt;/em&gt; shortcode to prevent Hugo rendering our math as Markdown. The &lt;em&gt;math&lt;/em&gt; shortcode is new in v5.5-dev.)&lt;/p&gt;
+&lt;p&gt;Example &lt;strong&gt;math block&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\gamma&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;_{n} &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\frac&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{ &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; | &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n} &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;^T &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; |}{&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\|\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{x}_{n}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{x}_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\|&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;^&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; /math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+
+
+
+$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
+
+&lt;p&gt;Example &lt;strong&gt;inline math&lt;/strong&gt; &lt;code&gt;{{&amp;lt; math &amp;gt;}}$\nabla F(\mathbf{x}_{n})${{&amp;lt; /math &amp;gt;}}&lt;/code&gt; renders as 
+
+$\nabla F(\mathbf{x}_{n})$.&lt;/p&gt;
+&lt;p&gt;Example &lt;strong&gt;multi-line math&lt;/strong&gt; using the math linebreak (&lt;code&gt;\\&lt;/code&gt;):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;k;p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\begin&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{cases}p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &amp;amp; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{if }k&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;, &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\\&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &amp;amp; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{if }k&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\end&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{cases}&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; /math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+
+
+
+
+$$
+f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} &amp; \text{if }k=1, \\
+1-p_{0}^{*} &amp; \text{if }k=0.\end{cases}
+$$
+
+
+&lt;h3 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h3&gt;
+&lt;p&gt;Wowchemy supports a Markdown extension for diagrams. You can enable this feature by toggling the &lt;code&gt;diagram&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file or by adding &lt;code&gt;diagram: true&lt;/code&gt; to your page front matter.&lt;/p&gt;
+&lt;p&gt;An example &lt;strong&gt;flowchart&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+graph TD
+A[Hard] --&amp;gt;|Text| B(Round)
+B --&amp;gt; C{Decision}
+C --&amp;gt;|One| D[Result 1]
+C --&amp;gt;|Two| E[Result 2]
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34;&gt;graph TD
+A[Hard] --&gt;|Text| B(Round)
+B --&gt; C{Decision}
+C --&gt;|One| D[Result 1]
+C --&gt;|Two| E[Result 2]
+&lt;/div&gt;
+&lt;p&gt;An example &lt;strong&gt;sequence diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+sequenceDiagram
+Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
+loop Healthcheck
+    John-&amp;gt;&amp;gt;John: Fight against hypochondria
+end
+Note right of John: Rational thoughts!
+John--&amp;gt;&amp;gt;Alice: Great!
+John-&amp;gt;&amp;gt;Bob: How about you?
+Bob--&amp;gt;&amp;gt;John: Jolly good!
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34;&gt;sequenceDiagram
+Alice-&gt;&gt;John: Hello John, how are you?
+loop Healthcheck
+    John-&gt;&gt;John: Fight against hypochondria
+end
+Note right of John: Rational thoughts!
+John--&gt;&gt;Alice: Great!
+John-&gt;&gt;Bob: How about you?
+Bob--&gt;&gt;John: Jolly good!
+&lt;/div&gt;
+&lt;p&gt;An example &lt;strong&gt;Gantt diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+gantt
+section Section
+Completed :done,    des1, 2014-01-06,2014-01-08
+Active        :active,  des2, 2014-01-07, 3d
+Parallel 1   :         des3, after des1, 1d
+Parallel 2   :         des4, after des1, 1d
+Parallel 3   :         des5, after des3, 1d
+Parallel 4   :         des6, after des4, 1d
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34;&gt;gantt
+section Section
+Completed :done,    des1, 2014-01-06,2014-01-08
+Active        :active,  des2, 2014-01-07, 3d
+Parallel 1   :         des3, after des1, 1d
+Parallel 2   :         des4, after des1, 1d
+Parallel 3   :         des5, after des3, 1d
+Parallel 4   :         des6, after des4, 1d
+&lt;/div&gt;
+&lt;p&gt;An example &lt;strong&gt;class diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+classDiagram
+Class01 &amp;lt;|-- AveryLongClass : Cool
+Class03 *-- Class04
+Class05 o-- Class06
+Class07 .. Class08
+Class09 --&amp;gt; C2 : Where am i?
+Class09 --* C3
+Class09 --|&amp;gt; Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+Class08 &amp;lt;--&amp;gt; C2: Cool label
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34;&gt;classDiagram
+Class01 &lt;|-- AveryLongClass : Cool
+Class03 *-- Class04
+Class05 o-- Class06
+Class07 .. Class08
+Class09 --&gt; C2 : Where am i?
+Class09 --* C3
+Class09 --|&gt; Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+Class08 &lt;--&gt; C2: Cool label
+&lt;/div&gt;
+&lt;p&gt;An example &lt;strong&gt;state diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+stateDiagram
+[*] --&amp;gt; Still
+Still --&amp;gt; [*]
+Still --&amp;gt; Moving
+Moving --&amp;gt; Still
+Moving --&amp;gt; Crash
+Crash --&amp;gt; [*]
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34;&gt;stateDiagram
+[*] --&gt; Still
+Still --&gt; [*]
+Still --&gt; Moving
+Moving --&gt; Still
+Moving --&gt; Crash
+Crash --&gt; [*]
+&lt;/div&gt;
+&lt;h3 id=&#34;todo-lists&#34;&gt;Todo lists&lt;/h3&gt;
+&lt;p&gt;You can even write your todo lists in Markdown too:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;- [x]&lt;/span&gt; Write math example
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;- [x]&lt;/span&gt; Write diagram example
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;- [ ]&lt;/span&gt; Do something else
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write math example
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write diagram example&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Do something else&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tables&#34;&gt;Tables&lt;/h3&gt;
+&lt;p&gt;Save your spreadsheet as a CSV file in your page&amp;rsquo;s folder and then render it by adding the &lt;em&gt;Table&lt;/em&gt; shortcode to your page:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{{&amp;lt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;table&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;path&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;results.csv&amp;#34;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;header&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;true&amp;#34;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;caption&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Table 1: My results&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+&lt;table class=&#34;table&#34;&gt;
+  
+    
+    
+    &lt;tr&gt;  &lt;th&gt;customer_id&lt;/th&gt;  &lt;th&gt;score&lt;/th&gt;  &lt;/tr&gt;
+  
+  
+    &lt;tr&gt;
+      
+        
+          &lt;td data-table-dtype=&#34;number&#34;&gt;1&lt;/td&gt;
+        
+      
+        
+          &lt;td data-table-dtype=&#34;number&#34;&gt;0&lt;/td&gt;
+        
+      
+    &lt;/tr&gt;
+  
+    &lt;tr&gt;
+      
+        
+          &lt;td data-table-dtype=&#34;number&#34;&gt;2&lt;/td&gt;
+        
+      
+        
+          &lt;td data-table-dtype=&#34;text&#34;&gt;0.5&lt;/td&gt;
+        
+      
+    &lt;/tr&gt;
+  
+    &lt;tr&gt;
+      
+        
+          &lt;td data-table-dtype=&#34;number&#34;&gt;3&lt;/td&gt;
+        
+      
+        
+          &lt;td data-table-dtype=&#34;number&#34;&gt;1&lt;/td&gt;
+        
+      
+    &lt;/tr&gt;
+  
+  
+    &lt;caption&gt;Table 1: My results&lt;/caption&gt;
+  
+&lt;/table&gt;
+
+&lt;h3 id=&#34;callouts&#34;&gt;Callouts&lt;/h3&gt;
+&lt;p&gt;Academic supports a &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/#callouts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcode for callouts&lt;/a&gt;, also referred to as &lt;em&gt;asides&lt;/em&gt;, &lt;em&gt;hints&lt;/em&gt;, or &lt;em&gt;alerts&lt;/em&gt;. By wrapping a paragraph in &lt;code&gt;{{% callout note %}} ... {{% /callout %}}&lt;/code&gt;, it will render as an aside.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% callout note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% /callout %}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;spoilers&#34;&gt;Spoilers&lt;/h3&gt;
+&lt;p&gt;Add a spoiler to a page to reveal text, such as an answer to a question, after a button is clicked.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;spoiler&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;text&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Click to view the spoiler&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;You found me!
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;spoiler&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+  &lt;summary&gt;Click to view the spoiler&lt;/summary&gt;
+  &lt;p&gt;You found me!&lt;/p&gt;
+&lt;/details&gt;
+&lt;h3 id=&#34;icons&#34;&gt;Icons&lt;/h3&gt;
+&lt;p&gt;Academic enables you to use a wide range of &lt;a href=&#34;https://wowchemy.com/docs/getting-started/page-builder/#icons&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;icons from &lt;em&gt;Font Awesome&lt;/em&gt; and &lt;em&gt;Academicons&lt;/em&gt;&lt;/a&gt; in addition to &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/#emojis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;emojis&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here are some examples using the &lt;code&gt;icon&lt;/code&gt; shortcode to render icons:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;icon&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;terminal&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;pack&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;fas&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}} Terminal  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;icon&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;python&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;pack&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;fab&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}} Python  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;icon&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;r-project&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;pack&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;fab&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}} R
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-terminal  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Terminal&lt;br&gt;
+
+  &lt;i class=&#34;fab fa-python  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Python&lt;br&gt;
+
+  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; R&lt;/p&gt;
+&lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example preprint / working paper</title>
+      <link>https://example.com/publication/preprint/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/preprint/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Display Jupyter Notebooks with Academic</title>
+      <link>https://example.com/post/jupyter/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/jupyter/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;IPython.core.display&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Image&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./index_1_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Welcome to Academic!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;Welcome to Academic!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;install-python-and-jupyterlab&#34;&gt;Install Python and JupyterLab&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.anaconda.com/distribution/#download-section&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Install Anaconda&lt;/a&gt; which includes Python 3 and JupyterLab.&lt;/p&gt;
+&lt;p&gt;Alternatively, install JupyterLab with &lt;code&gt;pip3 install jupyterlab&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;create-or-upload-a-jupyter-notebook&#34;&gt;Create or upload a Jupyter notebook&lt;/h2&gt;
+&lt;p&gt;Run the following commands in your Terminal, substituting &lt;code&gt;&amp;lt;MY-WEBSITE-FOLDER&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;SHORT-POST-TITLE&amp;gt;&lt;/code&gt; with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mkdir -p &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;jupyter lab index.ipynb
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The &lt;code&gt;jupyter&lt;/code&gt; command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.&lt;/p&gt;
+&lt;h2 id=&#34;edit-your-post-metadata&#34;&gt;Edit your post metadata&lt;/h2&gt;
+&lt;p&gt;The first cell of your Jupter notebook will contain your post metadata (&lt;a href=&#34;https://sourcethemes.com/academic/docs/front-matter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;front matter&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;In Jupter, choose &lt;em&gt;Markdown&lt;/em&gt; as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;title: My post&amp;#39;s title
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;date: 2019-09-01
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# Put any other Academic metadata here...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Edit the metadata of your post, using the &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation&lt;/a&gt; as a guide to the available options.&lt;/p&gt;
+&lt;p&gt;To set a &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#featured-image&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;featured image&lt;/a&gt;, place an image named &lt;code&gt;featured&lt;/code&gt; into your post&amp;rsquo;s folder.&lt;/p&gt;
+&lt;p&gt;For other tips, such as using math, see the guide on &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;writing content with Academic&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;convert-notebook-to-markdown&#34;&gt;Convert notebook to Markdown&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
+&lt;p&gt;This post was created with Jupyter. The orginal files can be found at &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -480,6 +1324,83 @@ $$&lt;/p&gt;
 &lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://example.com/privacy/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>https://example.com/privacy/</guid>
+      <description>&lt;p&gt;Add your privacy policy here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&amp;rsquo;t need it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Terms</title>
+      <link>https://example.com/terms/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>https://example.com/terms/</guid>
+      <description>&lt;p&gt;Add your terms here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&amp;rsquo;t need it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Project</title>
+      <link>https://example.com/project/example/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/example/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>External Project</title>
+      <link>https://example.com/project/external-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/external-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An example journal article</title>
+      <link>https://example.com/publication/journal-article/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/journal-article/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example conference paper</title>
+      <link>https://example.com/publication/conference-paper/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/conference-paper/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Wowchemy. https://www.wowchemy.com -->
-<!-- Last Published: March 20, 2023 --><html lang="en-us" >
+<!-- Last Published: April 2, 2023 --><html lang="en-us" >
 
 
 <head>
@@ -833,53 +833,53 @@
   <div class="article-container">
 
     <div class="article-style">
-      <h2 id="introduction">Introduction</h2>
-<h3 id="two-different-computational-approaches-to-intelligence">two different computational approaches to intelligence</h3>
+      <h1 id="introduction">Introduction</h1>
+<h2 id="two-different-computational-approaches-to-intelligence">two different computational approaches to intelligence</h2>
 <ul>
 <li>pattern recognition approach treats prediction as primary, usually in the context of a specific classification, regression, or control task.  discovering features that have high-value states in common across a large, diverse set of training data.</li>
 <li>model building. Cognition is about using these models to understand the world, to explain, to imagine what could have happened that didn’t, or what could be true that isn’t, and then planning.</li>
 <li>prediction and explanation, is central to our view of human intelligence.  pattern recognition can support model building, through “model-free” algorithms that learn through experience how to make essential inferences more computationally efficient</li>
 </ul>
-<h3 id="what-this-article-is-not">What this article is not</h3>
+<h2 id="what-this-article-is-not">What this article is not</h2>
 <ul>
 <li>we believe that reverse engineering human intelligence  can usefully inform AI and machine learning.</li>
 <li>avoiding cognitive or neural inspiration as well as claims of cognitive or neural plausibility  is a  approach to developing AI. But this article has little pertinence to this approach.</li>
 </ul>
-<h3 id="overview-of-the-key-ideas">Overview of the key ideas</h3>
+<h2 id="overview-of-the-key-ideas">Overview of the key ideas</h2>
 <ul>
 <li>propose a set of core ingredients for building more human-like learning and thinking machines</li>
 <li>mainly in Section 4 Core ingredients of human intelligence</li>
 </ul>
-<h2 id="cognitive-and-neural-inspiration-in-artificial-intelligence">Cognitive and neural inspiration in artificial intelligence</h2>
+<h1 id="cognitive-and-neural-inspiration-in-artificial-intelligence">Cognitive and neural inspiration in artificial intelligence</h1>
 <ul>
 <li>behaviorist view</li>
 <li>Cognitive science</li>
 </ul>
-<h3 id="pdp-approach">PDP approach</h3>
+<h2 id="pdp-approach">PDP approach</h2>
 <ul>
 <li>knowledge is thus distributed across the collection of units rather than localized as in most symbolic data structures.</li>
 <li>Neural network models and the PDP approach offer a view of the mind (and intelligence more broadly) that is sub-symbolic and often populated with minimal constraints and inductive biases to guide learning.</li>
 <li>Proponents of this approach maintain that many classic types of structured knowledge, such as graphs, grammars can be useful yet misleading metaphors for characterizing thought.</li>
 </ul>
-<h3 id="question">Question</h3>
+<h2 id="question">Question</h2>
 <ul>
 <li>neural networks have such broad application in machine vision, language, and control, and they can be trained to emulate the rule-like and structured behaviors that characterize cognition</li>
 <li>do we need more to develop truly human-like learning and thinking machines?</li>
 <li>How far can relatively generic neural networks bring us toward this goal?</li>
 </ul>
-<h2 id="challenges-for-building-more-human-like-machines">Challenges for building more human-like machines</h2>
-<h3 id="the-characters-challenge">The Characters Challenge</h3>
+<h1 id="challenges-for-building-more-human-like-machines">Challenges for building more human-like machines</h1>
+<h2 id="the-characters-challenge">The Characters Challenge</h2>
 <ul>
 <li>learning simple visual concepts</li>
 <li>People learn a lot more from a lot less, and capturing these human-level learning abilities in machines is the Characters Challenge</li>
 <li>Although humans and neural networks may perform equally well on the MNIST digit recognition task and other large-scale image classification tasks, it does not mean that they learn and think in the same way.</li>
 </ul>
-<h4 id="two-important-differences-between-cnn-and-human-in-learning-simple-visual-concepts">two important differences between CNN and human in learning simple visual concepts</h4>
+<h3 id="two-important-differences-between-cnn-and-human-in-learning-simple-visual-concepts">two important differences between CNN and human in learning simple visual concepts</h3>
 <ul>
 <li>people learn from fewer examples and they learn richer representations</li>
 <li>people learn more than how to do pattern recognition: they learn a concept, that is, a model of the class that allows their acquired knowledge to be flexibly applied in new ways.</li>
 </ul>
-<h4 id="some-difficulty">Some difficulty</h4>
+<h3 id="some-difficulty">Some difficulty</h3>
 <ul>
 <li>A single example of a new visual concept (red box) can be enough information to support the</li>
 <li>classification of new examples</li>
@@ -887,7 +887,7 @@
 <li>parsing an object into parts and relations</li>
 <li>generation of new concepts from related concepts.</li>
 </ul>
-<h3 id="the-frostbite-challenge">The Frostbite Challenge</h3>
+<h2 id="the-frostbite-challenge">The Frostbite Challenge</h2>
 <ul>
 <li>learning to play the Atari game Frostbite</li>
 <li>Failed on accomplishing a sub-goal (such as reaching an ice floe) and then safely proceed to the next sub-goal</li>
@@ -905,17 +905,17 @@
 <li>How do we bring to bear rich prior knowledge to learn new tasks and solve new problems so quickly?</li>
 <li>What form does that prior knowledge take, and how is it constructed, from some combination of inbuilt capacities and previous experience?</li>
 </ul>
-<h2 id="core-ingredients-of-human-intelligence">Core ingredients of human intelligence</h2>
+<h1 id="core-ingredients-of-human-intelligence">Core ingredients of human intelligence</h1>
 <ul>
 <li>Whether learned, built in, or enriched, the key claim is that these ingredients play an active and important role in producing human-like learning and thought, in ways contemporary machine learning has yet to capture.</li>
 </ul>
-<h3 id="developmental-start-up-software">Developmental start-up software</h3>
+<h2 id="developmental-start-up-software">Developmental start-up software</h2>
 <ul>
 <li>Early in development, humans have a foundational understanding of several core domains including number (numerical and set operations), space (geometry and navigation), physics (inanimate objects and mechanics), and psychology (agents and groups).</li>
 <li>The underlying cognitive representations can be understood as “intuitive theories,” with a causal structure resembling a scientific theory</li>
 <li>focus on the early understanding of objects and agents.</li>
 </ul>
-<h4 id="intuitive-physics">Intuitive physics</h4>
+<h3 id="intuitive-physics">Intuitive physics</h3>
 <ul>
 <li>At the age of 2 months, and possibly earlier, human infants expect inanimate objects to follow principles of persistence, continuity, cohesion, and solidity.</li>
 <li>At around 6 months, infants have already developed different expectations for rigid bodies, soft bodies, and liquids</li>
@@ -931,13 +931,13 @@
 <li>But incorporating a physics-engine–based representation could help DQNs learn to play games such as Frostbite in a faster and more general way, whether the physics knowledge is captured implicitly in a neural network or more explicitly in a simulator.</li>
 <li>When a new object type such as a bear is introduced, as in the later levels of Frostbite (Fig. 2D), a network endowed with intuitive physics would also have an easier time adding this object type to its knowledge</li>
 </ul>
-<h5 id="challenges">Challenges</h5>
+<h4 id="challenges">Challenges</h4>
 <ul>
 <li>For networks trained on object classification,deeper layers often become sensitive to successively higher-level features, from edges to textures to shapeparts to full objects.</li>
 <li>For deep networks trained on physics-related data,it remains to be seen whether higher layers will encode objects, general physical properties, forces, and approximately Newtonian dynamics.</li>
 <li>would it generalize broadly beyond training contexts as people’s more explicit physical concepts do?</li>
 </ul>
-<h4 id="intuitive-psychology">Intuitive psychology</h4>
+<h3 id="intuitive-psychology">Intuitive psychology</h3>
 <ul>
 <li>Pre-verbal infants distinguish animate agents from inanimate objects. This distinction is partially based on innate or early-present detectors for low-level cues, such as the presence of eyes, motion initiated from rest, and biological motion</li>
 <li>Beyond these low-level cues, infants also expect agents to act contingently and reciprocally, to have goals, and to take efficient actions toward those goals subject to constraints</li>
@@ -953,7 +953,7 @@
 <li>Connectionists have argued that innate constraints in the form of hard-wired cortical circuits are unlikely , but a simple inductive bias, for example, the tendency to notice things that move other things, can bootstrap reasoning about more abstract concepts of agency</li>
 <li>Similarly, a great deal of goal-directed and socially directed actions can also be boiled down to a simple utility calculus, in a way that could be shared with other cognitive abilities.</li>
 </ul>
-<h3 id="learning-as-rapid-model-building">Learning as rapid model building</h3>
+<h2 id="learning-as-rapid-model-building">Learning as rapid model building</h2>
 <ul>
 <li>There are many learning algorithms for neural networks, including the perceptron algorithm (Rosenblatt 1958), Hebbian learning (Hebb 1949), the BCM rule (Bienenstock et al. 1982), backpropagation (Rumelhart et al. 1986a), the wake-sleep algorithm (Hinton et al. 1995), and contrastive divergence (Hinton 2002).</li>
 <li>Human “one-shot” learning</li>
@@ -964,13 +964,13 @@
 <li>In addition to evaluating several types of deep learning models, we developed an algorithm using Bayesian program learning (BPL) that represents concepts as simple stochastic programs: structured procedures that generate new examples of a concept when executed</li>
 <li>These programs allow the model to express causal knowledge about how the raw data are formed, and the probabilistic semantics allow the model to handle noise and perform creative tasks. Structure sharing across concepts is accomplished by the compositional re-use of stochastic primitives that can combine in new ways to create new concepts.</li>
 </ul>
-<h4 id="compositionality">Compositionality</h4>
+<h3 id="compositionality">Compositionality</h3>
 <ul>
 <li>Compositionality is the classic idea that new representations can be constructed through the combination of primitive elements.</li>
 <li>Compositionality is also at the core of productivity: an infinite number of representations can be constructed from a finite set of primitives</li>
 <li>To capture the full extent of the mind’s compositionality, a model must include explicit representations of objects, identity, and relations, all while maintaining a notion of “coherence” when understanding novel configurations.</li>
 </ul>
-<h4 id="causality">Causality</h4>
+<h3 id="causality">Causality</h3>
 <ul>
 <li>To capture the full extent of the mind’s compositionality, a model must include explicit representations of objects, identity, and relations, all while maintaining a notion of “coherence” when understanding novel configurations.</li>
 <li>Concept learning and vision models that use causality are usually generative but not every generative model is also causal.</li>
@@ -985,7 +985,7 @@ itive psychology, much like the game engine that generates the game dynamics and
 <li>Inference is the process of inverting this causal generative model, explaining the raw pixels as objects and their interactions, such as the agent stepping on an ice floe to deactivate it or a crab pushing the agent into the water.</li>
 <li>Deep neural networks could play a role in two ways: by serving as a bottom-up proposer to make probabilistic inference more tractable in a structured generative model or by serving as the causal generative model if imbued with the right set of ingredients.</li>
 </ul>
-<h4 id="learning-to-learn">Learning-to-learn</h4>
+<h3 id="learning-to-learn">Learning-to-learn</h3>
 <ul>
 <li>When humans or machines make inferences that go far beyond the data, strong prior knowledge (or inductive biases or constraints) must be making up the difference.</li>
 <li>One way people acquire this prior knowledge is through “learning-to-learn,” a term introduced by Harlow (1949) and closely related to the machine learning notions of “transfer learning,” “multitask learning,” and “representation learning.”</li>
@@ -1001,13 +1001,13 @@ itive psychology, much like the game engine that generates the game dynamics and
 <li>In sum, the interaction between representation and previous experience may be key to building machines that learn as fast as people.</li>
 <li>if such a system aims to learn compositionally structured causal models of each game – built on a foundation of intuitive physics and psychology – it could transfer knowledge more efficiently and thereby learn new games much more quickly.</li>
 </ul>
-<h3 id="thinking-fast">Thinking Fast</h3>
+<h2 id="thinking-fast">Thinking Fast</h2>
 <ul>
 <li>In general, richer and more structured models require more complex and slower inference algorithms, similar to how complex models require more data, making the speed of perception and thought all the more remarkable.</li>
 <li>The combination of rich models with efficient inference suggests another way psychology and neuroscience may usefully inform AI.</li>
 <li>This section discusses possible paths toward resolving the conflict between fast inference and structured representations, including Helmholtz machine–style approximate inference in generative models and cooperation between model-free and model-based reinforcement learning systems</li>
 </ul>
-<h4 id="approximate-inference-in-structured-models">Approximate inference in structured models</h4>
+<h3 id="approximate-inference-in-structured-models">Approximate inference in structured models</h3>
 <ul>
 <li>In contrast, whereas representing intuitive theories and structured causal models is less natural in deep neural networks, recent progress has demonstrated the remarkable effectiveness of gradient-based learning in high-dimensional parameter spaces.</li>
 <li>A complete account of learning and inference must explain how the brain does so much with limited computational resources</li>
@@ -1022,7 +1022,7 @@ itive psychology, much like the game engine that generates the game dynamics and
 <li>These feed-forward mappings can be learned in various ways, for example, using paired generative/recognition networks and variational optimization, or nearest-neighbor density estimation</li>
 <li>One implication of amortization is that solutions to different problems will become correlated because of the sharing of amortized computations.</li>
 </ul>
-<h4 id="model-based-and-model-free-reinforcement-learning">Model-based and model-free reinforcement learning</h4>
+<h3 id="model-based-and-model-free-reinforcement-learning">Model-based and model-free reinforcement learning</h3>
 <ul>
 <li>There is indeed substantial evidence that the brain uses similar model-free learning algorithms in simple associative learning or discrimination learning tasks</li>
 <li>Considerable evidence suggests that the brain also has a model-based learning system, responsible for building a “cognitive map” of the environment and using it to plan action sequences for more complex tasks Model-based planning is an essential ingredient of human intelligence, enabling flexible adaptation to new tasks and goals;</li>
@@ -1032,8 +1032,8 @@ itive psychology, much like the game engine that generates the game dynamics and
 <li>all externally provided rewards are reinterpreted according to the “internal value” of the agent,</li>
 <li>There may also be an intrinsic drive to reduce uncertainty and construct models of the 8environment</li>
 </ul>
-<h2 id="responses-to-common-questionswhat-we-believe">Responses to common questions(What we believe)</h2>
-<h3 id="comparing-the-learning-speeds-of-humans-and-neural-networks-on-specific-tasks-is-not-meaningful-because-humans-have-extensive-prior-experience">Comparing the learning speeds of humans and neural networks on specific tasks is not meaningful, because humans have extensive prior experience</h3>
+<h1 id="responses-to-common-questionswhat-we-believe">Responses to common questions(What we believe)</h1>
+<h2 id="comparing-the-learning-speeds-of-humans-and-neural-networks-on-specific-tasks-is-not-meaningful-because-humans-have-extensive-prior-experience">Comparing the learning speeds of humans and neural networks on specific tasks is not meaningful, because humans have extensive prior experience</h2>
 <ul>
 <li>If deep learning researchers see themselves as trying to capture the equivalent of humans’ collective evolutionary experience, this would be equivalent to a truly immense “pre-training” phase.</li>
 <li>We are less committed to a particular story regarding the origins of the ingredients,</li>
@@ -1041,14 +1041,14 @@ itive psychology, much like the game engine that generates the game dynamics and
 <li>To build these representations from scratch might require exploring fundamental structural variations in the network’s architecture, which gradient-based learning in weight space is not prepared to do. Although deep learning researchers do explore many such architectural variations</li>
 <li>dynamics of structure search may look much more like the slow random hill climbing of evolution than the smooth, methodical progress of stochastic gradient descent.</li>
 </ul>
-<h3 id="biological-plausibility-suggests-theories-of-intelligence-should-start-with-neural-networks">Biological plausibility suggests theories of intelligence should start with neural networks</h3>
+<h2 id="biological-plausibility-suggests-theories-of-intelligence-should-start-with-neural-networks">Biological plausibility suggests theories of intelligence should start with neural networks</h2>
 <ul>
 <li>We have focused on how cognitive science can motivate and guide efforts to engineer human-like AI, in contrast to some advocates of deep neural networks who cite neuro-science for inspiration.</li>
 <li>Unfortunately, what we “know” about the brain is not all that clear-cut.</li>
 <li>Hebbian learning is another case in point. In the form of long-term potentiation (LTP) and spike-timing dependent plasticity (STDP), Hebbian learning mechanisms are often cited as biologically supported.</li>
 <li>Most relevantly for our focus, it would be especially challenging to try to implement the ingredients described in this article using purely Hebbian mechanisms.</li>
 </ul>
-<h3 id="language-is-essential-for-human-intelligence-why-is-it-not-more-prominent-here">Language is essential for human intelligence. Why is it not more prominent here?</h3>
+<h2 id="language-is-essential-for-human-intelligence-why-is-it-not-more-prominent-here">Language is essential for human intelligence. Why is it not more prominent here?</h2>
 <ul>
 <li>We have said little in this article about people’s ability to communicate and think in natural language, a distinctively human cognitive capacity where machine capabilities strikingly lag.</li>
 <li>We believe that understanding language and its role in intelligence goes hand-in-hand with understanding the building blocks discussed in this article.</li>
@@ -1056,12 +1056,12 @@ itive psychology, much like the game engine that generates the game dynamics and
 <li>Is it recursion, or some new kind of recursive structure uilding ability? Is it the ability to re-use symbols by name ? Is it the ability to understand others intentionally and build shared intentionality ? Is it some new version of these things, or is it just more of the aspects of these capacities that are already present in infants?</li>
 <li>But with language, older children become able to reason about a much wider range of physical and psychological situations . Language also facilitates more powerful learning-to-learn and compositionality.</li>
 </ul>
-<h2 id="looking-forward">Looking forward</h2>
+<h1 id="looking-forward">Looking forward</h1>
 <ul>
 <li>Machine performance may rival or exceed human performance on particular tasks, and algorithms may take inspiration from neuroscience or aspects of psychology, but it does not follow that the algorithm learns or thinks like a person. This is a higher bar worth reaching for, potentially leading to more powerful algorithms, while also helping unlock the mysteries of the human mind.</li>
 <li>When comparing people with the current best algorithms in AI and machine learning, people learn from fewer data and generalize in richer and more flexible ways.</li>
 </ul>
-<h3 id="promising-directions-in-deep-learning">Promising directions in deep learning</h3>
+<h2 id="promising-directions-in-deep-learning">Promising directions in deep learning</h2>
 <ul>
 <li>There has been recent interest in integrating psychological ingredients with deep neural networks, especially selective   attention, augmented working memory, and experience replay.</li>
 <li>Paralleling the human perceptual apparatus, selective  attention forces deep learning models to process raw, perceptual data as a series of high-resolution “foveal glimpses” rather than all at once.</li>
@@ -1077,26 +1077,26 @@ itive psychology, much like the game engine that generates the game dynamics and
 <li>Humans represent their strategies as a response to these constraints, such that if the game changes, they can begin to adjust their strategies accordingly.</li>
 <li>We believe it would be richly rewarding for AI and cognitive science to pursue this challenge together and that such systems could be a compelling testbed for the principles this article suggests, as well as building on all of the progress to date that AlphaGo represents.</li>
 </ul>
-<h3 id="future-applications-to-practical-ai-problems">Future applications to practical AI problems</h3>
-<h4 id="scene-understanding">Scene understanding</h4>
+<h2 id="future-applications-to-practical-ai-problems">Future applications to practical AI problems</h2>
+<h3 id="scene-understanding">Scene understanding</h3>
 <ul>
 <li>Deep learning is moving beyond object recognition and toward scene understanding, as evidenced by a flurry of recent work focused on generating natural language captions for images</li>
 <li>Yet current algorithms are still better at recognizing objects than understanding scenes, often getting the key objects right but their causal relationships wrong</li>
 </ul>
-<h4 id="autonomous-agents-and-intelligent-devices">Autonomous agents and intelligent devices</h4>
-<h4 id="autonomous-driving">Autonomous driving</h4>
+<h3 id="autonomous-agents-and-intelligent-devices">Autonomous agents and intelligent devices</h3>
+<h3 id="autonomous-driving">Autonomous driving</h3>
 <ul>
 <li>Similarly, other drivers on the road have similarly complex mental states underlying their behavior</li>
 </ul>
-<h4 id="creative-design">Creative design</h4>
+<h3 id="creative-design">Creative design</h3>
 <ul>
 <li>Although we are still far from developing AI systems that can tackle these types of tasks, we see compositionality and causality as central to this goal.</li>
 </ul>
-<h3 id="toward-more-human-like-learning-and-thinking-machines">Toward more human-like learning and thinking machines</h3>
+<h2 id="toward-more-human-like-learning-and-thinking-machines">Toward more human-like learning and thinking machines</h2>
 <ul>
 <li>we suggest that deep learning and other computational paradigms should aim to tackle these tasks using as few training data as people need, and also to evaluate models on a range of human-like generalizations beyond the one task on which the model was trained.</li>
 </ul>
-<h2 id="note">Note</h2>
+<h1 id="note">Note</h1>
 <ul>
 <li>The Atari games are deterministic, raising the possibility that a learner can succeed by memorizing long sequences of actions without learning to generalize</li>
 <li>Although it is unclear if the DQN also memorizes action sequences, an alternative “human starts” metric provides a stronger test of generalization</li>
@@ -1104,14 +1104,14 @@ itive psychology, much like the game engine that generates the game dynamics and
 <li>A new approach using convolutional “matching networks” achieves good one-shot classification performance when discriminating between characters from different alphabets</li>
 <li>In the interest of brevity, we do not discuss here another important vein of work linking neural circuits to variational approximations (Bastos et al. 2012), which have received less attention in the psychological literature.</li>
 </ul>
-<h2 id="the-three-major-paradigms-of-ai-symbolicism-connectionism-behaviorism">The three major paradigms of AI: symbolicism, connectionism, behaviorism</h2>
-<h3 id="symbolicism">Symbolicism</h3>
+<h1 id="the-three-major-paradigms-of-ai-symbolicism-connectionism-behaviorism">The three major paradigms of AI: symbolicism, connectionism, behaviorism</h1>
+<h2 id="symbolicism">Symbolicism</h2>
 <ul>
 <li>symbolicism=Logicism=Psychlogism=Computerism</li>
 <li>The main principles are the hypothesis of a physical symbol system (i.e., a system that manipulates symbols) and the principle of limited rationality.</li>
 <li>This category included most of the pioneers of artificial intelligence research.</li>
 </ul>
-<h4 id="main-points">Main points</h4>
+<h3 id="main-points">Main points</h3>
 <ul>
 <li>Symbolism is the foundation of human cognitive and mental activities</li>
 <li>Computers operate as physical systems that manipulate symbols</li>
@@ -1119,13 +1119,13 @@ itive psychology, much like the game engine that generates the game dynamics and
 <li>Computers can emulate or approximate human cognitive functions.</li>
 <li>In 1957, Newell, Simon and their colleagues created a program named &ldquo;Logic Theorist&rdquo; that could prove mathematical theorems. It verified 38 out of the first 52 propositions in Whitehead and Russell&rsquo;s &ldquo;Principia Mathematica&rdquo;, and subsequently confirmed some more.</li>
 </ul>
-<h3 id="connectionism">Connectionism</h3>
+<h2 id="connectionism">Connectionism</h2>
 <ul>
 <li>Connectionism is an approach in cognitive science that hopes to explain mental phenomena with artificial neural networks (ANNs).</li>
 <li>The central principle of connectionism is to use simple and often consistent units interconnected networks, to describe psychological phenomena. Different models of connections and unit forms may vary. For example, the units and connections of the network can represent neurons and synapses, as in the human brain.</li>
 <li>Lack of neuroscientific rationality.</li>
 </ul>
-<h4 id="parallel-distributed-processing-pdp">Parallel distributed processing, PDP</h4>
+<h3 id="parallel-distributed-processing-pdp">Parallel distributed processing, PDP</h3>
 <ul>
 <li>It is a method of artificial neural networks that emphasizes the parallelism of neural processing and the distributedness of neural representations, providing researchers with a general mathematical framework. It mainly includes eight aspects:</li>
 <li>A set of processing units, represented by a set of integers.</li>
@@ -1137,11 +1137,11 @@ itive psychology, much like the game engine that generates the game dynamics and
 <li>The learning rule for modifying connections based on experience, expressed as weight changes based on any number of variables.</li>
 <li>The environment that provides experience for the system, represented by a set of activation vectors for some subsets of units.</li>
 </ul>
-<h4 id="experimentalism">Experimentalism</h4>
+<h3 id="experimentalism">Experimentalism</h3>
 <ul>
 <li>We can learn almost everything we know from the statistical patterns of sensory input.</li>
 </ul>
-<h3 id="actionism">Actionism</h3>
+<h2 id="actionism">Actionism</h2>
 <ul>
 <li>Actionism (Behaviorism), also known as evolutionary or cybernetic school, is based on cybernetics and perception-action control systems.</li>
 <li>It argues that artificial intelligence originates from cybernetics.</li>
@@ -1399,6 +1399,16 @@ itive psychology, much like the game engine that generates the game dynamics and
   
   
 
+
+<p class="powered-by">
+  
+  <a href="/privacy/">Privacy Policy</a>
+  
+  
+   &middot; 
+  <a href="/terms/">Terms</a>
+  
+</p>
 
 
 
