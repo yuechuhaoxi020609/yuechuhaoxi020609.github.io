@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RL | Haofei Hou | HUST</title>
+    <link>https://example.com/tag/rl/</link>
+      <atom:link href="https://example.com/tag/rl/index.xml" rel="self" type="application/rss+xml" />
+    <description>RL</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 10 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu88cdd4b7a12988e7d5bb56be50e4f21a_10097_512x512_fill_lanczos_center_3.png</url>
+      <title>RL</title>
+      <link>https://example.com/tag/rl/</link>
+    </image>
+    
+    <item>
+      <title>LLM/MMM for RL</title>
+      <link>https://example.com/post/llm-for-rl/</link>
+      <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/llm-for-rl/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Large Language Models&lt;/strong&gt;: GPT BERT&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-Modal Models&lt;/strong&gt;: CLIP&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;reasoning&#34;&gt;Reasoning&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;RT-1&lt;/strong&gt;: &amp;ldquo;RT-1: Robotics Transformer for Real-World Control at Scale&amp;rdquo;, &lt;em&gt;arXiv, Dec 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2212.06817&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]  [&lt;a href=&#34;https://github.com/google-research/robotics_transformer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;] [&lt;a href=&#34;https://robotics-transformer.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Code-As-Policies&lt;/strong&gt;: &amp;ldquo;Code as Policies: Language Model Programs for Embodied Control&amp;rdquo;, &lt;em&gt;arXiv, Sept 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2209.07753&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]  [&lt;a href=&#34;https://github.com/google-research/google-research/tree/master/code_as_policies&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Colab&lt;/a&gt;] [&lt;a href=&#34;https://code-as-policies.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Say-Can&lt;/strong&gt;: &amp;ldquo;Do As I Can, Not As I Say: Grounding Language in Robotic Affordances&amp;rdquo;, &lt;em&gt;arXiv, Apr 2021&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2204.01691&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]  [&lt;a href=&#34;https://say-can.github.io/#open-source&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Colab&lt;/a&gt;] [&lt;a href=&#34;https://say-can.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Socratic&lt;/strong&gt;: &amp;ldquo;Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language&amp;rdquo;, &lt;em&gt;arXiv, Apr 2021&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2204.00598&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://socraticmodels.github.io/#code&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://socraticmodels.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;PIGLeT&lt;/strong&gt;: &amp;ldquo;PIGLeT: Language Grounding Through Neuro-Symbolic Interaction in a 3D World&amp;rdquo;, &lt;em&gt;ACL, Jun 2021&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2201.07207&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;http://github.com/rowanz/piglet&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://rowanzellers.com/piglet/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;planning&#34;&gt;Planning&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;LM-Nav&lt;/strong&gt;: &amp;ldquo;Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action&amp;rdquo;, &lt;em&gt;arXiv, July 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2207.04429&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/blazejosinski/lm_nav&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://sites.google.com/view/lmnav&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230410013423928.png&#34; alt=&#34;image-20230410013423928&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;LLM: GPT-3 parse textual instructions into a sequence of landmarks ($t$).&lt;/li&gt;
+&lt;li&gt;VLM: CLIP compute likelihood that image $i_k$ corresponds to the string $t$&lt;/li&gt;
+&lt;li&gt;VNM: ViNG  uses a goal-conditioned distance function to infer connectivity between the set of raw observations and constructs a topological graph&lt;/li&gt;
+&lt;li&gt;Navigation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;InnerMonlogue&lt;/strong&gt;: &amp;ldquo;Inner Monologue: Embodied Reasoning through Planning with Language Models&amp;rdquo;, &lt;em&gt;arXiv, July 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2207.05608&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://innermonologue.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;system Inner Monologue chains together these various components (perception models, robotic skills, and human feedback) in a shared language prompt, enabling it to successfully perform user instructions.&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230410093435285.png&#34; alt=&#34;image-20230410093435285&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;Inner Monologue(Left): InstructGPT&lt;/li&gt;
+&lt;li&gt;pick-and-place primitive: CLIPort&lt;/li&gt;
+&lt;li&gt;Manipulation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Housekeep&lt;/strong&gt;: &amp;ldquo;Housekeep: Tidying Virtual Households using Commonsense Reasoning&amp;rdquo;, &lt;em&gt;arXiv, May 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2205.10712&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/yashkant/housekeep&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://yashkant.github.io/housekeep/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;New benchmark: In Housekeep, an embodied agent must tidy a house by rearranging misplaced objects without explicit instructions specifying which objects need to be rearranged&lt;/li&gt;
+&lt;li&gt;A new dataset for an object (e.g. salt-shaker), a room (e.g. kitchen) in context, to classify into the following categories: misplaced, correct, implausible.&lt;/li&gt;
+&lt;li&gt;Each Housekeep episode is created by instantiating 7-10 objects within a scene, out of which 3-5 objects are misplaced and the remaining are placed correct&lt;/li&gt;
+&lt;li&gt;Object Room $[OR] &amp;ndash; P(room|object)$ : Generate compatibility scores for rooms for a given object.&lt;/li&gt;
+&lt;li&gt;Object Room Receptacle $[ORR] &amp;ndash; P(receptacle|object, room)$: Generate compatibility scores for receptacles within a given room and for a given object&lt;/li&gt;
+&lt;li&gt;Method1: Finetuning by Contrastive Matching (CM). We train a 3-layered MLP on top of language embeddings and compute pairwise cosine similarity between any two embeddings&lt;/li&gt;
+&lt;li&gt;Method2: Zero-Shot Ranking via MLM (ZS-MLM).&lt;/li&gt;
+&lt;li&gt;LLM: BERT for word embeddings&lt;/li&gt;
+&lt;li&gt;MLM(Masked Language Model)&lt;/li&gt;
+&lt;li&gt;Similarity calculation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;LID&lt;/strong&gt;: &amp;ldquo;Pre-Trained Language Models for Interactive Decision-Making&amp;rdquo;, &lt;em&gt;arXiv, Feb 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2202.01771&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/ShuangLI59/Language-Model-Pre-training-Improves-Generalization-in-Policy-Learning&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://shuangli-project.github.io/Pre-Trained-Language-Models-for-Interactive-Decision-Making/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230409121632758.png&#34; alt=&#34;image-20230409121632758&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;Fine-tuning&lt;/li&gt;
+&lt;li&gt;Mid-level actions&lt;/li&gt;
+&lt;li&gt;LLM&lt;/li&gt;
+&lt;li&gt;As a part of policy network.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;ZSP&lt;/strong&gt;: &amp;ldquo;Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents&amp;rdquo;, &lt;em&gt;ICML, Jan 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2201.07207&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/huangwl18/language-planner&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://wenlong.page/language-planner/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230410095827203.png&#34; alt=&#34;image-20230410095827203&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;VirtualHome Executability Correctness&lt;/li&gt;
+&lt;li&gt;Planning LM (Causal LLM): GPT-3 $\hat{a}$&lt;/li&gt;
+&lt;li&gt;Translation LM(Masked LLM): BERT&lt;/li&gt;
+&lt;li&gt;for each admissible environment action $a_e$ $max\ C(f(\hat{a}), f(a_e)) = \frac{f(\hat{a})\cdot f(a_e)}{||f(\hat{a})||\ ||f(a_e)||}$&lt;/li&gt;
+&lt;li&gt;Mid-level actions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;manipulation&#34;&gt;Manipulation&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;DIAL&lt;/strong&gt;:&amp;ldquo;Robotic Skill Acquistion via Instruction Augmentation with Vision-Language Models&amp;rdquo;, &amp;ldquo;arXiv, Nov 2022&amp;rdquo;, [&lt;a href=&#34;https://arxiv.org/abs/2211.11736&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://instructionaugmentation.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230409120027347.png&#34; alt=&#34;image-20230409120027347&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;CLIP Model&lt;/li&gt;
+&lt;li&gt;Few Shot/Fine-tuning&lt;/li&gt;
+&lt;li&gt;Manipulation trajectories&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;CLIP-Fields&lt;/strong&gt;:&amp;ldquo;CLIP-Fields: Weakly Supervised Semantic Fields for Robotic Memory&amp;rdquo;, &amp;ldquo;arXiv, Oct 2022&amp;rdquo;, [&lt;a href=&#34;https://arxiv.org/abs/2210.05663&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/notmahi/clip-fields&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PyTorch Code&lt;/a&gt;] [&lt;a href=&#34;https://mahis.life/clip-fields/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;weakly supervised semantic neural fields, called CLIP-Fields.&lt;/li&gt;
+&lt;li&gt;dataset comes from LLM/MMM&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230409211255049.png&#34; alt=&#34;image-20230409211255049&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;$g(x, y, z) : R_3 → R_d$ serves as a generic differentiable spatial database.  trained.&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230409211327053.png&#34; alt=&#34;image-20230409211327053&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;CLIP BERT&lt;/li&gt;
+&lt;li&gt;EVALUATION:  Instance and semantic segmentation in scene images.  for visual encoder&lt;/li&gt;
+&lt;li&gt;EVALUATION:   Semantic Navigation on Robot with CLIP-Fields as Semantic-Spatial Memory.  maximizing their similarity.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;LaTTe&lt;/strong&gt;: &amp;ldquo;LaTTe: Language Trajectory TransformEr&amp;rdquo;, &lt;em&gt;arXiv, Aug 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2208.02918&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/arthurfenderbucker/NL_trajectory_reshaper&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TensorFlow Code&lt;/a&gt;] [&lt;a href=&#34;https://www.microsoft.com/en-us/research/group/autonomous-systems-group-robotics/articles/robot-language/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230409122254407.png&#34; alt=&#34;image-20230409122254407&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;BERT CLIP&lt;/li&gt;
+&lt;li&gt;trained and evaluated the model described in Section III over a dataset containing 100k examples of procedurally generated trajectory modification.&lt;/li&gt;
+&lt;li&gt;Trajectory reshaping obeying user’s constraints.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Robots Enact Malignant Stereotypes&lt;/strong&gt;: &amp;ldquo;Robots Enact Malignant Stereotypes&amp;rdquo;, &lt;em&gt;FAccT, Jun 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2207.11569&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/ahundt/RobotsEnactMalignantStereotypes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://sites.google.com/view/robots-enact-stereotypes/home&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;] [&lt;a href=&#34;https://www.washingtonpost.com/technology/2022/07/16/racist-robots-ai/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Washington Post&lt;/a&gt;] [&lt;a href=&#34;https://www.wired.com/story/how-to-stop-robots-becoming-racist/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wired&lt;/a&gt;] (code access on request)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;experiments definitively show robots acting out toxic stereotypes with respect to gender, race, and scientifically-discredited physiognomy.&lt;/li&gt;
+&lt;li&gt;Ethical experiments on LLM/MMM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;ATLA&lt;/strong&gt;: &amp;ldquo;Leveraging Language for Accelerated Learning of Tool Manipulation&amp;rdquo;, &lt;em&gt;CoRL, Jun 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2206.13074&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;combining linguistic information and meta-learning significantly accelerates tool learning&lt;/li&gt;
+&lt;li&gt;tools $ \mathscr{T} = { \tau_i }&lt;em&gt;{i=1}^K$     corresponding language descriptions $L_i = {l&lt;/em&gt;{ij}}&lt;em&gt;{j=1}^{N_i}\ l&lt;/em&gt;{ij} \in  \mathscr{L}$ by LLM&lt;/li&gt;
+&lt;li&gt;Goal $\pi_{\theta}:  \mathscr{O} \times  \mathscr{L} \rightarrow  \mathscr{A}$ that can be quickly fine-tuned at test time.&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230410005237562.png&#34; alt=&#34;image-20230410005237562&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;GPT&lt;/li&gt;
+&lt;li&gt;RL: PPO Meta-training&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;ZeST&lt;/strong&gt;: &amp;ldquo;Can Foundation Models Perform Zero-Shot Task Specification For Robot Manipulation?&amp;rdquo;, &lt;em&gt;L4DC, Apr 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2204.11134&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230409120237050.png&#34; alt=&#34;image-20230409120237050&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;Zero Shot&lt;/li&gt;
+&lt;li&gt;CLIP Model&lt;/li&gt;
+&lt;li&gt;Similarity calculation&lt;/li&gt;
+&lt;li&gt;As Reward Function in offline RL&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;LSE-NGU&lt;/strong&gt;: &amp;ldquo;Semantic Exploration from Language Abstractions and Pretrained Representations&amp;rdquo;, &lt;em&gt;arXiv, Apr 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2204.05080&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Encourage to do exploration $max\ E[\sum_{t=0}^H\gamma^t(r_t^e+\beta r_t^i)]$&lt;/li&gt;
+&lt;li&gt;exploration method calculates the intrinsic reward from $O_L$ or $O_V$ .&lt;/li&gt;
+&lt;li&gt;CLIP Bert ALM&lt;/li&gt;
+&lt;li&gt;Zero-Shot for calculating the intrinsic reward (NGP: L2 distances between the current state and the k-nearest neighbor representations stored in the memory buffer, RND:  mean squared error $|| f_V(O_V) - \hat{f_V}(O_V)|| $ , $f_V(O_V)$ is trainable, $\hat{f_V}(O_V)$ is pre-trained model)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Embodied-CLIP&lt;/strong&gt;: &amp;ldquo;Simple but Effective: CLIP Embeddings for Embodied AI &amp;ldquo;, &lt;em&gt;CVPR, Nov 2021&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2111.09888&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/allenai/embodied-clip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230409144829744.png&#34; alt=&#34;image-20230409144829744&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;Embodied AI tasks: agents that learn to navigate and interact with their environments.&lt;/li&gt;
+&lt;li&gt;CLIP for visual encoder&lt;/li&gt;
+&lt;li&gt;RL: PPO&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;CLIPort&lt;/strong&gt;: &amp;ldquo;CLIPort: What and Where Pathways for Robotic Manipulation&amp;rdquo;, &lt;em&gt;CoRL, Sept 2021&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2109.12098&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/cliport/cliport&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://cliport.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230410010919998.png&#34; alt=&#34;image-20230410010919998&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;Transporter for Pick-and-Place: The same architecture has three different networks $f_{pick}, \Psi_{query}, \Psi_{key}$&lt;/li&gt;
+&lt;li&gt;CLIP&lt;/li&gt;
+&lt;li&gt;Trajectory Imitative learning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;VIMA&lt;/strong&gt;:&amp;ldquo;VIMA: General Robot Manipulation with Multimodal Prompts&amp;rdquo;, &amp;ldquo;arXiv, Oct 2022&amp;rdquo;, [&lt;a href=&#34;https://arxiv.org/abs/2210.03094&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/vimalabs/VIMA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://vimalabs.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a transformer-based generalist robot agent, VIMA, that processes these prompts and outputs motor actions autoregressively.&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230409213812956.png&#34; alt=&#34;image-20230409213812956&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;Mask R-CNN ViT for T5 Encoder&lt;/li&gt;
+&lt;li&gt;Build his own MMM&lt;/li&gt;
+&lt;li&gt;Trajectory Imitative learning on discretization action space&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Perceiver-Actor&lt;/strong&gt;:&amp;ldquo;A Multi-Task Transformer for Robotic Manipulation&amp;rdquo;, &lt;em&gt;CoRL, Sep 2022&lt;/em&gt;. [&lt;a href=&#34;https://peract.github.io/paper/peract_corl2022.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/peract/peract&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://peract.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PERACT encodes a sequence of RGB-D voxel(3D info) patches and predicts discretized translations,&lt;/li&gt;
+&lt;li&gt;PERACT is essentially a classifier trained with supervised learning to detect actions&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230409220107716.png&#34; alt=&#34;image-20230409220107716&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;Language Encoder: CLIP&lt;/li&gt;
+&lt;li&gt;Voxel Encoder pre-trained 3D convolution network&lt;/li&gt;
+&lt;li&gt;Build his own MMM&lt;/li&gt;
+&lt;li&gt;Trajectory Imitative learning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;instructions-and-navigation&#34;&gt;Instructions and Navigation&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;ADAPT&lt;/strong&gt;: &amp;ldquo;ADAPT: Vision-Language Navigation with Modality-Aligned Action Prompts&amp;rdquo;, &lt;em&gt;CVPR, May 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2205.15509&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;ldquo;The Unsurprising Effectiveness of Pre-Trained Vision Models for Control&amp;rdquo;, &lt;em&gt;ICML, Mar 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2203.03580&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/sparisi/pvr_habitat&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://sites.google.com/view/pvr-control&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;CoW&lt;/strong&gt;: &amp;ldquo;CLIP on Wheels: Zero-Shot Object Navigation as Object Localization and Exploration&amp;rdquo;, &lt;em&gt;arXiv, Mar 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2203.10421&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Recurrent VLN-BERT&lt;/strong&gt;: &amp;ldquo;A Recurrent Vision-and-Language BERT for Navigation&amp;rdquo;, &lt;em&gt;CVPR, Jun 2021&lt;/em&gt; [&lt;a href=&#34;https://arxiv.org/abs/2011.13922&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/YicongHong/Recurrent-VLN-BERT&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;VLN-BERT&lt;/strong&gt;: &amp;ldquo;Improving Vision-and-Language Navigation with Image-Text Pairs from the Web&amp;rdquo;, &lt;em&gt;ECCV, Apr 2020&lt;/em&gt; [&lt;a href=&#34;https://arxiv.org/abs/2004.14973&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/arjunmajum/vln-bert&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;]&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;ldquo;Interactive Language: Talking to Robots in Real Time&amp;rdquo;, &lt;em&gt;arXiv, Oct 2022&lt;/em&gt; [&lt;a href=&#34;https://arxiv.org/abs/2210.06407&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://interactive-language.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;simulation-frameworks&#34;&gt;Simulation Frameworks&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;MineDojo&lt;/strong&gt;: &amp;ldquo;MineDojo: Building Open-Ended Embodied Agents with Internet-Scale Knowledge&amp;rdquo;, &lt;em&gt;arXiv, Jun 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2206.08853&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/MineDojo/MineDojo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt;] [&lt;a href=&#34;https://minedojo.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;] [&lt;a href=&#34;https://minedojo.org/knowledge_base.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Open Database&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Habitat 2.0&lt;/strong&gt;: &amp;ldquo;Habitat 2.0: Training Home Assistants to Rearrange their Habitat&amp;rdquo;, &lt;em&gt;NeurIPS, Dec 2021&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2106.14405&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/facebookresearch/habitat-sim&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt;] [&lt;a href=&#34;https://aihabitat.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;BEHAVIOR&lt;/strong&gt;: &amp;ldquo;BEHAVIOR: Benchmark for Everyday Household Activities in Virtual, Interactive, and Ecological Environments&amp;rdquo;, &lt;em&gt;CoRL, Nov 2021&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2108.03332&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/StanfordVL/behavior&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt;] [&lt;a href=&#34;https://behavior.stanford.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;iGibson 1.0&lt;/strong&gt;: &amp;ldquo;iGibson 1.0: a Simulation Environment for Interactive Tasks in Large Realistic Scenes&amp;rdquo;, &lt;em&gt;IROS, Sep 2021&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2012.02924&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/StanfordVL/iGibson&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt;] [&lt;a href=&#34;https://svl.stanford.edu/igibson/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ALFRED&lt;/strong&gt;: &amp;ldquo;ALFRED: A Benchmark for Interpreting Grounded Instructions for Everyday Tasks&amp;rdquo;, &lt;em&gt;CVPR, Jun 2020&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/1912.01734&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/askforalfred/alfred&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt;] [&lt;a href=&#34;https://askforalfred.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;BabyAI&lt;/strong&gt;: &amp;ldquo;BabyAI: A Platform to Study the Sample Efficiency of Grounded Language Learning&amp;rdquo;, &lt;em&gt;ICLR, May 2019&lt;/em&gt;. [&lt;a href=&#34;https://openreview.net/pdf?id=rJeXCo0cYX&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/mila-iqia/babyai/tree/iclr19&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
