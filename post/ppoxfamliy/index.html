@@ -1354,9 +1354,27 @@ $$a_{i+1}^t=\arg\max_{a_{i+1}}V\left(s_{a_{1i},a_{i+1}}^t\right)$$
 <p>Update with Rollout</p>
 </li>
 <li>
+<p>
 
 
-$$\hat{V}\left(s_{a_{1i}}^t\right)=\begin{cases}\max_{a_{i+1}}\gamma V\left(s_{a_{1+1}a_{i+1}}^t\right),&\text{if}\ i<n\\ \max_{a_{1}}r\left(s^t,a_{1;n}\right)+\gamma V\left(\begin{matrix}s_{a_{1}}^{t+1}\end{matrix}\right),&\textrm{if}\ i=n\end{cases}$$
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230412132216002.png" alt="image-20230412132216002" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
 </li>
 <li>
 <p>transition 
