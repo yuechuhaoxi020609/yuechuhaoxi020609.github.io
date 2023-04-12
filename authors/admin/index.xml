@@ -5,12 +5,648 @@
     <link>https://example.com/authors/admin/</link>
       <atom:link href="https://example.com/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>Haofei Hou</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 10 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 12 Apr 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://example.com/authors/admin/avatar_hu78482ed6fd3911eb675c3aef45a3fb83_32147_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Haofei Hou</title>
       <link>https://example.com/authors/admin/</link>
     </image>
+    
+    <item>
+      <title>PPOxFamliy MARL</title>
+      <link>https://example.com/post/ppoxfamliy/</link>
+      <pubDate>Wed, 12 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/ppoxfamliy/</guid>
+      <description>&lt;h1 id=&#34;policy-gradient&#34;&gt;Policy Gradient&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+
+
+$$G(\tau)=\sum_{t=0}^{T-1}\gamma^{t}r_{t}$$
+&lt;/li&gt;
+&lt;li&gt;
+
+
+$$J(\theta)=\mathbb{E}_S\Big[V_\pi(S)\Big].$$
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Policy gradient theorem&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+
+$$\nabla J_\theta=\frac{1}{N}\sum_{n=1}^N\sum_{t=0}^{T_n-1}G_t(\tau)\nabla logp_\theta(a_t|s_t)$$
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;SGD&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;higher variance&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;no bias&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;proof:&lt;/strong&gt;&lt;/em&gt; &lt;a href=&#34;https://github.com/opendilab/PPOxFamily/blob/main/chapter1_overview/chapter1_supp_trpo.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PPOxFamily/chapter1_supp_trpo.pdf at main · opendilab/PPOxFamily (github.com)&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;actor-critic&#34;&gt;Actor-Critic&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+
+
+$$Q_\phi\left(s_r,a_t\right)=E_{t-\pi}\left[\sum_{l=0}^\infty\gamma^l r^{t+l}\right]$$
+&lt;/li&gt;
+&lt;li&gt;
+
+
+$$\nabla J_\theta=\dfrac{1}{N}\sum_{n=1}^{N}\sum_{t=0}^{T_a-1}Q_\theta(s_t,a_t)\nabla logp_\theta(a_t|s_t)$$
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;not unbiased&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;lower variance&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;a2c&#34;&gt;A2C&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+
+
+$$\nabla J_\theta=\frac{1}{N}\sum_{n=1}^N\sum_{t=0}^{T_n-1}(G_t(\tau)-V_\phi(s_t))\nabla logp_\theta(a_t|s_t)$$
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;no bias&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;lower variance&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;why cut the baseline function:&lt;/strong&gt;&lt;/em&gt; &lt;a href=&#34;https://github.com/opendilab/PPOxFamily/blob/main/chapter1_overview/chapter1_supp_a2c.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PPOxFamily/chapter1_supp_a2c.pdf at main · opendilab/PPOxFamily (github.com)&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;trpo&#34;&gt;TRPO&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+
+
+$$\eta(\pi)=E_{s_0,a_0,\dots}\left[\sum\limits_{t=0}^\infty\gamma^tr_t\right]\quad
+  $$
+&lt;/li&gt;
+&lt;li&gt;
+
+
+$$\rho_{\pi}(s)=P\left(s_{0}=s\right)+\gamma P\left(s_{1}=s\right)+{\gamma}^{2}P\left(s_{2}=s\right)+\ldots\quad$$
+&lt;/li&gt;
+&lt;li&gt;
+
+
+$$\eta(\tilde{\pi})=\eta(\pi)+\sum_s\rho_{\tilde{\pi}}(s)\sum_a\tilde{\pi}(a\mid s)A_{\pi}(s,a)	$$
+&lt;/li&gt;
+&lt;li&gt;
+
+
+$$\eta(\tilde{\pi})\approx L_{\pi}(\tilde{\pi})=\eta(\pi)+\sum_s\rho_{\pi}(s)\sum_a\tilde{\pi}(a\mid s)A_{\pi}(s,a)$$
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;further&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+
+$$\eta(\tilde{\pi})\geq L_{\pi}(\tilde{\pi})-\dfrac{4\epsilon\gamma}{(1-\gamma)^2}\alpha$$
+
+
+$$where\ \alpha=\operatorname*{max}_{s}D_{\mathrm{KL}}(\pi(\cdot\mid s)\Vert{\tilde{\pi}}(\cdot\mid s)),\epsilon=\operatorname*{{max}}_{s,a}\Big|A_{\pi}(s,a)\Big|$$
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Another form&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+
+$$\underset{\theta}{\mathrm{maximize}}\quad\hat{\mathbb{E}}_t\bigg[\dfrac{\pi_\theta(a_t\mid s_t)}{\pi_{\theta_\mathrm{old}}(a_t\mid s_{t})}\hat{A}_t\bigg]\quad$$
+
+
+$$where\ \hat{\mathbb{E}}_{t}[\mathrm{KL}[\pi_{\theta\text{old}}(\cdot\mid s_{t}),\pi_{\theta}(\cdot\mid s_t)]]\leq\delta.$$
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;proof:&lt;/strong&gt;&lt;/em&gt; &lt;a href=&#34;https://github.com/opendilab/PPOxFamily/blob/main/chapter1_overview/chapter1_supp_trpo.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PPOxFamily/chapter1_supp_trpo.pdf at main · opendilab/PPOxFamily (github.com)&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;ppoproximal-policy-optimization&#34;&gt;PPO(Proximal Policy Optimization)&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+
+
+$$\mathbb{E}_t[\min(\dfrac{\pi_\theta(a_t|s_t)}{\pi_{\theta_k}(a_t|s_{t})}A^{\theta_k}(s_r,a_{t}),\text{clip}(\dfrac{\pi_\vartheta(a_t|s_i)}{\pi_{\vartheta_k}(a_r|s_i)},1-\epsilon,1+\epsilon)A^{\theta_4}(s_r,a_t))]$$
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230411205650895.png&#34; alt=&#34;image-20230411205650895&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;article:&lt;/strong&gt;&lt;/em&gt; &lt;a href=&#34;https://arxiv.org/pdf/1707.06347&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://arxiv.org/pdf/1707.06347&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;moving-towards-real-decision-problems-multi-agent-system&#34;&gt;Moving towards Real decision Problems (Multi-Agent System)&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Biological swarm intelligence (population game, co-evolution)&lt;/li&gt;
+&lt;li&gt;Machine swarm intelligence (division of labor and cooperation, each performs his own duties)&lt;/li&gt;
+&lt;li&gt;GameAI (Cooperative mission objective)&lt;/li&gt;
+&lt;li&gt;Loss Function&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230410215615355.png&#34; alt=&#34;image-20230410215615355&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;the-basic-theory-of-multi-agent-cooperation&#34;&gt;The basic theory of multi-agent cooperation&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230411210414509.png&#34; alt=&#34;image-20230411210414509&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;general-setting-for-multi-agent-decision-making&#34;&gt;General setting for multi-agent decision making&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Joint action $(a^1, a^2, \dots, a^N) \in A^1 \times A^2 \times \dots \times A^N$&lt;/li&gt;
+&lt;li&gt;Agent-wise reward $R^i = R^i(s,\ a^{-i},\ a^i), \ a^{-i}=(a^1,\dots,a^N)\setminus a^i$&lt;/li&gt;
+&lt;li&gt;Individual optimality: Maximizes the cumulative discount rewards of a single agent&lt;/li&gt;
+&lt;li&gt;But team optimality is not a superposition of individual optimality, and collaboration, competition, and more complexity may occur.&lt;/li&gt;
+&lt;li&gt;Formally, &lt;strong&gt;Dec-POMDP:&lt;/strong&gt; $M = &amp;lt;I, S, {A_i}, P, R, {\Omega_i}, O, h &amp;gt;$
+&lt;ul&gt;
+&lt;li&gt;$I$, the set of agents&lt;/li&gt;
+&lt;li&gt;$I$ the set of states with initial state $s_0$&lt;/li&gt;
+&lt;li&gt;$A_i$, the set of actions for agent $i$, with $A = \times_iA_i$ the set of joint actions&lt;/li&gt;
+&lt;li&gt;$P$, the state transition probabilities: $P(s&amp;rsquo;| \ s,\ a)$, the probability of the environment transitioning to state $s&amp;rsquo;$ given it was in state $s$ and agents took actions $a$&lt;/li&gt;
+&lt;li&gt;$R$, the global reward function: $R(s,\ a)$, the immediate reward the system receives for being in state $s$ and agents taking actions $a$&lt;/li&gt;
+&lt;li&gt;$\Omega_i$, the set of observations for agent $i$, with $\Omega = \times_i\Omega_i$ the set of joint observations&lt;/li&gt;
+&lt;li&gt;$O$, the observation probabilities: $O(o| \ s,\ a)$, the probability of agents seeing observations $o$, given the state is $s$ and agents take actions $a$&lt;/li&gt;
+&lt;li&gt;$h$, the horizon, whether infinite or if finite, a positive integer&lt;/li&gt;
+&lt;li&gt;when $h$ is infinite a discount factor, $0 ≤ \gamma &amp;lt; 1$ , is used&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;ctdecentealized-training-and-decentralized-execution&#34;&gt;CTDE(centealized training and decentralized execution)&lt;/h1&gt;
+&lt;h2 id=&#34;value-decomposition&#34;&gt;Value decomposition&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;IGM: individual -global -max&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+
+$$\operatorname{arg}\operatorname*{max}_{a\in\mathcal{A}}Q_{t o v}(s,a)=\left(\underset{a_{1}\in\mathcal{A}}{arg\operatorname*{max}}Q_{1}\left(s_{1},a_{1}\right),\ldots,\underset{a_{n}\in\mathbb{a}}{a_{n}}\left(s_{n},a_{n}\right)\right)$$
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;TD-Learning&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;VDN(value decomposition networks): The value function of each agent is integrated to obtain a joint action value function&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;QMIX:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If $\dfrac{\partial Q_{tot}}{\partial Q_a}\geq0,\forall a.$, IGM must be true.&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230411215314073.png&#34; alt=&#34;image-20230411215314073&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;For each agent a, there is one agent network that represents its individual value function $Q_a(\tau_a , u_a )$. We represent agent networks as DRQNs that receive the current individual observation $o^a_t$ and the last action $u^a_{t−1}$ as input at each time step, as shown in Figure c.&lt;/li&gt;
+&lt;li&gt;The mixing network is a feed-forward neural network that takes the agent network outputs as input and mixes them monotonically, producing the values of $Q_{tot}$, as shown in Figure a. To enforce the monotonicity constraint of $\dfrac{\partial Q_{tot}}{\partial Q_a}\geq0,\forall a.$, the weights (but not the biases) of the mixing network are restricted to be non-negative. This allows the mixing network to approximate any monotonic function arbitrarily closely.&lt;/li&gt;
+&lt;li&gt;The weights of the mixing network are produced by separate hypernetworks. Each hypernetwork takes the state s as input and generates the weights of one layer of the mixing network. Each hypernetwork consists of a single linear layer, followed by an absolute activation function, to ensure that the mixing network weights are non-negative.&lt;/li&gt;
+&lt;li&gt;Loss $\mathcal{L}(\theta)=\sum_{i=1}^b\left[\left(y_i^{tot}-Q_{tot}(\tau,\mathbf{u},s;\theta)\right)^2\right],$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Others: More and more complex designs guarantee that generated  $Q_{tot}$ meet the IGM conditions&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The value decomposition method may fail&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;mapg&#34;&gt;MAPG&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;MADDPG (multi-agent deep deterministic policy gradient)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230411221822530.png&#34; alt=&#34;image-20230411221822530&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;MADDPG algorithm assumes that each agent has its own independent critic network and actor network, and each agent has its own independent return function. In this way, MADDPG algorithm can simultaneously solve the multi-agent problem in cooperative environment, competitive environment and mixed environment. But the MADDPG algorithm assumes that each agent has access to the local observations and actions of all other agents during training&lt;/li&gt;
+&lt;li&gt;high variance
+&lt;ul&gt;
+&lt;li&gt;baseline trick&lt;/li&gt;
+&lt;li&gt;MAPPO&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;multi-agent credit assignment&lt;/strong&gt;: Since all agents in Dec-POMDP problem share the same global return, each agent does not know how much influence its behavior has on the global return.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;MAPPO&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230411223238938.png&#34; alt=&#34;image-20230411223238938&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230411223740103.png&#34; alt=&#34;image-20230411223740103&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;Implement PG with PPO&lt;/li&gt;
+&lt;li&gt;Critic Input design: Agent-Specific Global State
+&lt;ul&gt;
+&lt;li&gt;Different critic input information needs to be prepared for each agent to generate a value function exclusive to the agent.&lt;/li&gt;
+&lt;li&gt;Different global state coding designs also have significant performance implications&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;COMA&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Agent $a$ &lt;strong&gt;counterfactual baseline&lt;/strong&gt;: $A^a(s, \boldsymbol{u})=Q(s,\boldsymbol{u})-\sum_{u&amp;rsquo;^a}\pi^a(u&amp;rsquo;^a|\tau^a)Q(s,(\boldsymbol{u}^{-a},u&amp;rsquo;^a))$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The formula for calculating the strategy gradient of COMA is as follows&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+
+$$g_k=\mathbb{E}_\pi[\sum_a\nabla_{\theta_k}\log\pi^a(u^a|\tau^a)A^a(s,\textbf{u})]$$
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230412021143213.png&#34; alt=&#34;image-20230412021143213&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;COMA learns a stochastic policy for discrete actions, while MADDPG learns a deterministic policy for continuous actions.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;COMA is mainly used for multi-agent cooperative tasks, with one critic evaluating the team&amp;rsquo;s overall reward, while MADDPG can be used for both cooperative and competitive tasks, with each agent having a separate reward function and critic.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In the original paper, COMA uses historical observations and action sequences as inputs to the network, while MADDPG does not use historical sequences.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;All agents&amp;rsquo; actor networks in COMA share parameters, while MADDPG does not.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;COMA uses counterfactual baselines as the optimization target for actor networks, while MADDPG directly uses the Q function as the optimization target for each agent&amp;rsquo;s actor network.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;shared-parameter-method&#34;&gt;Shared parameter method&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The lack of strategy exploration can worsen exponentially with the increasing number of agents.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;trick&#34;&gt;Trick&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;MA Transformer with Advantage Decomposition&lt;/li&gt;
+&lt;li&gt;Param Sharing
+&lt;ul&gt;
+&lt;li&gt;Sharing parameters among homogeneous agents can significantly improve training performance
+Improper&lt;/li&gt;
+&lt;li&gt;sharing of parameters between heterogeneous agents can be a hindrance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Mask
+&lt;ul&gt;
+&lt;li&gt;death mask&lt;/li&gt;
+&lt;li&gt;action mask&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Entropy Balance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;multi-agent-advantage-decomposition&#34;&gt;Multi-Agent Advantage Decomposition&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;MATRPO
+&lt;ul&gt;
+&lt;li&gt;[&lt;a href=&#34;https://arxiv.org/abs/2109.11251&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2109.11251] Trust Region Policy Optimisation in Multi-Agent Reinforcement Learning (arxiv.org)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Dr. Yaodong Yang.&lt;/li&gt;
+&lt;li&gt;Without IGM condition and shared parameter, they apply TRPO iteration under MA Settings.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/qq_45832958/article/details/123644900?spm=1001.2014.3001.5502&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(258条消息) 强化学习 | Multi Agents | Trust Region | HATRPO | HAPPO_111辄的博客-CSDN博客&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;MA-Transformer
+&lt;ul&gt;
+&lt;li&gt;[&lt;a href=&#34;https://arxiv.org/abs/2205.14953&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2205.14953] Multi-Agent Reinforcement Learning is a Sequence Modeling Problem (arxiv.org)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;A unified framework for multi-agent cooperative Game: Multi-agent mirror Learning：
+&lt;ul&gt;
+&lt;li&gt;[&lt;a href=&#34;https://arxiv.org/abs/2208.01682&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2208.01682] Heterogeneous-Agent Mirror Learning: A Continuum of Solutions to Cooperative MARL (arxiv.org)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.techbeat.net/talk-info?id=715&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;一个合作博弈的通用求解框架 - TechBeat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;It needs to be read carefully, but I haven&amp;rsquo;t&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;aceaction-dependent-q-learning&#34;&gt;ACE(action-dependent Q-learning)&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;[&lt;a href=&#34;https://arxiv.org/abs/2211.16068&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2211.16068] ACE: Cooperative Multi-agent Q-learning with Bidirectional Action-Dependency (arxiv.org)&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Dr. Yaodong Yang.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Question: The instability of reward and transition breaks the Markov hypothesis followed by the reinforcement learning algorithm, which leads to the unstable updating of the value function of the agent&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Core idea: Instead of requiring multiple agents to produce actions at the same time, the cooperative action problem of multiple agents is transformed into a stable and efficient sequentially expanded MDP (SE-MDP), which models the bidirectional action dependence between agents, abstracts the most simplified cooperative representation, and makes each agent produce decision behaviors one by one. Finally, the non-stationary multi-agent decision problem is transformed into a special stationary single agent decision problem&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230412101807551.png&#34; alt=&#34;image-20230412101807551&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Decision with Rollout:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+
+$$a_{i+1}^t=\arg\max_{a_{i+1}}V\left(s_{a_{1i},a_{i+1}}^t\right)$$
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Update with Rollout&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+
+$$\hat{V}\left(s_{a_{1i}}^t\right)=\begin{cases}\max_{a_{i+1}}\gamma V\left(s_{a_{1+1}a_{i+1}}^t\right),&amp;\text{if}\ i&lt;n\\ \max_{a_{1}}r\left(s^t,a_{1;n}\right)+\gamma V\left(\begin{matrix}s_{a_{1}}^{t+1}\end{matrix}\right),&amp;\textrm{if}\ i=n\end{cases}$$
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;transition 
+
+$$(s^t,a,r(s^t, a), s^{t+1})$$&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Decomposed State Embedding&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+
+
+$$\mathrm{state~embeddings~}e_{s}(s_{a_{1:i}}^{t}) ,\ \mathrm{embeddings~}e_{s}(s^{t}), \mathrm{action~embeddings~}e_{a}(a_i)); $$
+&lt;/li&gt;
+&lt;li&gt;
+
+
+$$e_s(s_{a_{1i}}^t)=\left[e_u(u_{1,a_{1i}}),...,e_u(u_{m,a_{1i}})\right]$$
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230412130142428.png&#34; alt=&#34;image-20230412130142428&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;where $P\left(a_{1,i}\right)_{j}$ is the set of all passive action embeddings whose target unit is $u_j$ . When $i\geq j,$ which means uj is an agent-controlled unit and has made its decision $a_j$ , the active embedding $e_a^a (a_j )$ will also be added to$ e_u (u_j ).$&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230412104112935.png&#34; alt=&#34;image-20230412104112935&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Unit-wise State Embedding(Unit Encoder)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230412104324369.png&#34; alt=&#34;image-20230412104324369&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Interaction-aware Action Embedding&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$\mathrm{active~embeddings~}e_{a}^a(a_i)$: encode action $a_i$&amp;rsquo;s effect on the agent $u_i$&lt;/li&gt;
+&lt;li&gt;$\mathrm{passive~embeddings~}e_{a}^p(a_i)$: encode action $a_i$&amp;rsquo;s effect on the agent $u_j$&lt;/li&gt;
+&lt;li&gt;$e_{a}(a_i) = [e_{a}^a(a_i), e_{a}^p(a_i)]$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>LLM/MMM for RL</title>
