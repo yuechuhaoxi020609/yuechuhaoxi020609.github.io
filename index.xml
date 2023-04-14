@@ -1288,7 +1288,7 @@
 &lt;li&gt;[&lt;a href=&#34;https://arxiv.org/abs/2010.09890&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2010.09890] Watch-And-Help: A Challenge for Social Perception and Human-AI Collaboration (arxiv.org)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Sap et al proposed a dataset to evaluate language-based commonsense reasoning about social interactions, including reasoning about motivation and about emotional reactions .&lt;/li&gt;
 &lt;li&gt;[&lt;a href=&#34;https://arxiv.org/abs/1904.09728&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;1904.09728] SocialIQA: Commonsense Reasoning about Social Interactions (arxiv.org)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;**Hanabi: ** Bard et al propose the cooperative and imperfect information card game, Hanabi, as a challenging benchmark. It requires reasoning about the beliefs and the intentions of other players, focusing on the ad-hoc setting where an agent has to coordinate with a team they encounter for the first time.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hanabi:&lt;/strong&gt; Bard et al propose the cooperative and imperfect information card game, Hanabi, as a challenging benchmark. It requires reasoning about the beliefs and the intentions of other players, focusing on the ad-hoc setting where an agent has to coordinate with a team they encounter for the first time.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0004370219300116?via%3Dihub&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Hanabi challenge: A new frontier for AI research - ScienceDirect&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
 
