@@ -23,28 +23,12 @@
 &lt;/ul&gt;
 &lt;h1 id=&#34;reasoning&#34;&gt;Reasoning&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;RT-1&lt;/strong&gt;: &amp;ldquo;RT-1: Robotics Transformer for Real-World Control at Scale&amp;rdquo;, &lt;em&gt;arXiv, Dec 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2212.06817&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]  [&lt;a href=&#34;https://github.com/google-research/robotics_transformer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;] [&lt;a href=&#34;https://robotics-transformer.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Code-As-Policies&lt;/strong&gt;: &amp;ldquo;Code as Policies: Language Model Programs for Embodied Control&amp;rdquo;, &lt;em&gt;arXiv, Sept 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2209.07753&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]  [&lt;a href=&#34;https://github.com/google-research/google-research/tree/master/code_as_policies&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Colab&lt;/a&gt;] [&lt;a href=&#34;https://code-as-policies.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Say-Can&lt;/strong&gt;: &amp;ldquo;Do As I Can, Not As I Say: Grounding Language in Robotic Affordances&amp;rdquo;, &lt;em&gt;arXiv, Apr 2021&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2204.01691&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]  [&lt;a href=&#34;https://say-can.github.io/#open-source&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Colab&lt;/a&gt;] [&lt;a href=&#34;https://say-can.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Socratic&lt;/strong&gt;: &amp;ldquo;Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language&amp;rdquo;, &lt;em&gt;arXiv, Apr 2021&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2204.00598&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://socraticmodels.github.io/#code&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://socraticmodels.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;PIGLeT&lt;/strong&gt;: &amp;ldquo;PIGLeT: Language Grounding Through Neuro-Symbolic Interaction in a 3D World&amp;rdquo;, &lt;em&gt;ACL, Jun 2021&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2201.07207&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;http://github.com/rowanz/piglet&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://rowanzellers.com/piglet/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;planning&#34;&gt;Planning&lt;/h1&gt;
+&lt;li&gt;&lt;strong&gt;TidyBot&lt;/strong&gt;: &amp;ldquo;Personalized Robot Assistance with Large Language Models&amp;rdquo;, &lt;em&gt;arXiv, May 2023&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2305.05658&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/jimmyyhwu/tidybot/tree/main/robot&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://tidybot.cs.princeton.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;LM-Nav&lt;/strong&gt;: &amp;ldquo;Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action&amp;rdquo;, &lt;em&gt;arXiv, July 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2207.04429&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/blazejosinski/lm_nav&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://sites.google.com/view/lmnav&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
-&lt;ul&gt;
+&lt;li&gt;personalization of household cleanup with robots&lt;/li&gt;
+&lt;li&gt;where objects should go is highly personal, and depends on cultural norms and individual preferences&lt;/li&gt;
+&lt;li&gt;Our approach is to utilize the summarization capabilities of large language models (LLMs) to provide generalization from a small number of example preferences&lt;/li&gt;
+&lt;li&gt;a publicly released benchmark dataset for evaluating generalization of receptacle selection preferences&lt;/li&gt;
 &lt;li&gt;
 
 
@@ -63,15 +47,341 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230410013423928.png&#34; alt=&#34;image-20230410013423928&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230714222509970.png&#34; alt=&#34;image-20230714222509970&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/li&gt;
-&lt;li&gt;LLM: GPT-3 parse textual instructions into a sequence of landmarks ($t$).&lt;/li&gt;
-&lt;li&gt;VLM: CLIP compute likelihood that image $i_k$ corresponds to the string $t$&lt;/li&gt;
-&lt;li&gt;VNM: ViNG  uses a goal-conditioned distance function to infer connectivity between the set of raw observations and constructs a topological graph&lt;/li&gt;
-&lt;li&gt;Navigation&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PIGLeT&lt;/strong&gt;: &amp;ldquo;PIGLeT: Language Grounding Through Neuro-Symbolic Interaction in a 3D World&amp;rdquo;, &lt;em&gt;ACL, Jun 2021&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2106.00188&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;http://github.com/rowanz/piglet&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://rowanzellers.com/piglet/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]
+&lt;ul&gt;
+&lt;li&gt;factorize PIGLeT into a physical dynamics model, and a separate language model.&lt;/li&gt;
+&lt;li&gt;read a sentence, simulate neurally what might happen next, and then communicate that result through a literal symbolic representation, or natural language.&lt;/li&gt;
+&lt;li&gt;Environment: THOR&lt;/li&gt;
+&lt;li&gt;$\left{\boldsymbol{o}&lt;em&gt;{1}, \ldots, \boldsymbol{o}&lt;/em&gt;{N}\right} \times \boldsymbol{a} \rightarrow\left{\boldsymbol{o}&lt;em&gt;{1}^{\prime}, \ldots, \boldsymbol{o}&lt;/em&gt;{N}^{\prime}\right}$ trained by data&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230715003231256.png&#34; alt=&#34;image-20230715003231256&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Matcha&lt;/strong&gt;: &amp;ldquo;Chat with the Environment: Interactive Multimodal Perception using Large Language Models&amp;rdquo;, Accepted in IROS, 2023. [&lt;a href=&#34;https://arxiv.org/pdf/2303.08268.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/xf-zhao/Matcha&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;] [&lt;a href=&#34;https://matcha-model.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]
+&lt;ul&gt;
+&lt;li&gt;able to interactively perceive (“chat” with) the environment through multimodal perception when the information from passive visual perception is insufficient for completing an instructed task.&lt;/li&gt;
+&lt;li&gt;The epistemic actions are executed autoregressively until the agent is confident enough about the information sufficiency in that situation.&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230715002541087.png&#34; alt=&#34;image-20230715002541087&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LMPrior&lt;/strong&gt;: &amp;ldquo;LMPriors: Pre-Trained Language Models as Task-Specific Priors&amp;rdquo;, &lt;em&gt;arXiv, Oct 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2210.12530&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;LMPrior as a function transform&lt;/strong&gt;. We define LMPriors as a family of functions $\mathcal{P}$ which take some relevant metadata $\mathcal{D}&lt;em&gt;{\text {meta }}$ which is not used by the traditional learning process $f$. The LMPrior then transforms $f$ to $\tilde{f}$ which exhibits a bias towards outputs which are consistent with the metadata $\mathcal{D}&lt;/em&gt;{\text {meta }}$&lt;/li&gt;
+&lt;li&gt;Use the name and brief description of the label to help complete the task Feature selection, Reinforcement learning, Causal discovery&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230710120308271.png&#34; alt=&#34;image-20230710120308271&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230710120424484.png&#34; alt=&#34;image-20230710120424484&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ReAct&lt;/strong&gt;: &amp;ldquo;ReAct: Synergizing Reasoning and Acting in Language Models&amp;rdquo;, ICLR, 2023. [&lt;a href=&#34;https://arxiv.org/abs/2210.03629&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/ysymyth/ReAct&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;] [&lt;a href=&#34;https://react-lm.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]
+&lt;ul&gt;
+&lt;li&gt;their abilities for reasoning (e.g. chain-of-thought prompting) and acting (e.g. action plan generation) have primarily been studied as separate topics.&lt;/li&gt;
+&lt;li&gt;combine reasoning and acting with language models for solving diverse language reasoning and decision making tasks.&lt;/li&gt;
+&lt;li&gt;Knowledge-Intensive Reasoning Tasks&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230710172745445.png&#34; alt=&#34;image-20230710172745445&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Generative Agents&lt;/strong&gt;: &amp;ldquo;Generative Agents: Interactive Simulacra of Human Behavior&amp;rdquo;, arXiv, Apr 2023. [&lt;a href=&#34;https://arxiv.org/abs/2304.03442v1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]
+&lt;ul&gt;
+&lt;li&gt;generative agents—agents that draw on generative models to simulate believable human behavior&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230711003847934.png&#34; alt=&#34;image-20230711003847934&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Large Language Models as Zero-Shot Human Models for Human-Robot Interaction&amp;rdquo;, arXiv, Mar 2023. [&lt;a href=&#34;https://arxiv.org/abs/2303.03548v1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]
+&lt;ul&gt;
+&lt;li&gt;crafting good human models is challenging&lt;/li&gt;
+&lt;li&gt;how LLM-based human models can be integrated into a social robot’s planning process and applied in HRI scenarios&lt;/li&gt;
+&lt;li&gt;LLM do social inference tasks&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230711013413057.png&#34; alt=&#34;image-20230711013413057&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Translating Natural Language to Planning Goals with Large-Language Models&amp;rdquo;, arXiv, Feb 2023. [&lt;a href=&#34;https://arxiv.org/abs/2302.05128&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]
+&lt;ul&gt;
+&lt;li&gt;LLMs are unable to perform accurate reasoning nor solve planning problems, which may limit their usefulness for robotics-related tasks&lt;/li&gt;
+&lt;li&gt;LLMs are able to translate goals specified in natural language to a structured planning language&lt;/li&gt;
+&lt;li&gt;Planning Domain Definition Language (PDDL)&lt;/li&gt;
+&lt;li&gt;Few-shots&lt;/li&gt;
+&lt;li&gt;Sub benchmark: Domain Understanding, Goal Inference, PDDL Goal Specification&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;PDDL Planning with Pretrained Large Language Models&amp;rdquo;, NeurlPS, 2022. [&lt;a href=&#34;https://openreview.net/forum?id=1QMMUB4zfl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://tinyurl.com/llm4pddl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;]
+&lt;ul&gt;
+&lt;li&gt;In certain PDDL domains, LLMs are capable of solving some nontrivial problems.&lt;/li&gt;
+&lt;li&gt;However, in many other cases, LLMs cannot yet solve problems on their own.&lt;/li&gt;
+&lt;li&gt;LLMs are sensitive to the semantics of the English terms used in the PDDL problems.&lt;/li&gt;
+&lt;li&gt;we prompt with the original PDDL syntax, rather than domain-specific natural language encodings of the PDDL.  it makes better result.&lt;/li&gt;
+&lt;li&gt;use Codex — a version of GPT-3 fine-tuned on general code to get a better result&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LLM+P&lt;/strong&gt;:&amp;ldquo;LLM+P: Empowering Large Language Models with Optimal Planning Proficiency&amp;rdquo;, &lt;em&gt;arXiv, Apr 2023&lt;/em&gt;, [&lt;a href=&#34;https://arxiv.org/abs/2304.11477&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/Cranial-XIX/llm-pddl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt;]
+&lt;ul&gt;
+&lt;li&gt;the first framework that incorporates the strengths of classical planners into LLMs.&lt;/li&gt;
+&lt;li&gt;LLM+P does so by first converting the language description into a file written in the planning domain definition language (PDDL),&lt;/li&gt;
+&lt;li&gt;then leveraging classical planners to quickly find a solution,&lt;/li&gt;
+&lt;li&gt;and then translating the found solution back into natural language.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Foundation Models for Decision Making: Problems, Methods, and Opportunities&amp;rdquo;, &lt;em&gt;arXiv, Mar 2023&lt;/em&gt;, [&lt;a href=&#34;https://arxiv.org/abs/2303.04129&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]
+&lt;ul&gt;
+&lt;li&gt;foundation models can serve as generative models of behavior (e.g., skill discovery) and generative models of the environment&lt;/li&gt;
+&lt;li&gt;foundation models can serve as representation learners of states, actions, rewards, and transition dynamics&lt;/li&gt;
+&lt;li&gt;language foundation models can serve as interactive agents and environments, enabling new problems and applications to be considered under a sequential decision making framework&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;planning&#34;&gt;Planning&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;PromptCraft&lt;/strong&gt;: &amp;ldquo;ChatGPT for Robotics: Design Principles and Model Abilities&amp;rdquo;, &lt;em&gt;Blog, Feb 2023&lt;/em&gt;, [&lt;a href=&#34;https://www.microsoft.com/en-us/research/uploads/prod/2023/02/ChatGPT___Robotics.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://www.microsoft.com/en-us/research/group/autonomous-systems-group-robotics/articles/chatgpt-for-robotics/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]
+&lt;ul&gt;
+&lt;li&gt;evaluations on the effectiveness of different prompt engineering techniques and dialog strategies towards the execution of various types of robotics tasks&lt;/li&gt;
+&lt;li&gt;use free-form dialog,&lt;/li&gt;
+&lt;li&gt;parse XML tags,&lt;/li&gt;
+&lt;li&gt;and to synthesize code&lt;/li&gt;
+&lt;li&gt;use of task-specific prompting functions and closed-loop reasoning through dialogues&lt;/li&gt;
+&lt;li&gt;PromptCraft, which contains a platform where researchers can collaboratively upload and vote on examples of good prompting schemes for robotics applications&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;FILM&lt;/strong&gt;: &amp;ldquo;FILM: Following Instructions in Language with Modular Methods&amp;rdquo;, ICLR, 2022. [&lt;a href=&#34;https://arxiv.org/abs/2110.07342&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/soyeonm/FILM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt;] [&lt;a href=&#34;https://soyeonm.github.io/FILM_webpage/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]
+&lt;ul&gt;
+&lt;li&gt;embodied instruction&lt;/li&gt;
+&lt;li&gt;(1) builds a semantic map of the scene&lt;/li&gt;
+&lt;li&gt;(2) performs exploration with a semantic search policy&lt;/li&gt;
+&lt;li&gt;ALFRED env&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230715155943746.png&#34; alt=&#34;image-20230715155943746&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Don&amp;rsquo;t Copy the Teacher&lt;/strong&gt;: &amp;ldquo;Don’t Copy the Teacher: Data and Model Challenges in Embodied Dialogue&amp;rdquo;, EMNLP, 2022. [&lt;a href=&#34;https://arxiv.org/abs/2210.04443&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://www.youtube.com/watch?v=qGPC65BDJw4&amp;amp;t=2s&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]
+&lt;ul&gt;
+&lt;li&gt;The article discusses TEACh, a new task system that focuses on Entire Dialogue History (EDH) and Trajectory from Dialogue (TfD), in which agents complete household tasks based on text and visual cues.&lt;/li&gt;
+&lt;li&gt;In EDH, agents predict actions from partial dialogue history, while in TfD, they&amp;rsquo;re expected to complete a whole task from a full dialogue history.&lt;/li&gt;
+&lt;li&gt;The authors present three models for these tasks: ET, a direct sequence imitation transformer, FILM, a four-module system originally designed for ALFRED tasks, and Symbiote, a competitive modular method for EDH.&lt;/li&gt;
+&lt;li&gt;FILM was adapted for TEACh by refactoring the code to accept dialogue history as input, and retraining the model.&lt;/li&gt;
+&lt;li&gt;The paper primarily investigates how to improve task execution by agents using dialogue history and how to evaluate their performance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PaLM-E&lt;/strong&gt;: &amp;ldquo;PaLM-E: An Embodied Multimodal Language Model&amp;rdquo;, &lt;em&gt;arXiv, Mar 2023&lt;/em&gt;, [&lt;a href=&#34;https://arxiv.org/abs/2303.03378&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://palm-e.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Webpage&lt;/a&gt;]
+&lt;ul&gt;
+&lt;li&gt;grounding end-to-end model&lt;/li&gt;
+&lt;li&gt;Input :multi-modal sentences that interleave visual, continuous state estimation, and textual input encodings.&lt;/li&gt;
+&lt;li&gt;in conjunction with a pretrained large language mode&lt;/li&gt;
+&lt;li&gt;robotic manipulation planning, visual question answering, and captioning&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230714234352286.png&#34; alt=&#34;image-20230714234352286&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RT-1&lt;/strong&gt;: &amp;ldquo;RT-1: Robotics Transformer for Real-World Control at Scale&amp;rdquo;, &lt;em&gt;arXiv, Dec 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2212.06817&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/google-research/robotics_transformer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;] [&lt;a href=&#34;https://robotics-transformer.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]
+&lt;ul&gt;
+&lt;li&gt;open-ended task-agnostic training, combined with high-capacity architectures that can absorb all of the diverse, robotic data&lt;/li&gt;
+&lt;li&gt;based on a large-scale data collection on real robots performing real-world tasks&lt;/li&gt;
+&lt;li&gt;output is plan&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230714235720100.png&#34; alt=&#34;image-20230714235720100&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;InnerMonlogue&lt;/strong&gt;: &amp;ldquo;Inner Monologue: Embodied Reasoning through Planning with Language Models&amp;rdquo;, &lt;em&gt;arXiv, July 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2207.05608&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://innermonologue.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
 &lt;ul&gt;
@@ -148,6 +458,92 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
+&lt;p&gt;&lt;strong&gt;LLM-BRAIn&lt;/strong&gt;: &amp;ldquo;LLM-BRAIn: AI-driven Fast Generation of Robot Behaviour Tree based on Large Language Model&amp;rdquo;, &lt;em&gt;arXiv, May 2023&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2305.19352&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;LLM-BRAIn is a transformer-based Large Language Model (LLM) finetuned from Stanford Alpaca 7B model to generate robot behavior tree (BT) from the text description.&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230714211624993.png&#34; alt=&#34;image-20230714211624993&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;MOO&lt;/strong&gt;: &amp;ldquo;Open-World Object Manipulation using Pre-Trained Vision-Language Models&amp;rdquo;, &lt;em&gt;arXiv, Mar 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2303.00905&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://robot-moo.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To allow robots to generalize to new semantic concepts, we choose to leverage VLMs&lt;/li&gt;
+&lt;li&gt;position information to encode&lt;/li&gt;
+&lt;li&gt;imitation learning&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230711180547447.png&#34; alt=&#34;image-20230711180547447&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;CALM&lt;/strong&gt;: &amp;ldquo;Keep CALM and Explore: Language Models for Action Generation in Text-based Games&amp;rdquo;, &lt;em&gt;arXiv, Oct 2020&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2010.03903v1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/princeton-nlp/calm-textgame&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;text-based games.&lt;/li&gt;
+&lt;li&gt;train a model for action choice&lt;/li&gt;
+&lt;li&gt;Deep Reinforcement Relevance Network (DRRN) . This allows our model to combine generic linguistic priors for action generation with the ability to adaptively choose actions that are best suited for the game.&lt;/li&gt;
+&lt;li&gt;dataset of 426 human gameplay transcripts for 590 different text-based games.&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230711102810528.png&#34; alt=&#34;image-20230711102810528&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;strong&gt;ZSP&lt;/strong&gt;: &amp;ldquo;Language Models as Zero-Shot Planners: Extracting Actionable Knowledge for Embodied Agents&amp;rdquo;, &lt;em&gt;ICML, Jan 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2201.07207&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/huangwl18/language-planner&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://wenlong.page/language-planner/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -175,12 +571,593 @@
 &lt;li&gt;Planning LM (Causal LLM): GPT-3 $\hat{a}$&lt;/li&gt;
 &lt;li&gt;Translation LM(Masked LLM): BERT&lt;/li&gt;
 &lt;li&gt;for each admissible environment action $a_e$ $max\ C(f(\hat{a}), f(a_e)) = \frac{f(\hat{a})\cdot f(a_e)}{||f(\hat{a})||\ ||f(a_e)||}$&lt;/li&gt;
-&lt;li&gt;Mid-level actions&lt;/li&gt;
+&lt;li&gt;Mid-level actions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;ChatGPT-Prompts&lt;/strong&gt;: &amp;ldquo;ChatGPT Empowered Long-Step Robot Control in Various Environments: A Case Application&amp;rdquo;, &lt;em&gt;arXiv, Jun 2023&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2304.03893&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/microsoft/ChatGPT-Robot-Manipulation-Prompts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;VirtualHome&lt;/li&gt;
+&lt;li&gt;ChatGPT prompt engineering
+&lt;ul&gt;
+&lt;li&gt;Output a sequence of predefined robot actions with explanations in a readable JSON format.&lt;/li&gt;
+&lt;li&gt;Represent the operating environment in a formalized style.&lt;/li&gt;
+&lt;li&gt;Infer and output the updated state of the operating environment, which can be reused as the next input, allowing ChatGPT to operate based solely on the memory of the latest operations.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;ldquo;Planning with Large Language Models via Corrective Re-prompting&amp;rdquo;, &lt;em&gt;arXiv, Nov 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2311.09935&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;VirtualHome&lt;/li&gt;
+&lt;li&gt;When an agent is unable to execute an action, our approach re-prompts the LLM with precondition error information to extract an executable corrective action to achieve the intended goal in the current context.&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230711162943164.png&#34; alt=&#34;image-20230711162943164&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;ldquo;Visually-Grounded Planning without Vision: Language Models Infer Detailed Plans from High-level Instructions&amp;rdquo;, &lt;em&gt;arXiV, Oct 2020&lt;/em&gt;, [&lt;a href=&#34;https://arxiv.org/abs/2009.14259&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The ALFRED challenge task: a virtual robotic agent to complete everyday tasks  executing complex visually-grounded semantic plans&lt;/li&gt;
+&lt;li&gt;successful plans from language directives alone without any visual input in 26% of unseen cases&lt;/li&gt;
+&lt;li&gt;models using input from a single modality often performed nearly as good as or better than their multi-modal counterparts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;TIP&lt;/strong&gt;: &amp;ldquo;Multimodal Procedural Planning via Dual Text-Image Prompting&amp;rdquo;, &lt;em&gt;arXiV, May 2023&lt;/em&gt;, [&lt;a href=&#34;https://arxiv.org/abs/2305.01795&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the potential of providing instructions informed by texts and images to assist humans in completing tasks remains underexplored&lt;/li&gt;
+&lt;li&gt;given a high-level goal and generate plans of paired text-image steps, providing more complementary and informative guidance than unimodal plans.&lt;/li&gt;
+&lt;li&gt;Visual-Grounded Text Plan Text-Image Prompt&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230714192447413.png&#34; alt=&#34;image-20230714192447413&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230714192511754.png&#34; alt=&#34;image-20230714192511754&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;VLaMP&lt;/strong&gt;: &amp;ldquo;Pretrained Language Models as Visual Planners for Human Assistance&amp;rdquo;, &lt;em&gt;arXiV, Apr 2023&lt;/em&gt;, [&lt;a href=&#34;https://arxiv.org/abs/2304.09179&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;‘Visual Planning for Assistance (VPA)’. Given a goal briefly described in natural language and a video of the user’s progress so far, the aim of VPA is to obtain a plan.&lt;/li&gt;
+&lt;li&gt;Forecasting in Videos&lt;/li&gt;
+&lt;li&gt;Fine-tune on LLM&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230714193601697.png&#34; alt=&#34;image-20230714193601697&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Text2Motion&lt;/strong&gt;: &amp;ldquo;Text2Motion: From Natural Language Instructions to Feasible Plans&amp;rdquo;, &lt;em&gt;arXiV, Mar 2023&lt;/em&gt;, [&lt;a href=&#34;https://arxiv.org/abs/2303.12153&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://sites.google.com/stanford.edu/text2motion&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;interfaces an &lt;strong&gt;LLM&lt;/strong&gt; with a library of learned skills and a &lt;strong&gt;geometric feasibility planner&lt;/strong&gt; to solve complex sequential manipulation tasks&lt;/li&gt;
+&lt;li&gt;infers goal states from a natural language instruction&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230713225625008.png&#34; alt=&#34;image-20230713225625008&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;LLM-planner&lt;/strong&gt;: &amp;ldquo;LLM-Planner: Few-Shot Grounded Planning for Embodied Agents with Large Language Models&amp;rdquo;, &lt;em&gt;arXiv, Mar 2023&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2212.04088&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/OSU-NLP-Group/LLM-Planner/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://dki-lab.github.io/LLM-Planner/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;different from SayCan, we use LLMs to directly generate plans instead of ranking admissible skills&lt;/li&gt;
+&lt;li&gt;its ability to dynamically re-plan based on what the agent observes in the current environment&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230713224102931.png&#34; alt=&#34;image-20230713224102931&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;kNN to get nearest plan&lt;/li&gt;
+&lt;li&gt;ALFRED env&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;GD&lt;/strong&gt;: &amp;ldquo;Grounded Decoding: Guiding Text Generation with Grounded Models for Robot Control&amp;rdquo;, &lt;em&gt;arXiv, Mar 2023&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2303.00855&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://grounded-decoding.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;decodes the token probability of an LLM and token probabilities from token-conditioned, robotic functions, such as &lt;strong&gt;affordance, safety, preference&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230713233627295.png&#34; alt=&#34;image-20230713233627295&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;Grounded Models: CLIPort, etc&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;COWP&lt;/strong&gt;: &amp;ldquo;Robot Task Planning and Situation Handling in Open Worlds&amp;rdquo;, &lt;em&gt;arXiv, Oct 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2210.01287&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/yding25/GPT-Planner&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://cowplanning.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;acquire common sense from LLMs, and aim to improve the task completion and situation handling skills of service robots.&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230713205214315.png&#34; alt=&#34;image-20230713205214315&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230713205228824-1.png&#34; alt=&#34;image-20230713205228824&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;GLAM&lt;/strong&gt;: &amp;ldquo;Grounding Large Language Models in Interactive Environments with Online Reinforcement Learning&amp;rdquo;, &lt;em&gt;arXiv, May 2023&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2302.02662&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/flowersteam/Grounding_LLMs_with_online_RL&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230709192428587.png&#34; alt=&#34;image-20230709192428587&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;functional grounding&amp;rdquo; problem, is relative to a particular environment which may be the human physical environment but also more abstract interactive environments simulated in computers (where abstract physics can differ from human environments.&lt;/li&gt;
+&lt;li&gt;textual worlds, Language-conditioned RL&lt;/li&gt;
+&lt;li&gt;finetune LLM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;ldquo;Reward Design with Language Models&amp;rdquo;, &lt;em&gt;ICML, Feb 2023&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2303.00001v1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/minaek/reward_design_with_llms&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We evaluate whether our approach can train agents aligned with user objectives.&lt;/li&gt;
+&lt;li&gt;Given a few examples or a description demonstrating the user’s objective, an LLM should be able to provide an accurate instantiation of reward values on a new test example, allowing for easier generalization to new objectives.&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230709205456525.png&#34; alt=&#34;image-20230709205456525&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;This article directly constructs a reward generation system related to the expected reward prompt. Similar to previous works, this study is also subject to limitations in specific domains (those related to common-sense knowledge) and specific environments (those that are easy to express in text and have short decision cycles), making it difficult to use LLMs for reward design in general domains. However, this paper, along with the ELLM, demonstrates the power of pre-training large models and shows that LLMs can be well integrated into RL to perform various roles, such as assisting in exploration and reward design, among others.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;LLM-MCTS&lt;/strong&gt;: &amp;ldquo;Large Language Models as Commonsense Knowledge for Large-Scale Task Planning&amp;rdquo;, &lt;em&gt;arXiv, May 2023&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2305.14078v1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;whether the knowledge of LLMs regarding states of the world is more complete than their knowledge of policies for accomplishing daily tasks.&lt;/li&gt;
+&lt;li&gt;LLMs provide prior common sense beliefs of the world that can be used to sample likely states.&lt;/li&gt;
+&lt;li&gt;MCTS summarizes the useful information in searching the likely states through the estimated Q value (the expected reward after taking action) so as to make a reasonable decision.&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230709221701427.png&#34; alt=&#34;image-20230709221701427&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;ldquo;Collaborating with language models for embodied reasoning&amp;rdquo;, &lt;em&gt;NeurIPS, Feb 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2302.00763v1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;One major issue is that LSLMs are not embodied or grounded. They do not have a way to directly take actions in embodied environments, or of knowing what is happening in an environment.&lt;/li&gt;
+&lt;li&gt;The Planner is the LSLM—it reads the task description, does any required logical reasoning, and breaks the problem down into a sequence of simple instructions.&lt;/li&gt;
+&lt;li&gt;These instructions are passed to the Actor, which is an RL agent programmed to complete a small set of simple instructions in the environment.&lt;/li&gt;
+&lt;li&gt;Finally, to complete the feedback loop, we have the Reporter, which observes the environment and reports information back to the Planner so it can adjust the instructions it issues.&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230710181542462.png&#34; alt=&#34;image-20230710181542462&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;LLM-Brain&lt;/strong&gt;: &amp;ldquo;LLM as A Robotic Brain: Unifying Egocentric Memory and Control&amp;rdquo;, arXiv, Apr 2023. [&lt;a href=&#34;https://arxiv.org/abs/2304.09349v1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The LLM-Brain framework integrates multiple multimodal language models for robotic tasks
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230711010819272.png&#34; alt=&#34;image-20230711010819272&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;Eye (VLM): BLIP2 [13], a VQA model;&lt;/li&gt;
+&lt;li&gt;Nerve (LLM): ChatGPT&lt;/li&gt;
+&lt;li&gt;Brain (LLM): ChatGPT action space: move_forward, turn_left, turn_right, stop&lt;/li&gt;
+&lt;li&gt;Active Exploration and Embodied Question Answering&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Socratic&lt;/strong&gt;: &amp;ldquo;Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language&amp;rdquo;, &lt;em&gt;arXiv, Apr 2021&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2204.00598&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://socraticmodels.github.io/#code&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://socraticmodels.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;different large pretrained models store different forms of commonsense knowledge&lt;/li&gt;
+&lt;li&gt;multiple pretrained models may be composed zero-shot i.e., via multimodalinformed prompting,&lt;/li&gt;
+&lt;li&gt;formulating video understanding as a reading comprehension problem&lt;/li&gt;
+&lt;li&gt;activity $=f_{\mathrm{LM}}\left(f_{\mathrm{VLM}}\left(f_{\mathrm{LM}}\left(f_{\mathrm{ALM}}\left(f_{\mathrm{LM}}\left(f_{\mathrm{VLM}}(\right.\right.\right.\right.\right.$$video$ $\left.\left.\left.\left.\left.)\right)\right)\right)\right)\right)$&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230711012319689.png&#34; alt=&#34;image-20230711012319689&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Code-As-Policies&lt;/strong&gt;: &amp;ldquo;Code as Policies: Language Model Programs for Embodied Control&amp;rdquo;, &lt;em&gt;arXiv, Sept 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2209.07753&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/google-research/google-research/tree/master/code_as_policies&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Colab&lt;/a&gt;] [&lt;a href=&#34;https://code-as-policies.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This leads us to ask: how can LLMs be applied beyond just planning a sequence of skills?&lt;/li&gt;
+&lt;li&gt;Central to our approach is prompting hierarchical code-gen (recursively defining undefined functions), which can write more complex code&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230710104335405.png&#34; alt=&#34;image-20230710104335405&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;ProgPrompt&lt;/strong&gt;: &amp;ldquo;Generating Situated Robot Task Plans using Large Language Models&amp;rdquo;, arXiv, Sept 2022. [&lt;a href=&#34;https://arxiv.org/abs/2209.11302&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/progprompt/progprompt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;] [&lt;a href=&#34;https://progprompt.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;introduces situated-awareness in LLM-based robot task planning (program with assert)&lt;/li&gt;
+&lt;li&gt;open-loop without any environment interaction&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230715001819415.png&#34; alt=&#34;image-20230715001819415&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Instruct2Act&lt;/strong&gt;: &amp;ldquo;Mapping Multi-modality Instructions to Robotic Actions with Large Language Model&amp;rdquo;, &lt;em&gt;arXiv, May 2023&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/pdf/2305.11176.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/OpenGVLab/Instruct2Act&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CaP is restricted to what the perception APIs can provide and struggle to interpret longer and more complex commands due to the high precision requirements of the code.&lt;/li&gt;
+&lt;li&gt;Perception with off-the-shelf Foundation Models: Segment Anything Model (SAM) accurately locates candidate objects, and CLIP classifies them.&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230714221335753.png&#34; alt=&#34;image-20230714221335753&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Say-Can&lt;/strong&gt;: &amp;ldquo;Do As I Can, Not As I Say: Grounding Language in Robotic Affordances&amp;rdquo;, &lt;em&gt;arXiv, Apr 2021&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2204.01691&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://say-can.github.io/#open-source&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Colab&lt;/a&gt;] [&lt;a href=&#34;https://say-can.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a significant weakness of language models is that they lack real-world experience, which makes it difficult to leverage them for decision making within a given embodiment.&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230710102809920.png&#34; alt=&#34;image-20230710102809920&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;manipulation&#34;&gt;Manipulation&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ProgramPort&lt;/strong&gt;:&amp;ldquo;Programmatically Grounded, Compositionally Generalizable Robotic Manipulation&amp;rdquo;, &amp;ldquo;ICLR, Apr 2023&amp;rdquo;, [&lt;a href=&#34;https://arxiv.org/abs/2304.13826&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://progport.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]
+&lt;ul&gt;
+&lt;li&gt;Given the natural language instruction, we first use a Combinatory Categorial Grammar (CCG)&lt;/li&gt;
+&lt;li&gt;The program consists of functional modules that are either visual grounding modules (e.g., locate all objects of a given category) or action policies (e.g., produce a control parameter).&lt;/li&gt;
+&lt;li&gt;This enables us to directly leverage a pretrained VL model to ground singular, independent categories or attribute descriptors to their corresponding pixels, and thus disentangles the learning of visual grounding and action policies&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230715211647390.png&#34; alt=&#34;image-20230715211647390&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;DIAL&lt;/strong&gt;:&amp;ldquo;Robotic Skill Acquistion via Instruction Augmentation with Vision-Language Models&amp;rdquo;, &amp;ldquo;arXiv, Nov 2022&amp;rdquo;, [&lt;a href=&#34;https://arxiv.org/abs/2211.11736&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://instructionaugmentation.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
@@ -429,6 +1406,126 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
+&lt;p&gt;&lt;strong&gt;R3M&lt;/strong&gt;:&amp;ldquo;R3M: A Universal Visual Representation for Robot Manipulation&amp;rdquo;, &amp;quot; arXiv, Nov 2022&amp;rdquo;, [&lt;a href=&#34;https://arxiv.org/abs/2203.12601&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/facebookresearch/r3m&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://tinyurl.com/robotr3m&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;can visual representations pre-trained on diverse human videos enable efficient downstream learning of robotic manipulation skills?&lt;/li&gt;
+&lt;li&gt;(1) time contrastive learning to learn a representation that captures temporal dynamics, (2) video-language alignment to capture semantically relevant features of the scene, and (3) L1 and L2 penalties to encourage sparsity.&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230713210643467.png&#34; alt=&#34;image-20230713210643467&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;VIP&lt;/strong&gt;:&amp;ldquo;Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training&amp;rdquo;, &amp;quot; ICLR, 2023&amp;rdquo;, [&lt;a href=&#34;https://arxiv.org/abs/2210.00030&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/facebookresearch/vip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://sites.google.com/view/vip-rl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pre-trained on large-scale, in-the-wild human videos, frozen VIP network can provide visual reward and representation for downstream unseen robotics tasks and enable diverse visuomotor control strategies without any task-specific fine-tuning.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;LIV&lt;/strong&gt;:&amp;ldquo;LIV: Language-Image Representations and Rewards for Robotic Control&amp;rdquo;, &amp;quot; arXiv, Jun 2023&amp;quot;, [&lt;a href=&#34;https://arxiv.org/abs/2306.00958&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/penn-pal-lab/LIV&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://penn-pal-lab.github.io/LIV/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a multi-modal representation that implicitly encodes a universal value function for tasks specified as language or image goals.&lt;/li&gt;
+&lt;li&gt;pretrain and can be fine-tuned&lt;/li&gt;
+&lt;li&gt;LIV’s multi-modal value representations enable diverse visuomotor control applications&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;LILAC&lt;/strong&gt;:&amp;ldquo;No, to the Right – Online Language Corrections for Robotic Manipulation via Shared Autonomy&amp;rdquo;, &amp;ldquo;arXiv, Jan 2023&amp;rdquo;, [&lt;a href=&#34;https://arxiv.org/abs/2301.02555&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/Stanford-ILIAD/lilac&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;human gives an instruction, then the robot executes autonomously &amp;ndash; lack of adaptivity&lt;/li&gt;
+&lt;li&gt;natural language corrections&lt;/li&gt;
+&lt;li&gt;Learning from Language &amp;amp; Demonstrations&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230713163941618.png&#34; alt=&#34;image-20230713163941618&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;NLMap&lt;/strong&gt;:&amp;ldquo;Open-vocabulary Queryable Scene Representations for Real World Planning&amp;rdquo;, &amp;ldquo;arXiv, Oct 2023&amp;rdquo;, [&lt;a href=&#34;https://arxiv.org/abs/2209.09874&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://nlmap-saycan.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;establishes a natural language queryable scene representation with VLMs(CLIP VLiD)&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230714005719623.png&#34; alt=&#34;image-20230714005719623&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;NLMap + SayCan&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230714005745857.png&#34; alt=&#34;image-20230714005745857&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;&lt;strong&gt;VIMA&lt;/strong&gt;:&amp;ldquo;VIMA: General Robot Manipulation with Multimodal Prompts&amp;rdquo;, &amp;ldquo;arXiv, Oct 2022&amp;rdquo;, [&lt;a href=&#34;https://arxiv.org/abs/2210.03094&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/vimalabs/VIMA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://vimalabs.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;a transformer-based generalist robot agent, VIMA, that processes these prompts and outputs motor actions autoregressively.&lt;/li&gt;
@@ -490,27 +1587,553 @@
 &lt;li&gt;Trajectory Imitative learning&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;LLM-GROP&lt;/strong&gt;:&amp;ldquo;Task and Motion Planning with Large Language Models for Object Rearrangement&amp;rdquo;, &lt;em&gt;arXiv, May 2023&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/pdf/2303.06247&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://sites.google.com/view/llm-grop&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Multi-object rearrangement&lt;/li&gt;
+&lt;li&gt;How does a robot figure out a fork should be placed on the left of a plate and a knife on the right? Considerable commonsense knowledge is needed.&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230713203801153.png&#34; alt=&#34;image-20230713203801153&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;ldquo;Towards a Unified Agent with Foundation Models&amp;rdquo;, &lt;em&gt;ICLR, 2023&lt;/em&gt;. [&lt;a href=&#34;https://www.semanticscholar.org/paper/TOWARDS-A-UNIFIED-AGENT-WITH-FOUNDATION-MODELS-Palo-Byravan/67188a50e1d8a601896f1217451b99f646af4ac8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;LLM + VLM + Grounding Instructions into Actions(trained from scratch within an RL loop)&lt;/li&gt;
+&lt;li&gt;get inner reward: CLIP computing the similarity, as dot product, between observations and text descriptions.&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230711112333962.png&#34; alt=&#34;image-20230711112333962&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;ELLM&lt;/strong&gt;:&amp;ldquo;Guiding Pretraining in Reinforcement Learning with Large Language Models&amp;rdquo;, &lt;em&gt;arXiv, Feb 2023&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/pdf/2302.06692.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Intrinsically motivated exploration methods address this limitation by rewarding agents for visiting novel states or transitions, but these methods offer limited benefits in large environments where most discovered novelty is irrelevant for downstream tasks.&lt;/li&gt;
+&lt;li&gt;Reward design for Intrinsically motivated exploration.&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230709201834168.png&#34; alt=&#34;image-20230709201834168&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;The reward is determined by the cosine similarity between the transition and each sub_goal. The closer it is to a certain goal, the greater the reward.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;ldquo;Language Instructed Reinforcement Learning for Human-AI Coordination&amp;rdquo;, &lt;em&gt;arXiv, Jun 2023&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/pdf/2304.07297&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;multi-agent reinforcement learning (RL) often converges to different equilibria from the ones that humans prefer.&lt;/li&gt;
+&lt;li&gt;use pretrained large language models to generate a prior policy conditioned on the human instruction and use the prior to regularize the RL objective&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230714210709287.png&#34; alt=&#34;image-20230714210709287&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;ldquo;Multi-Agent Collaboration: Harnessing the Power of Intelligent LLM Agents&amp;rdquo;, &lt;em&gt;arXiv, Jun 2023&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/pdf/2306.03314&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The objective of this paper is to explore and demonstrate the potential of having multiple agents within a black-box environment to enhance collaboration and problem-solving.&lt;/li&gt;
+&lt;li&gt;The specific goals include: introducing a general framework that paves the way for the creation of more powerful AGI models;&lt;/li&gt;
+&lt;li&gt;introducing an adaptive and dynamic system that can adjust itself to suit the tasks at hand;&lt;/li&gt;
+&lt;li&gt;and exploring the possibility of using multiple LLMs in a collaborative manner.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Co-LLM-Agents&lt;/strong&gt;:&amp;ldquo;Building Cooperative Embodied Agents Modularly with Large Language Models&amp;rdquo;, &lt;em&gt;arXiv, Jul 2023&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/pdf/2307.02485&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://vis-www.cs.umass.edu/Co-LLM-Agents/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;investigate whether LLMs can help build cooperative embodied agents that can collaborate with other agents and humans to accomplish complex tasks through collaborative planning and communication&lt;/li&gt;
+&lt;li&gt;human subjects to perform the experiments under four scenarios: cooperating with the HP Agent2 , LLM Agent, LLM Agent w/o communication, and doing the task alone.&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230716170146348.png&#34; alt=&#34;image-20230716170146348&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;ldquo;Wireless Multi-Agent Generative AI: From Connected Intelligence to Collective Intelligence&amp;rdquo;, &lt;em&gt;arXiv, Jul 2023&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/pdf/2307.02757&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;cloud-based LLMs vs On-device LLMs MAS&lt;/li&gt;
+&lt;li&gt;power allocation on mobile users to minimize network power consumption&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230716171126769.png&#34; alt=&#34;image-20230716171126769&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;ldquo;Self-Adaptive Large Language Model (LLM)-Based Multiagent Systems&amp;rdquo;, &lt;em&gt;arXiv, Jul 2023&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/pdf/2307.06187&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;anchor our methodology on the MAPE-K model, which is renowned for its robust support in monitoring, analyzing, planning, and executing system adaptations in response to dynamic environments&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230716172856825.png&#34; alt=&#34;image-20230716172856825&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;VoxPoser&lt;/strong&gt;:&amp;ldquo;VoxPoser: Composable 3D Value Maps for Robotic Manipulation with Language Models&amp;rdquo;, &lt;em&gt;arXiv, Jul 2023&lt;/em&gt;. [&lt;a href=&#34;extension://idghocbbahafpfhjnfhpbfbmpegphmmp/assets/pdf/web/viewer.html?file=https%3A%2F%2Fvoxposer.github.io%2Fvoxposer.pdf&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://voxposer.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;extracts language-conditioned affordances and constraints from LLMs and grounds them to the perceptual space using VLMs, using a code interface and without additional training to either component.&lt;/li&gt;
+&lt;li&gt;zero-shot&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230711121324849.png&#34; alt=&#34;image-20230711121324849&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;DEPS&lt;/strong&gt;:&amp;ldquo;Describe, Explain, Plan and Select: Interactive Planning with Large Language Models Enables Open-World Multi-Task Agents&amp;rdquo;, &lt;em&gt;arXiv, Feb 2023&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2302.01560&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/CraftJarvis/MC-Planner&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MC open-world&lt;/li&gt;
+&lt;li&gt;LLM for plan, RL for manipulation (MineCLIP)&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230711122150969.png&#34; alt=&#34;image-20230711122150969&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Plan4MC&lt;/strong&gt;:&amp;ldquo;Plan4MC: Skill Reinforcement Learning and Planning for Open-World Minecraft Tasks&amp;rdquo;, &lt;em&gt;arXiv, Mar 2023&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2303.16563&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/PKU-RL/Plan4MC&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://sites.google.com/view/plan4mc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Static Stochastic Choice&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230711122243542.png&#34; alt=&#34;image-20230711122243542&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;VOYAGER&lt;/strong&gt;:&amp;ldquo;VOYAGER: An Open-Ended Embodied Agent with Large Language Models&amp;rdquo;, &lt;em&gt;arXiv, May 2023&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2305.16291&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/MineDojo/Voyager&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://voyager.minedojo.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;an automatic curriculum that maximizes exploration&lt;/li&gt;
+&lt;li&gt;an ever-growing skill library of executable code for storing and retrieving complex behaviors&lt;/li&gt;
+&lt;li&gt;a new iterative prompting mechanism that incorporates environment feedback, execution errors, and self-verification for program improvement.&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230714194824768.png&#34; alt=&#34;image-20230714194824768&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;instructions-and-navigation&#34;&gt;Instructions and Navigation&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;ADAPT&lt;/strong&gt;: &amp;ldquo;ADAPT: Vision-Language Navigation with Modality-Aligned Action Prompts&amp;rdquo;, &lt;em&gt;CVPR, May 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2205.15509&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;LM-Nav&lt;/strong&gt;: &amp;ldquo;Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action&amp;rdquo;, &lt;em&gt;arXiv, July 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2207.04429&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/blazejosinski/lm_nav&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://sites.google.com/view/lmnav&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230410013423928.png&#34; alt=&#34;image-20230410013423928&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;LLM: GPT-3 parse textual instructions into a sequence of landmarks ($t$).&lt;/li&gt;
+&lt;li&gt;VLM: CLIP compute likelihood that image $i_k$ corresponds to the string $t$&lt;/li&gt;
+&lt;li&gt;VNM: ViNG  uses a goal-conditioned distance function to infer connectivity between the set of raw observations and constructs a topological graph&lt;/li&gt;
+&lt;li&gt;Navigation&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&amp;ldquo;The Unsurprising Effectiveness of Pre-Trained Vision Models for Control&amp;rdquo;, &lt;em&gt;ICML, Mar 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2203.03580&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/sparisi/pvr_habitat&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://sites.google.com/view/pvr-control&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;VLMaps&lt;/strong&gt;: &amp;ldquo;Visual Language Maps for Robot Navigation&amp;rdquo;, &lt;em&gt;arXiv, Mar 2023&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2210.05714&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/vlmaps/vlmaps&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://vlmaps.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;fuses pretrained visual-language features with a 3D reconstruction of the physical world&lt;/li&gt;
+&lt;li&gt;Our goal is to build a spatial visual-language map representation, in which landmarks (“the sofa”) or spatial references (“between the sofa and the TV”) can be directly localized using natural language.&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230713214658725.png&#34; alt=&#34;image-20230713214658725&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;CoW&lt;/strong&gt;: &amp;ldquo;CLIP on Wheels: Zero-Shot Object Navigation as Object Localization and Exploration&amp;rdquo;, &lt;em&gt;arXiv, Mar 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2203.10421&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A simple CoW, with CLIP-based object localization and classical exploration—and no additional training—matches the navigation efficiency of a state-of-the-art ZSON method&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230715212626119.png&#34; alt=&#34;image-20230715212626119&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;ADAPT&lt;/strong&gt;: &amp;ldquo;ADAPT: Vision-Language Navigation with Modality-Aligned Action Prompts&amp;rdquo;, &lt;em&gt;CVPR, May 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2205.15509&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The image sub-prompt is a single-view observation that highlights a significant visual object or location.&lt;/li&gt;
+&lt;li&gt;The text sub-prompt is a phrase related to the object, describing an action&lt;/li&gt;
+&lt;li&gt;Before utilizing these prompts, they need to be retrieved from a pre-built action prompt database, which correlates with the instructions.&lt;/li&gt;
+&lt;li&gt;These prompts are then encoded via a prompt encoder, and the output feature is concatenated with the original instruction feature.&lt;/li&gt;
+&lt;li&gt;The concatenated feature, along with the visual feature, is then fed into a multi-layer transformer to make the action decision.&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230715213931916.png&#34; alt=&#34;image-20230715213931916&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;ldquo;The Unsurprising Effectiveness of Pre-Trained Vision Models for Control&amp;rdquo;, &lt;em&gt;ICML, Mar 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2203.03580&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/sparisi/pvr_habitat&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://sites.google.com/view/pvr-control&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It was found that pre-trained visual representations (PVRs) trained on entirely out-of-domain datasets can compete with or surpass ground-truth state features for policy training.&lt;/li&gt;
+&lt;li&gt;The study also revealed the superiority of self-supervised learning (SSL) over supervised learning in providing better features for control policies.&lt;/li&gt;
+&lt;li&gt;Residual Network, Momentum Contrast, CLIP, Random Features, From Scratch, Ground-Truth Features&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230715214826827.png&#34; alt=&#34;image-20230715214826827&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Recurrent VLN-BERT&lt;/strong&gt;: &amp;ldquo;A Recurrent Vision-and-Language BERT for Navigation&amp;rdquo;, &lt;em&gt;CVPR, Jun 2021&lt;/em&gt; [&lt;a href=&#34;https://arxiv.org/abs/2011.13922&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/YicongHong/Recurrent-VLN-BERT&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;reinforcement learning (RL) and imitation learning (IL)&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230715215714278.png&#34; alt=&#34;image-20230715215714278&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;VLN-BERT&lt;/strong&gt;: &amp;ldquo;Improving Vision-and-Language Navigation with Image-Text Pairs from the Web&amp;rdquo;, &lt;em&gt;ECCV, Apr 2020&lt;/em&gt; [&lt;a href=&#34;https://arxiv.org/abs/2004.14973&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/arjunmajum/vln-bert&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;VLN-BERT, a visiolinguistic transformer-based model for scoring the compatibility between an instruction (‘&amp;hellip;stop at the brown sofa’) and a sequence of panoramic RGB images captured by the agent.&lt;/li&gt;
+&lt;li&gt;We demonstrate that pretraining VLN-BERT on image-text pairs from the web before fine-tuning on embodied path-instruction data significantly improves performance on VLN&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230715220528690.png&#34; alt=&#34;image-20230715220528690&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&amp;ldquo;Interactive Language: Talking to Robots in Real Time&amp;rdquo;, &lt;em&gt;arXiv, Oct 2022&lt;/em&gt; [&lt;a href=&#34;https://arxiv.org/abs/2210.06407&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://interactive-language.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The dataset we release comprises nearly 600,000 language-labeled trajectories, an order of magnitude larger than prior available datasets (video, actions, language).&lt;/li&gt;
+&lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/yuechuhaoxi020609/images/main/imgs/image-20230715221039329.png&#34; alt=&#34;image-20230715221039329&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
