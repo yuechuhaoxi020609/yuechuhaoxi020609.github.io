@@ -2041,7 +2041,7 @@ $$e_s(s_{a_{1i}}^t)=\left[e_u(u_{1,a_{1i}}),...,e_u(u_{m,a_{1i}})\right]$$
 &lt;li&gt;factorize PIGLeT into a physical dynamics model, and a separate language model.&lt;/li&gt;
 &lt;li&gt;read a sentence, simulate neurally what might happen next, and then communicate that result through a literal symbolic representation, or natural language.&lt;/li&gt;
 &lt;li&gt;Environment: THOR&lt;/li&gt;
-&lt;li&gt;$\left{\boldsymbol{o}&lt;em&gt;{1}, \ldots, \boldsymbol{o}&lt;/em&gt;{N}\right} \times \boldsymbol{a} \rightarrow\left{\boldsymbol{o}&lt;em&gt;{1}^{\prime}, \ldots, \boldsymbol{o}&lt;/em&gt;{N}^{\prime}\right}$ trained by data&lt;/li&gt;
+&lt;li&gt;$ (o_1, o_2 &amp;hellip;) \times \boldsymbol{a} \rightarrow (o^{\prime}_1, o^{\prime}_2 &amp;hellip;)$ trained by data&lt;/li&gt;
 &lt;li&gt;
 
 
@@ -2094,7 +2094,7 @@ $$e_s(s_{a_{1i}}^t)=\left[e_u(u_{1,a_{1i}}),...,e_u(u_{m,a_{1i}})\right]$$
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;LMPrior&lt;/strong&gt;: &amp;ldquo;LMPriors: Pre-Trained Language Models as Task-Specific Priors&amp;rdquo;, &lt;em&gt;arXiv, Oct 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2210.12530&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;LMPrior as a function transform&lt;/strong&gt;. We define LMPriors as a family of functions $\mathcal{P}$ which take some relevant metadata $\mathcal{D}&lt;em&gt;{\text {meta }}$ which is not used by the traditional learning process $f$. The LMPrior then transforms $f$ to $\tilde{f}$ which exhibits a bias towards outputs which are consistent with the metadata $\mathcal{D}&lt;/em&gt;{\text {meta }}$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LMPrior as a function transform&lt;/strong&gt;. We define LMPriors as a family of functions $\mathcal{P}$ which take some relevant metadata $D_{\text{meta}}$ which is not used by the traditional learning process $f$. The LMPrior then transforms $f$ to $\tilde{f}$ which exhibits a bias towards outputs which are consistent with the metadata $\mathcal{D}_{\text {meta}}$&lt;/li&gt;
 &lt;li&gt;Use the name and brief description of the label to help complete the task Feature selection, Reinforcement learning, Causal discovery&lt;/li&gt;
 &lt;li&gt;
 
@@ -2140,7 +2140,7 @@ $$e_s(s_{a_{1i}}^t)=\left[e_u(u_{1,a_{1i}}),...,e_u(u_{m,a_{1i}})\right]$$
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;ReAct&lt;/strong&gt;: &amp;ldquo;ReAct: Synergizing Reasoning and Acting in Language Models&amp;rdquo;, ICLR, 2023. [&lt;a href=&#34;https://arxiv.org/abs/2210.03629&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/ysymyth/ReAct&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;] [&lt;a href=&#34;https://react-lm.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]
+&lt;li&gt;&lt;strong&gt;ReAct&lt;/strong&gt;: &amp;ldquo;ReAct: Synergizing Reasoning and Acting in Language Models&amp;rdquo;, &lt;em&gt;ICLR, 2023&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2210.03629&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/ysymyth/ReAct&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;] [&lt;a href=&#34;https://react-lm.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]
 &lt;ul&gt;
 &lt;li&gt;their abilities for reasoning (e.g. chain-of-thought prompting) and acting (e.g. action plan generation) have primarily been studied as separate topics.&lt;/li&gt;
 &lt;li&gt;combine reasoning and acting with language models for solving diverse language reasoning and decision making tasks.&lt;/li&gt;
@@ -2168,7 +2168,7 @@ $$e_s(s_{a_{1i}}^t)=\left[e_u(u_{1,a_{1i}}),...,e_u(u_{m,a_{1i}})\right]$$
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Generative Agents&lt;/strong&gt;: &amp;ldquo;Generative Agents: Interactive Simulacra of Human Behavior&amp;rdquo;, arXiv, Apr 2023. [&lt;a href=&#34;https://arxiv.org/abs/2304.03442v1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]
+&lt;li&gt;&lt;strong&gt;Generative Agents&lt;/strong&gt;: &amp;ldquo;Generative Agents: Interactive Simulacra of Human Behavior&amp;rdquo;, &lt;em&gt;arXiv, Apr 2023&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2304.03442v1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]
 &lt;ul&gt;
 &lt;li&gt;generative agents—agents that draw on generative models to simulate believable human behavior&lt;/li&gt;
 &lt;li&gt;
@@ -2194,7 +2194,7 @@ $$e_s(s_{a_{1i}}^t)=\left[e_u(u_{1,a_{1i}}),...,e_u(u_{m,a_{1i}})\right]$$
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&amp;ldquo;Large Language Models as Zero-Shot Human Models for Human-Robot Interaction&amp;rdquo;, arXiv, Mar 2023. [&lt;a href=&#34;https://arxiv.org/abs/2303.03548v1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]
+&lt;li&gt;&amp;ldquo;Large Language Models as Zero-Shot Human Models for Human-Robot Interaction&amp;rdquo;, &lt;em&gt;arXiv, Mar 2023&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2303.03548v1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]
 &lt;ul&gt;
 &lt;li&gt;crafting good human models is challenging&lt;/li&gt;
 &lt;li&gt;how LLM-based human models can be integrated into a social robot’s planning process and applied in HRI scenarios&lt;/li&gt;
@@ -2222,7 +2222,7 @@ $$e_s(s_{a_{1i}}^t)=\left[e_u(u_{1,a_{1i}}),...,e_u(u_{m,a_{1i}})\right]$$
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&amp;ldquo;Translating Natural Language to Planning Goals with Large-Language Models&amp;rdquo;, arXiv, Feb 2023. [&lt;a href=&#34;https://arxiv.org/abs/2302.05128&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]
+&lt;li&gt;&amp;ldquo;Translating Natural Language to Planning Goals with Large-Language Models&amp;rdquo;, &lt;em&gt;arXiv, Feb 2023&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2302.05128&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;]
 &lt;ul&gt;
 &lt;li&gt;LLMs are unable to perform accurate reasoning nor solve planning problems, which may limit their usefulness for robotics-related tasks&lt;/li&gt;
 &lt;li&gt;LLMs are able to translate goals specified in natural language to a structured planning language&lt;/li&gt;
@@ -2231,7 +2231,7 @@ $$e_s(s_{a_{1i}}^t)=\left[e_u(u_{1,a_{1i}}),...,e_u(u_{m,a_{1i}})\right]$$
 &lt;li&gt;Sub benchmark: Domain Understanding, Goal Inference, PDDL Goal Specification&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&amp;ldquo;PDDL Planning with Pretrained Large Language Models&amp;rdquo;, NeurlPS, 2022. [&lt;a href=&#34;https://openreview.net/forum?id=1QMMUB4zfl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://tinyurl.com/llm4pddl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;]
+&lt;li&gt;&amp;ldquo;PDDL Planning with Pretrained Large Language Models&amp;rdquo;, &lt;em&gt;NeurlPS, 2022&lt;/em&gt;. [&lt;a href=&#34;https://openreview.net/forum?id=1QMMUB4zfl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://tinyurl.com/llm4pddl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;]
 &lt;ul&gt;
 &lt;li&gt;In certain PDDL domains, LLMs are capable of solving some nontrivial problems.&lt;/li&gt;
 &lt;li&gt;However, in many other cases, LLMs cannot yet solve problems on their own.&lt;/li&gt;
@@ -2269,7 +2269,7 @@ $$e_s(s_{a_{1i}}^t)=\left[e_u(u_{1,a_{1i}}),...,e_u(u_{m,a_{1i}})\right]$$
 &lt;li&gt;PromptCraft, which contains a platform where researchers can collaboratively upload and vote on examples of good prompting schemes for robotics applications&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;FILM&lt;/strong&gt;: &amp;ldquo;FILM: Following Instructions in Language with Modular Methods&amp;rdquo;, ICLR, 2022. [&lt;a href=&#34;https://arxiv.org/abs/2110.07342&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/soyeonm/FILM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt;] [&lt;a href=&#34;https://soyeonm.github.io/FILM_webpage/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]
+&lt;li&gt;&lt;strong&gt;FILM&lt;/strong&gt;: &amp;ldquo;FILM: Following Instructions in Language with Modular Methods&amp;rdquo;, &lt;em&gt;ICLR, 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2110.07342&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/soyeonm/FILM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt;] [&lt;a href=&#34;https://soyeonm.github.io/FILM_webpage/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]
 &lt;ul&gt;
 &lt;li&gt;embodied instruction&lt;/li&gt;
 &lt;li&gt;(1) builds a semantic map of the scene&lt;/li&gt;
@@ -2298,7 +2298,7 @@ $$e_s(s_{a_{1i}}^t)=\left[e_u(u_{1,a_{1i}}),...,e_u(u_{m,a_{1i}})\right]$$
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Don&amp;rsquo;t Copy the Teacher&lt;/strong&gt;: &amp;ldquo;Don’t Copy the Teacher: Data and Model Challenges in Embodied Dialogue&amp;rdquo;, EMNLP, 2022. [&lt;a href=&#34;https://arxiv.org/abs/2210.04443&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://www.youtube.com/watch?v=qGPC65BDJw4&amp;amp;t=2s&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]
+&lt;li&gt;&lt;strong&gt;Don&amp;rsquo;t Copy the Teacher&lt;/strong&gt;: &amp;ldquo;Don’t Copy the Teacher: Data and Model Challenges in Embodied Dialogue&amp;rdquo;, &lt;em&gt;EMNLP, 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2210.04443&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://www.youtube.com/watch?v=qGPC65BDJw4&amp;amp;t=2s&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]
 &lt;ul&gt;
 &lt;li&gt;The article discusses TEACh, a new task system that focuses on Entire Dialogue History (EDH) and Trajectory from Dialogue (TfD), in which agents complete household tasks based on text and visual cues.&lt;/li&gt;
 &lt;li&gt;In EDH, agents predict actions from partial dialogue history, while in TfD, they&amp;rsquo;re expected to complete a whole task from a full dialogue history.&lt;/li&gt;
@@ -2973,7 +2973,7 @@ $$e_s(s_{a_{1i}}^t)=\left[e_u(u_{1,a_{1i}}),...,e_u(u_{m,a_{1i}})\right]$$
 &lt;li&gt;different large pretrained models store different forms of commonsense knowledge&lt;/li&gt;
 &lt;li&gt;multiple pretrained models may be composed zero-shot i.e., via multimodalinformed prompting,&lt;/li&gt;
 &lt;li&gt;formulating video understanding as a reading comprehension problem&lt;/li&gt;
-&lt;li&gt;activity $=f_{\mathrm{LM}}\left(f_{\mathrm{VLM}}\left(f_{\mathrm{LM}}\left(f_{\mathrm{ALM}}\left(f_{\mathrm{LM}}\left(f_{\mathrm{VLM}}(\right.\right.\right.\right.\right.$$video$ $\left.\left.\left.\left.\left.)\right)\right)\right)\right)\right)$&lt;/li&gt;
+&lt;li&gt;activity $=f_{\mathrm{LM}}\left(f_{\mathrm{VLM}}\left(f_{\mathrm{LM}}\left(f_{\mathrm{ALM}}\left(f_{\mathrm{LM}}\left(f_{\mathrm{VLM}}(\right.\right.\right.\right.\right.$$video$$\left.\left.\left.\left.\left.)\right)\right)\right)\right)\right)$&lt;/li&gt;
 &lt;li&gt;
 
 
@@ -3026,7 +3026,7 @@ $$e_s(s_{a_{1i}}^t)=\left[e_u(u_{1,a_{1i}}),...,e_u(u_{m,a_{1i}})\right]$$
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;ProgPrompt&lt;/strong&gt;: &amp;ldquo;Generating Situated Robot Task Plans using Large Language Models&amp;rdquo;, arXiv, Sept 2022. [&lt;a href=&#34;https://arxiv.org/abs/2209.11302&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/progprompt/progprompt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;] [&lt;a href=&#34;https://progprompt.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ProgPrompt&lt;/strong&gt;: &amp;ldquo;Generating Situated Robot Task Plans using Large Language Models&amp;rdquo;, &lt;em&gt;arXiv, Sept 2022&lt;/em&gt;. [&lt;a href=&#34;https://arxiv.org/abs/2209.11302&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/progprompt/progprompt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github&lt;/a&gt;] [&lt;a href=&#34;https://progprompt.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;introduces situated-awareness in LLM-based robot task planning (program with assert)&lt;/li&gt;
 &lt;li&gt;open-loop without any environment interaction&lt;/li&gt;
@@ -3113,7 +3113,7 @@ $$e_s(s_{a_{1i}}^t)=\left[e_u(u_{1,a_{1i}}),...,e_u(u_{m,a_{1i}})\right]$$
 &lt;hr&gt;
 &lt;h1 id=&#34;manipulation&#34;&gt;Manipulation&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;ProgramPort&lt;/strong&gt;:&amp;ldquo;Programmatically Grounded, Compositionally Generalizable Robotic Manipulation&amp;rdquo;, &amp;ldquo;ICLR, Apr 2023&amp;rdquo;, [&lt;a href=&#34;https://arxiv.org/abs/2304.13826&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://progport.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]
+&lt;li&gt;&lt;strong&gt;ProgramPort&lt;/strong&gt;:&amp;ldquo;Programmatically Grounded, Compositionally Generalizable Robotic Manipulation&amp;rdquo;, &lt;em&gt;ICLR, Apr 2023&lt;/em&gt;, [&lt;a href=&#34;https://arxiv.org/abs/2304.13826&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://progport.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]
 &lt;ul&gt;
 &lt;li&gt;Given the natural language instruction, we first use a Combinatory Categorial Grammar (CCG)&lt;/li&gt;
 &lt;li&gt;The program consists of functional modules that are either visual grounding modules (e.g., locate all objects of a given category) or action policies (e.g., produce a control parameter).&lt;/li&gt;
@@ -3144,7 +3144,7 @@ $$e_s(s_{a_{1i}}^t)=\left[e_u(u_{1,a_{1i}}),...,e_u(u_{m,a_{1i}})\right]$$
 &lt;/ul&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;DIAL&lt;/strong&gt;:&amp;ldquo;Robotic Skill Acquistion via Instruction Augmentation with Vision-Language Models&amp;rdquo;, &amp;ldquo;arXiv, Nov 2022&amp;rdquo;, [&lt;a href=&#34;https://arxiv.org/abs/2211.11736&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://instructionaugmentation.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DIAL&lt;/strong&gt;:&amp;ldquo;Robotic Skill Acquistion via Instruction Augmentation with Vision-Language Models&amp;rdquo;, &lt;em&gt;arXiv, Nov 2022&lt;/em&gt;, [&lt;a href=&#34;https://arxiv.org/abs/2211.11736&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://instructionaugmentation.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 
@@ -3173,7 +3173,7 @@ $$e_s(s_{a_{1i}}^t)=\left[e_u(u_{1,a_{1i}}),...,e_u(u_{m,a_{1i}})\right]$$
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;CLIP-Fields&lt;/strong&gt;:&amp;ldquo;CLIP-Fields: Weakly Supervised Semantic Fields for Robotic Memory&amp;rdquo;, &amp;ldquo;arXiv, Oct 2022&amp;rdquo;, [&lt;a href=&#34;https://arxiv.org/abs/2210.05663&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/notmahi/clip-fields&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PyTorch Code&lt;/a&gt;] [&lt;a href=&#34;https://mahis.life/clip-fields/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CLIP-Fields&lt;/strong&gt;:&amp;ldquo;CLIP-Fields: Weakly Supervised Semantic Fields for Robotic Memory&amp;rdquo;, &lt;em&gt;arXiv, Oct 2022&lt;/em&gt;, [&lt;a href=&#34;https://arxiv.org/abs/2210.05663&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/notmahi/clip-fields&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PyTorch Code&lt;/a&gt;] [&lt;a href=&#34;https://mahis.life/clip-fields/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;weakly supervised semantic neural fields, called CLIP-Fields.&lt;/li&gt;
 &lt;li&gt;dataset comes from LLM/MMM&lt;/li&gt;
@@ -3390,7 +3390,7 @@ $$e_s(s_{a_{1i}}^t)=\left[e_u(u_{1,a_{1i}}),...,e_u(u_{m,a_{1i}})\right]$$
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;R3M&lt;/strong&gt;:&amp;ldquo;R3M: A Universal Visual Representation for Robot Manipulation&amp;rdquo;, &amp;quot; arXiv, Nov 2022&amp;rdquo;, [&lt;a href=&#34;https://arxiv.org/abs/2203.12601&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/facebookresearch/r3m&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://tinyurl.com/robotr3m&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;R3M&lt;/strong&gt;:&amp;ldquo;R3M: A Universal Visual Representation for Robot Manipulation&amp;rdquo;, * arXiv, Nov 2022*, [&lt;a href=&#34;https://arxiv.org/abs/2203.12601&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/facebookresearch/r3m&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://tinyurl.com/robotr3m&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;can visual representations pre-trained on diverse human videos enable efficient downstream learning of robotic manipulation skills?&lt;/li&gt;
 &lt;li&gt;(1) time contrastive learning to learn a representation that captures temporal dynamics, (2) video-language alignment to capture semantically relevant features of the scene, and (3) L1 and L2 penalties to encourage sparsity.&lt;/li&gt;
@@ -3418,13 +3418,13 @@ $$e_s(s_{a_{1i}}^t)=\left[e_u(u_{1,a_{1i}}),...,e_u(u_{m,a_{1i}})\right]$$
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;VIP&lt;/strong&gt;:&amp;ldquo;Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training&amp;rdquo;, &amp;quot; ICLR, 2023&amp;rdquo;, [&lt;a href=&#34;https://arxiv.org/abs/2210.00030&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/facebookresearch/vip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://sites.google.com/view/vip-rl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;VIP&lt;/strong&gt;:&amp;ldquo;Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training&amp;rdquo;, &lt;em&gt;ICLR, 2023&lt;/em&gt;, [&lt;a href=&#34;https://arxiv.org/abs/2210.00030&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/facebookresearch/vip&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://sites.google.com/view/vip-rl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Pre-trained on large-scale, in-the-wild human videos, frozen VIP network can provide visual reward and representation for downstream unseen robotics tasks and enable diverse visuomotor control strategies without any task-specific fine-tuning.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;LIV&lt;/strong&gt;:&amp;ldquo;LIV: Language-Image Representations and Rewards for Robotic Control&amp;rdquo;, &amp;quot; arXiv, Jun 2023&amp;quot;, [&lt;a href=&#34;https://arxiv.org/abs/2306.00958&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/penn-pal-lab/LIV&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://penn-pal-lab.github.io/LIV/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;LIV&lt;/strong&gt;:&amp;ldquo;LIV: Language-Image Representations and Rewards for Robotic Control&amp;rdquo;, &lt;em&gt;arXiv, Jun 2023&lt;/em&gt;, [&lt;a href=&#34;https://arxiv.org/abs/2306.00958&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/penn-pal-lab/LIV&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://penn-pal-lab.github.io/LIV/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;a multi-modal representation that implicitly encodes a universal value function for tasks specified as language or image goals.&lt;/li&gt;
 &lt;li&gt;pretrain and can be fine-tuned&lt;/li&gt;
@@ -3432,7 +3432,7 @@ $$e_s(s_{a_{1i}}^t)=\left[e_u(u_{1,a_{1i}}),...,e_u(u_{m,a_{1i}})\right]$$
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;LILAC&lt;/strong&gt;:&amp;ldquo;No, to the Right – Online Language Corrections for Robotic Manipulation via Shared Autonomy&amp;rdquo;, &amp;ldquo;arXiv, Jan 2023&amp;rdquo;, [&lt;a href=&#34;https://arxiv.org/abs/2301.02555&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/Stanford-ILIAD/lilac&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;LILAC&lt;/strong&gt;:&amp;ldquo;No, to the Right – Online Language Corrections for Robotic Manipulation via Shared Autonomy&amp;rdquo;, &lt;em&gt;arXiv, Jan 2023&lt;/em&gt;, [&lt;a href=&#34;https://arxiv.org/abs/2301.02555&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/Stanford-ILIAD/lilac&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;]&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;human gives an instruction, then the robot executes autonomously &amp;ndash; lack of adaptivity&lt;/li&gt;
 &lt;li&gt;natural language corrections&lt;/li&gt;
@@ -3461,7 +3461,7 @@ $$e_s(s_{a_{1i}}^t)=\left[e_u(u_{1,a_{1i}}),...,e_u(u_{m,a_{1i}})\right]$$
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;NLMap&lt;/strong&gt;:&amp;ldquo;Open-vocabulary Queryable Scene Representations for Real World Planning&amp;rdquo;, &amp;ldquo;arXiv, Oct 2023&amp;rdquo;, [&lt;a href=&#34;https://arxiv.org/abs/2209.09874&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://nlmap-saycan.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NLMap&lt;/strong&gt;:&amp;ldquo;Open-vocabulary Queryable Scene Representations for Real World Planning&amp;rdquo;, &lt;em&gt;arXiv, Oct 2023&lt;/em&gt;, [&lt;a href=&#34;https://arxiv.org/abs/2209.09874&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://nlmap-saycan.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;establishes a natural language queryable scene representation with VLMs(CLIP VLiD)&lt;/li&gt;
 &lt;li&gt;
@@ -3510,7 +3510,7 @@ $$e_s(s_{a_{1i}}^t)=\left[e_u(u_{1,a_{1i}}),...,e_u(u_{m,a_{1i}})\right]$$
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;VIMA&lt;/strong&gt;:&amp;ldquo;VIMA: General Robot Manipulation with Multimodal Prompts&amp;rdquo;, &amp;ldquo;arXiv, Oct 2022&amp;rdquo;, [&lt;a href=&#34;https://arxiv.org/abs/2210.03094&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/vimalabs/VIMA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://vimalabs.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;VIMA&lt;/strong&gt;:&amp;ldquo;VIMA: General Robot Manipulation with Multimodal Prompts&amp;rdquo;, &lt;em&gt;arXiv, Oct 2022&lt;/em&gt;, [&lt;a href=&#34;https://arxiv.org/abs/2210.03094&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper&lt;/a&gt;] [&lt;a href=&#34;https://github.com/vimalabs/VIMA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pytorch Code&lt;/a&gt;] [&lt;a href=&#34;https://vimalabs.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website&lt;/a&gt;]&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;a transformer-based generalist robot agent, VIMA, that processes these prompts and outputs motor actions autoregressively.&lt;/li&gt;
 &lt;li&gt;
