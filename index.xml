@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Haofei Hou | PKU</title>
-    <link>https://example.com/</link>
-      <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://yuechuhaoxi020609.github.io/</link>
+      <atom:link href="https://yuechuhaoxi020609.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Haofei Hou | PKU</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu88cdd4b7a12988e7d5bb56be50e4f21a_10097_512x512_fill_lanczos_center_3.png</url>
+      <url>https://yuechuhaoxi020609.github.io/media/icon_hu88cdd4b7a12988e7d5bb56be50e4f21a_10097_512x512_fill_lanczos_center_3.png</url>
       <title>Haofei Hou | PKU</title>
-      <link>https://example.com/</link>
+      <link>https://yuechuhaoxi020609.github.io/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>https://example.com/talk/example-talk/</link>
+      <link>https://yuechuhaoxi020609.github.io/talk/example-talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://example.com/talk/example-talk/</guid>
+      <guid>https://yuechuhaoxi020609.github.io/talk/example-talk/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -34,18 +34,18 @@
     
     <item>
       <title>AutoDSL: Automated domain-specific language design for structural representation of procedures with constraints</title>
-      <link>https://example.com/publication/autodsl/</link>
+      <link>https://yuechuhaoxi020609.github.io/publication/autodsl/</link>
       <pubDate>Sun, 05 May 2024 21:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/autodsl/</guid>
+      <guid>https://yuechuhaoxi020609.github.io/publication/autodsl/</guid>
       <description>&lt;p&gt;Accurate representation of procedures in restricted scenarios, such as non-standardized scientific experiments, requires precise depiction of constraints. Unfortunately, Domain-specific Language (DSL), as an effective tool to express constraints structurally, often requires case-by-case hand-crafting, necessitating customized, labor-intensive efforts. To overcome this challenge, we introduce the AutoDSL framework to automate DSL-based constraint design across various domains. Utilizing domain specified experimental protocol corpora, AutoDSL optimizes syntactic constraints and abstracts semantic constraints. Quantitative and qualitative analyses of the DSLs designed by AutoDSL across five distinct domains highlight its potential as an auxiliary module for language models, aiming to improve procedural planning and execution.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Slides</title>
-      <link>https://example.com/slides/example/</link>
+      <link>https://yuechuhaoxi020609.github.io/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/slides/example/</guid>
+      <guid>https://yuechuhaoxi020609.github.io/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://wowchemy.com/docs/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -168,9 +168,9 @@ $$&lt;/p&gt;
     
     <item>
       <title></title>
-      <link>https://example.com/admin/config.yml</link>
+      <link>https://yuechuhaoxi020609.github.io/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/admin/config.yml</guid>
+      <guid>https://yuechuhaoxi020609.github.io/admin/config.yml</guid>
       <description></description>
     </item>
     

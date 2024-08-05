@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Robotics | Haofei Hou | PKU</title>
-    <link>https://example.com/tag/robotics/</link>
-      <atom:link href="https://example.com/tag/robotics/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://yuechuhaoxi020609.github.io/tag/robotics/</link>
+      <atom:link href="https://yuechuhaoxi020609.github.io/tag/robotics/index.xml" rel="self" type="application/rss+xml" />
     <description>Robotics</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 05 May 2024 21:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu88cdd4b7a12988e7d5bb56be50e4f21a_10097_512x512_fill_lanczos_center_3.png</url>
+      <url>https://yuechuhaoxi020609.github.io/media/icon_hu88cdd4b7a12988e7d5bb56be50e4f21a_10097_512x512_fill_lanczos_center_3.png</url>
       <title>Robotics</title>
-      <link>https://example.com/tag/robotics/</link>
+      <link>https://yuechuhaoxi020609.github.io/tag/robotics/</link>
     </image>
     
     <item>
       <title>AutoDSL: Automated domain-specific language design for structural representation of procedures with constraints</title>
-      <link>https://example.com/publication/autodsl/</link>
+      <link>https://yuechuhaoxi020609.github.io/publication/autodsl/</link>
       <pubDate>Sun, 05 May 2024 21:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/autodsl/</guid>
+      <guid>https://yuechuhaoxi020609.github.io/publication/autodsl/</guid>
       <description>&lt;p&gt;Accurate representation of procedures in restricted scenarios, such as non-standardized scientific experiments, requires precise depiction of constraints. Unfortunately, Domain-specific Language (DSL), as an effective tool to express constraints structurally, often requires case-by-case hand-crafting, necessitating customized, labor-intensive efforts. To overcome this challenge, we introduce the AutoDSL framework to automate DSL-based constraint design across various domains. Utilizing domain specified experimental protocol corpora, AutoDSL optimizes syntactic constraints and abstracts semantic constraints. Quantitative and qualitative analyses of the DSLs designed by AutoDSL across five distinct domains highlight its potential as an auxiliary module for language models, aiming to improve procedural planning and execution.&lt;/p&gt;
 </description>
     </item>
