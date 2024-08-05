@@ -10,6 +10,46 @@
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://example.com/authors/</loc>
+    <lastmod>2024-05-05T21:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/publication-type/1/</loc>
+    <lastmod>2024-05-05T21:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/publication/autodsl/</loc>
+    <lastmod>2024-05-05T21:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/tag/dsl/</loc>
+    <lastmod>2024-05-05T21:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/authors/admin/</loc>
+    <lastmod>2024-05-05T21:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/tag/knowledge-representation/</loc>
+    <lastmod>2024-05-05T21:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/publication_types/</loc>
+    <lastmod>2024-05-05T21:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/publication/</loc>
+    <lastmod>2024-05-05T21:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/tag/robotics/</loc>
+    <lastmod>2024-05-05T21:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/tags/</loc>
+    <lastmod>2024-05-05T21:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://example.com/</loc>
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -25,25 +65,10 @@
     <loc>https://example.com/admin/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/authors/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://example.com/categories/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/authors/admin/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://example.com/post/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://example.com/publication_types/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://example.com/publication/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://example.com/tags/</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
