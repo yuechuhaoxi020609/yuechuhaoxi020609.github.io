@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fanxu Meng | Haofei Hou</title>
+    <link>https://yuechuhaoxi020609.github.io/authors/fanxumeng/</link>
+      <atom:link href="https://yuechuhaoxi020609.github.io/authors/fanxumeng/index.xml" rel="self" type="application/rss+xml" />
+    <description>Fanxu Meng</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Sep 2024 02:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://yuechuhaoxi020609.github.io/authors/fanxumeng/avatar_hu97514e2c8149cc7342ae8d5ec04673ab_1142796_270x270_fill_lanczos_center_3.png</url>
+      <title>Fanxu Meng</title>
+      <link>https://yuechuhaoxi020609.github.io/authors/fanxumeng/</link>
+    </image>
+    
+    <item>
+      <title>Expert-level protocol translation for self-driving labs</title>
+      <link>https://yuechuhaoxi020609.github.io/publication/autodsl_trans/</link>
+      <pubDate>Thu, 26 Sep 2024 02:00:00 +0000</pubDate>
+      <guid>https://yuechuhaoxi020609.github.io/publication/autodsl_trans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AutoDSL: Automated domain-specific language design for structural representation of procedures with constraints</title>
+      <link>https://yuechuhaoxi020609.github.io/publication/autodsl/</link>
+      <pubDate>Sun, 05 May 2024 21:00:00 +0000</pubDate>
+      <guid>https://yuechuhaoxi020609.github.io/publication/autodsl/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

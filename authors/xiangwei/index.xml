@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xiang Wei | Haofei Hou</title>
+    <link>https://yuechuhaoxi020609.github.io/authors/xiangwei/</link>
+      <atom:link href="https://yuechuhaoxi020609.github.io/authors/xiangwei/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xiang Wei</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 05 May 2024 21:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://yuechuhaoxi020609.github.io/authors/xiangwei/avatar_hu7dabf7b45d24b556267d34f7a369fa7c_38676_270x270_fill_lanczos_center_3.png</url>
+      <title>Xiang Wei</title>
+      <link>https://yuechuhaoxi020609.github.io/authors/xiangwei/</link>
+    </image>
+    
+    <item>
+      <title>AutoDSL: Automated domain-specific language design for structural representation of procedures with constraints</title>
+      <link>https://yuechuhaoxi020609.github.io/publication/autodsl/</link>
+      <pubDate>Sun, 05 May 2024 21:00:00 +0000</pubDate>
+      <guid>https://yuechuhaoxi020609.github.io/publication/autodsl/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

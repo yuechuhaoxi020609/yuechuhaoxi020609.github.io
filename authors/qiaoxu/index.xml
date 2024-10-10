@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Qiao Xu | Haofei Hou</title>
+    <link>https://yuechuhaoxi020609.github.io/authors/qiaoxu/</link>
+      <atom:link href="https://yuechuhaoxi020609.github.io/authors/qiaoxu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Qiao Xu</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Sep 2024 02:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://yuechuhaoxi020609.github.io/authors/qiaoxu/avatar_hu7dabf7b45d24b556267d34f7a369fa7c_38676_270x270_fill_lanczos_center_3.png</url>
+      <title>Qiao Xu</title>
+      <link>https://yuechuhaoxi020609.github.io/authors/qiaoxu/</link>
+    </image>
+    
+    <item>
+      <title>Expert-level protocol translation for self-driving labs</title>
+      <link>https://yuechuhaoxi020609.github.io/publication/autodsl_trans/</link>
+      <pubDate>Thu, 26 Sep 2024 02:00:00 +0000</pubDate>
+      <guid>https://yuechuhaoxi020609.github.io/publication/autodsl_trans/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>laboratory automation | Haofei Hou</title>
+    <link>https://yuechuhaoxi020609.github.io/tag/laboratory-automation/</link>
+      <atom:link href="https://yuechuhaoxi020609.github.io/tag/laboratory-automation/index.xml" rel="self" type="application/rss+xml" />
+    <description>laboratory automation</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Sep 2024 02:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://yuechuhaoxi020609.github.io/media/icon_hu88cdd4b7a12988e7d5bb56be50e4f21a_10097_512x512_fill_lanczos_center_3.png</url>
+      <title>laboratory automation</title>
+      <link>https://yuechuhaoxi020609.github.io/tag/laboratory-automation/</link>
+    </image>
+    
+    <item>
+      <title>Expert-level protocol translation for self-driving labs</title>
+      <link>https://yuechuhaoxi020609.github.io/publication/autodsl_trans/</link>
+      <pubDate>Thu, 26 Sep 2024 02:00:00 +0000</pubDate>
+      <guid>https://yuechuhaoxi020609.github.io/publication/autodsl_trans/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
