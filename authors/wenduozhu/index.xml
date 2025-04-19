@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wenduo Zhu | Haofei Hou</title>
+    <link>https://yuechuhaoxi020609.github.io/authors/wenduozhu/</link>
+      <atom:link href="https://yuechuhaoxi020609.github.io/authors/wenduozhu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Wenduo Zhu</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 19 Apr 2025 02:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://yuechuhaoxi020609.github.io/authors/wenduozhu/avatar_hue3bf33caf88629fb713dfdab8596eb90_2377358_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Wenduo Zhu</title>
+      <link>https://yuechuhaoxi020609.github.io/authors/wenduozhu/</link>
+    </image>
+    
+    <item>
+      <title>Prosthetic Control by Learning: A Multi-Agent Cooperative Game Framework</title>
+      <link>https://yuechuhaoxi020609.github.io/publication/humanipro/</link>
+      <pubDate>Sat, 19 Apr 2025 02:00:00 +0000</pubDate>
+      <guid>https://yuechuhaoxi020609.github.io/publication/humanipro/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

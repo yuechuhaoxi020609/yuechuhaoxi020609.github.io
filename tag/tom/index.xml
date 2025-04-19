@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ToM | Haofei Hou | HUST</title>
-    <link>https://example.com/tag/tom/</link>
-      <atom:link href="https://example.com/tag/tom/index.xml" rel="self" type="application/rss+xml" />
+    <title>ToM | Haofei Hou</title>
+    <link>https://yuechuhaoxi020609.github.io/tag/tom/</link>
+      <atom:link href="https://yuechuhaoxi020609.github.io/tag/tom/index.xml" rel="self" type="application/rss+xml" />
     <description>ToM</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 14 Apr 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu88cdd4b7a12988e7d5bb56be50e4f21a_10097_512x512_fill_lanczos_center_3.png</url>
+      <url>https://yuechuhaoxi020609.github.io/media/icon_hu88cdd4b7a12988e7d5bb56be50e4f21a_10097_512x512_fill_lanczos_center_3.png</url>
       <title>ToM</title>
-      <link>https://example.com/tag/tom/</link>
+      <link>https://yuechuhaoxi020609.github.io/tag/tom/</link>
     </image>
     
     <item>
       <title>Artificial Social Intelligence - A Comparative and Holistic View</title>
-      <link>https://example.com/post/tom-summary/</link>
+      <link>https://yuechuhaoxi020609.github.io/post/tom-summary/</link>
       <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/tom-summary/</guid>
+      <guid>https://yuechuhaoxi020609.github.io/post/tom-summary/</guid>
       <description>&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;humans possess a high social intelligence—the intelligence that senses social events, infers the goals and intents of others, and facilitates social interaction.&lt;/li&gt;

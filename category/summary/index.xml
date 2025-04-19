@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Summary | Haofei Hou | HUST</title>
-    <link>https://example.com/category/summary/</link>
-      <atom:link href="https://example.com/category/summary/index.xml" rel="self" type="application/rss+xml" />
+    <title>Summary | Haofei Hou</title>
+    <link>https://yuechuhaoxi020609.github.io/category/summary/</link>
+      <atom:link href="https://yuechuhaoxi020609.github.io/category/summary/index.xml" rel="self" type="application/rss+xml" />
     <description>Summary</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 14 Apr 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu88cdd4b7a12988e7d5bb56be50e4f21a_10097_512x512_fill_lanczos_center_3.png</url>
+      <url>https://yuechuhaoxi020609.github.io/media/icon_hu88cdd4b7a12988e7d5bb56be50e4f21a_10097_512x512_fill_lanczos_center_3.png</url>
       <title>Summary</title>
-      <link>https://example.com/category/summary/</link>
+      <link>https://yuechuhaoxi020609.github.io/category/summary/</link>
     </image>
     
     <item>
       <title>Artificial Social Intelligence - A Comparative and Holistic View</title>
-      <link>https://example.com/post/tom-summary/</link>
+      <link>https://yuechuhaoxi020609.github.io/post/tom-summary/</link>
       <pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/tom-summary/</guid>
+      <guid>https://yuechuhaoxi020609.github.io/post/tom-summary/</guid>
       <description>&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;humans possess a high social intelligence—the intelligence that senses social events, infers the goals and intents of others, and facilitates social interaction.&lt;/li&gt;
@@ -1344,9 +1344,9 @@
     
     <item>
       <title>PPOxFamliy MARL</title>
-      <link>https://example.com/post/ppoxfamliy/</link>
+      <link>https://yuechuhaoxi020609.github.io/post/ppoxfamliy/</link>
       <pubDate>Wed, 12 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/ppoxfamliy/</guid>
+      <guid>https://yuechuhaoxi020609.github.io/post/ppoxfamliy/</guid>
       <description>&lt;h1 id=&#34;policy-gradient&#34;&gt;Policy Gradient&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -1998,9 +1998,9 @@ $$e_s(s_{a_{1i}}^t)=\left[e_u(u_{1,a_{1i}}),...,e_u(u_{m,a_{1i}})\right]$$
     
     <item>
       <title>LLM/MMM for RL</title>
-      <link>https://example.com/post/llm-for-rl/</link>
+      <link>https://yuechuhaoxi020609.github.io/post/llm-for-rl/</link>
       <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/llm-for-rl/</guid>
+      <guid>https://yuechuhaoxi020609.github.io/post/llm-for-rl/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Large Language Models&lt;/strong&gt;: GPT BERT&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Multi-Modal Models&lt;/strong&gt;: CLIP&lt;/li&gt;
@@ -4135,9 +4135,9 @@ $$e_s(s_{a_{1i}}^t)=\left[e_u(u_{1,a_{1i}}),...,e_u(u_{m,a_{1i}})\right]$$
     
     <item>
       <title>Dark, Beyond Deep - A Paradigm Shift to Cognitive AI with Humanlike Common Sense</title>
-      <link>https://example.com/post/dark-beyond-deep/</link>
+      <link>https://yuechuhaoxi020609.github.io/post/dark-beyond-deep/</link>
       <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/dark-beyond-deep/</guid>
+      <guid>https://yuechuhaoxi020609.github.io/post/dark-beyond-deep/</guid>
       <description>&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;“small data for big tasks” paradigm&lt;/li&gt;
@@ -4432,9 +4432,9 @@ $U(a) &amp;gt; U(b)$, where choice $a$ is preferred over choice $b$.&lt;/li&gt;
     
     <item>
       <title>Building machines that learn and think like people</title>
-      <link>https://example.com/post/build-humanlike-machine/</link>
+      <link>https://yuechuhaoxi020609.github.io/post/build-humanlike-machine/</link>
       <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/build-humanlike-machine/</guid>
+      <guid>https://yuechuhaoxi020609.github.io/post/build-humanlike-machine/</guid>
       <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
 &lt;h2 id=&#34;two-different-computational-approaches-to-intelligence&#34;&gt;two different computational approaches to intelligence&lt;/h2&gt;
 &lt;ul&gt;

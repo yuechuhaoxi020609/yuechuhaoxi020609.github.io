@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>PPO | Haofei Hou | HUST</title>
-    <link>https://example.com/tag/ppo/</link>
-      <atom:link href="https://example.com/tag/ppo/index.xml" rel="self" type="application/rss+xml" />
+    <title>PPO | Haofei Hou</title>
+    <link>https://yuechuhaoxi020609.github.io/tag/ppo/</link>
+      <atom:link href="https://yuechuhaoxi020609.github.io/tag/ppo/index.xml" rel="self" type="application/rss+xml" />
     <description>PPO</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 12 Apr 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu88cdd4b7a12988e7d5bb56be50e4f21a_10097_512x512_fill_lanczos_center_3.png</url>
+      <url>https://yuechuhaoxi020609.github.io/media/icon_hu88cdd4b7a12988e7d5bb56be50e4f21a_10097_512x512_fill_lanczos_center_3.png</url>
       <title>PPO</title>
-      <link>https://example.com/tag/ppo/</link>
+      <link>https://yuechuhaoxi020609.github.io/tag/ppo/</link>
     </image>
     
     <item>
       <title>PPOxFamliy MARL</title>
-      <link>https://example.com/post/ppoxfamliy/</link>
+      <link>https://yuechuhaoxi020609.github.io/post/ppoxfamliy/</link>
       <pubDate>Wed, 12 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/ppoxfamliy/</guid>
+      <guid>https://yuechuhaoxi020609.github.io/post/ppoxfamliy/</guid>
       <description>&lt;h1 id=&#34;policy-gradient&#34;&gt;Policy Gradient&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CV | Haofei Hou | HUST</title>
-    <link>https://example.com/tag/cv/</link>
-      <atom:link href="https://example.com/tag/cv/index.xml" rel="self" type="application/rss+xml" />
+    <title>CV | Haofei Hou</title>
+    <link>https://yuechuhaoxi020609.github.io/tag/cv/</link>
+      <atom:link href="https://yuechuhaoxi020609.github.io/tag/cv/index.xml" rel="self" type="application/rss+xml" />
     <description>CV</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 02 Apr 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu88cdd4b7a12988e7d5bb56be50e4f21a_10097_512x512_fill_lanczos_center_3.png</url>
+      <url>https://yuechuhaoxi020609.github.io/media/icon_hu88cdd4b7a12988e7d5bb56be50e4f21a_10097_512x512_fill_lanczos_center_3.png</url>
       <title>CV</title>
-      <link>https://example.com/tag/cv/</link>
+      <link>https://yuechuhaoxi020609.github.io/tag/cv/</link>
     </image>
     
     <item>
       <title>Dark, Beyond Deep - A Paradigm Shift to Cognitive AI with Humanlike Common Sense</title>
-      <link>https://example.com/post/dark-beyond-deep/</link>
+      <link>https://yuechuhaoxi020609.github.io/post/dark-beyond-deep/</link>
       <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/dark-beyond-deep/</guid>
+      <guid>https://yuechuhaoxi020609.github.io/post/dark-beyond-deep/</guid>
       <description>&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;“small data for big tasks” paradigm&lt;/li&gt;
