@@ -5,12 +5,20 @@
     <link>https://yuechuhaoxi020609.github.io/authors/wenduozhu/</link>
       <atom:link href="https://yuechuhaoxi020609.github.io/authors/wenduozhu/index.xml" rel="self" type="application/rss+xml" />
     <description>Wenduo Zhu</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 19 Apr 2025 02:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 27 Apr 2025 02:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yuechuhaoxi020609.github.io/authors/wenduozhu/avatar_hue3bf33caf88629fb713dfdab8596eb90_2377358_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Wenduo Zhu</title>
       <link>https://yuechuhaoxi020609.github.io/authors/wenduozhu/</link>
     </image>
+    
+    <item>
+      <title>Obstacle Avoidance for Knee Prostheses via Direct Integration of Environment Information</title>
+      <link>https://yuechuhaoxi020609.github.io/publication/mpc_prosthetic/</link>
+      <pubDate>Sun, 27 Apr 2025 02:00:00 +0000</pubDate>
+      <guid>https://yuechuhaoxi020609.github.io/publication/mpc_prosthetic/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Prosthetic Control by Learning: A Multi-Agent Cooperative Game Framework</title>

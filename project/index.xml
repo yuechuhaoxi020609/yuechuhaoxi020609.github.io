@@ -5,7 +5,7 @@
     <link>https://yuechuhaoxi020609.github.io/project/</link>
       <atom:link href="https://yuechuhaoxi020609.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Mar 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yuechuhaoxi020609.github.io/media/icon_hu88cdd4b7a12988e7d5bb56be50e4f21a_10097_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Abductive task abstractions in physical problem-solving</title>
       <link>https://yuechuhaoxi020609.github.io/project/probsol/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://yuechuhaoxi020609.github.io/project/probsol/</guid>
       <description>&lt;p&gt;Humans solve problems with ease for two primary reasons. For one, we can infer problem context by leveraging object-level prior (henceforth &lt;em&gt;prior&lt;/em&gt; for brevity), such as semantics, affordance, and physics. For another, we can simplify the problem context to a task-oriented abstract representation (henceforth &lt;em&gt;task abstraction&lt;/em&gt; for brevity), such as only considering the routine graph instead of the entire city map when traveling by subway.&lt;/p&gt;
 &lt;p&gt;Unfortunately, priors are latent or inaccessible in many real-world problems, thus difficult to separate them from task abstraction. Here we introduce an experimental procedure to probe how people generate task abstraction &lt;em&gt;without&lt;/em&gt; priors.&lt;/p&gt;
