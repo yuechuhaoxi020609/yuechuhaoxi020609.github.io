@@ -5,12 +5,28 @@
     <link>https://yuechuhaoxi020609.github.io/authors/shunyizhao/</link>
       <atom:link href="https://yuechuhaoxi020609.github.io/authors/shunyizhao/index.xml" rel="self" type="application/rss+xml" />
     <description>Shunyi Zhao</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 27 Apr 2025 02:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Jun 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yuechuhaoxi020609.github.io/authors/shunyizhao/avatar_hu1b13eaf33c211a4067e06305f223abaf_1569852_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Shunyi Zhao</title>
       <link>https://yuechuhaoxi020609.github.io/authors/shunyizhao/</link>
     </image>
+    
+    <item>
+      <title>A Marker-Free Motion Capture System Built on Unsynchronized Cameras</title>
+      <link>https://yuechuhaoxi020609.github.io/publication/vismocap/</link>
+      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuechuhaoxi020609.github.io/publication/vismocap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Knee Prosthesis Stair Ascending with Adaptive Clearance and Foot Placement</title>
+      <link>https://yuechuhaoxi020609.github.io/publication/mpc_stairs/</link>
+      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuechuhaoxi020609.github.io/publication/mpc_stairs/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Obstacle Avoidance for Knee Prostheses via Direct Integration of Environment Information</title>

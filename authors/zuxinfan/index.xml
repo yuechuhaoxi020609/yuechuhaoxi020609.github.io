@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zuxin Fan | Haofei Hou</title>
+    <link>https://yuechuhaoxi020609.github.io/authors/zuxinfan/</link>
+      <atom:link href="https://yuechuhaoxi020609.github.io/authors/zuxinfan/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zuxin Fan</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://yuechuhaoxi020609.github.io/authors/zuxinfan/avatar_hue2540d4bb8288e52d267852e8f275413_2561_270x270_fill_lanczos_center_3.png</url>
+      <title>Zuxin Fan</title>
+      <link>https://yuechuhaoxi020609.github.io/authors/zuxinfan/</link>
+    </image>
+    
+    <item>
+      <title>A Marker-Free Motion Capture System Built on Unsynchronized Cameras</title>
+      <link>https://yuechuhaoxi020609.github.io/publication/vismocap/</link>
+      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuechuhaoxi020609.github.io/publication/vismocap/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

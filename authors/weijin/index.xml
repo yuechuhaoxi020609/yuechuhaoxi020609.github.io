@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wei Jin | Haofei Hou</title>
+    <link>https://yuechuhaoxi020609.github.io/authors/weijin/</link>
+      <atom:link href="https://yuechuhaoxi020609.github.io/authors/weijin/index.xml" rel="self" type="application/rss+xml" />
+    <description>Wei Jin</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://yuechuhaoxi020609.github.io/authors/weijin/avatar_hu3aa0ed046c9d82026e022996ae5e003f_903539_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Wei Jin</title>
+      <link>https://yuechuhaoxi020609.github.io/authors/weijin/</link>
+    </image>
+    
+    <item>
+      <title>A Marker-Free Motion Capture System Built on Unsynchronized Cameras</title>
+      <link>https://yuechuhaoxi020609.github.io/publication/vismocap/</link>
+      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://yuechuhaoxi020609.github.io/publication/vismocap/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
