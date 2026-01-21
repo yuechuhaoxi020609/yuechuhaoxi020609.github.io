@@ -5,12 +5,20 @@
     <link>https://yuechuhaoxi020609.github.io/tag/knowledge/</link>
       <atom:link href="https://yuechuhaoxi020609.github.io/tag/knowledge/index.xml" rel="self" type="application/rss+xml" />
     <description>Knowledge</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Sep 2024 02:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2026 21:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yuechuhaoxi020609.github.io/media/icon_hu88cdd4b7a12988e7d5bb56be50e4f21a_10097_512x512_fill_lanczos_center_3.png</url>
       <title>Knowledge</title>
       <link>https://yuechuhaoxi020609.github.io/tag/knowledge/</link>
     </image>
+    
+    <item>
+      <title>BioPIE: A Biomedical Protocol Information Extraction Dataset for High-Reasoning-Complexity Experiment Question Answer</title>
+      <link>https://yuechuhaoxi020609.github.io/publication/biopie/</link>
+      <pubDate>Thu, 01 Jan 2026 21:00:00 +0000</pubDate>
+      <guid>https://yuechuhaoxi020609.github.io/publication/biopie/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Expert-level protocol translation for self-driving labs</title>

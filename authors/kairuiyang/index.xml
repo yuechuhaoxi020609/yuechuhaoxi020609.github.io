@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kairui Yang | Haofei Hou</title>
+    <link>https://yuechuhaoxi020609.github.io/authors/kairuiyang/</link>
+      <atom:link href="https://yuechuhaoxi020609.github.io/authors/kairuiyang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Kairui Yang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2026 21:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://yuechuhaoxi020609.github.io/authors/kairuiyang/avatar_hue2540d4bb8288e52d267852e8f275413_2561_270x270_fill_lanczos_center_3.png</url>
+      <title>Kairui Yang</title>
+      <link>https://yuechuhaoxi020609.github.io/authors/kairuiyang/</link>
+    </image>
+    
+    <item>
+      <title>BioPIE: A Biomedical Protocol Information Extraction Dataset for High-Reasoning-Complexity Experiment Question Answer</title>
+      <link>https://yuechuhaoxi020609.github.io/publication/biopie/</link>
+      <pubDate>Thu, 01 Jan 2026 21:00:00 +0000</pubDate>
+      <guid>https://yuechuhaoxi020609.github.io/publication/biopie/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
